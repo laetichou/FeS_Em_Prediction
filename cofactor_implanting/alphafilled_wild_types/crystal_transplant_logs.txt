@@ -1,0 +1,49 @@
+UniProt_ID	Donor_Type	Cofactors	RMSD	Status
+P0DUV7	None	None	None	No donor found
+P00198	crystal	SF4	0.37	Success
+P00200	None	None	None	No donor found
+Q9X0Q7	None	None	None	No donor found
+Q9CQB5	None	None	None	No donor found
+P0AE56	None	None	None	No donor found
+P00195	nmr	SF4	0.83	Success
+P00268	crystal	ACT,EDO,ZN	0.32	Success
+Q9X115	None	None	None	No donor found
+P11425	None	None	None	No donor found
+P00265	None	None	None	No donor found
+P00193	crystal	SF4	0.28	Success
+P71820	crystal	F3S,FE	0.48	Success
+P00262	None	None	None	No donor found
+P00207	None	None	None	No donor found
+P80882	crystal	SF4,SO4	0.26	Success
+Q9X1D7	None	None	None	No donor found
+P00264	None	None	None	No donor found
+P73811	None	None	None	No donor found
+P07485	nmr	HEC,SF4	2.37	Success
+P10245	crystal	SF4,SO4	0.25	Success
+Q9X1L9	None	None	None	No donor found
+P00261	None	None	None	No donor found
+P09947	None	None	None	No donor found
+P04168	nmr	SF4	0.52	Success
+Q9NZ45	crystal	FES	0.41	Success
+P38941	None	None	None	No donor found
+P73276	None	None	None	No donor found
+P00210	nmr	SF4	1.07	Success
+P00209	crystal	F3S,SCH	0.24	Success
+P38524	crystal	SF4	0.22	Success
+P9WF43	nmr	SF4	4.32	Success
+P38589	None	None	None	No donor found
+P00203	None	None	None	No donor found
+O85673	None	None	None	No donor found
+P00260	crystal	SF4	0.31	Success
+P04169	None	None	None	No donor found
+P56263	None	None	None	No donor found
+P14071	None	None	None	No donor found
+Q8N5K1	crystal	FES	0.44	Success
+P00211	None	None	None	No donor found
+P24297	crystal	FE,K,NA,PO4	0.23	Success
+P33678	crystal	SF4	0.28	Success
+P00263 	None	None	None	No donor found
+P46797	crystal	SF4	0.26	Success
+P00266	None	None	None	No donor found
+P00208	crystal	SF4	0.21	Success
+P50727	None	None	None	No donor found

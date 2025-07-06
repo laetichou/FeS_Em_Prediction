@@ -1,0 +1,51 @@
+feature,importance
+Bar.count.CYS,4.005759894040753
+Bar.count.HIS,6.847934384531402
+Bar.count.ILE,1.481753217571653
+Bar.count.LYS,4.009565106101883
+Bar.count.TRP,11.505723003709427
+Bar.count.VAL,1.3640910698689623
+Protein.count.CYS,5.441821660421591
+Protein.count.TRP,2.0027083310685025
+Bar.prop.Hydrophobicity,2.3307156969952914
+Bar.prop.nSats in side chain,2.7765784208056483
+Bar.prop.nNats in side chain,4.070184948765844
+Bar.prop.Vol / log(solub),4.578885420645272
+Bar.prop.Hydrophobicity x Flex.,3.0017285914013185
+Bar.mean.Hydrophobicity,1.9349054808058066
+Bar.mean.Isoelectric point,7.530632699876907
+Bar.mean.nSats in side chain,0.45639160186276667
+Bar.mean.nNats in side chain,6.498911642144918
+Bar.mean.Steric hindrance,1.9102696917367405
+Bar.mean.Vol / P(sheet),0.3432907494749697
+Bar.mean.Steric hindrance x Flexibility,7.1337025416044995
+Bar.mean.P(helix)+P(sheet),2.7864321668053322
+Bar.mean.V / (P(helix)+P(sheet)),2.5320581012236985
+Bar.mean.Steric hindrance / P(helix),4.919649053887439
+Bar.mean.Isoelectric point / P(sheet),5.4300854371807565
+Bar.mean.P(sheet),1.4444952411365148
+Bar.mean.Vol x isoelectric point,4.0387388081731075
+Protein.mean.Log(Solubility (m at 20ºC)),4.467059067169935
+Protein.mean.Hydrophobicity,2.398487908661226
+Protein.mean.Isoelectric point,2.294781371227965
+Protein.mean.nSats in side chain,3.9113299524917773
+Protein.mean.nNats in side chain,3.6066844433513676
+Protein.mean.Steric hindrance,4.670800477629698
+Protein.mean.log(Solub) x Flex,2.265720511396219
+Protein.mean.P(helix)+P(sheet),3.646170337361155
+Protein.mean.Hydrophobicity x Flex.,2.8123002465690474
+Protein.mean.Steric hindrance / P(helix),2.4551623063945875
+Protein.mean.Isoelectric point / P(sheet),4.0171481316009015
+Protein.mean.P(sheet),3.760197453814696
+struct.is_hipip,39.483370989070195
+seq.CTDC__PolarizabilityC2,1.8448426777894784
+seq.CTDC__SecondaryStrC2,3.6324182764629676
+seq.CTDC__ChargeC3,1.5700979579522913
+seq.CTDC__PolarityC1,7.634883393519389
+seq.CTDC__NormalizedVDWVC2,4.504912460498812
+seq.CTDC__HydrophobicityC2,0.9962353997511734
+seq.CTDC__HydrophobicityC3,7.3501687224512215
+seq.CTDT__SecondaryStrT13,6.800689970743081
+seq.CTDT__ChargeT23,0.0910319939374882
+seq.CTDT__PolarityT12,4.891637041603058
+seq.CTDT__HydrophobicityT13,1.7213014570234597

@@ -1,0 +1,55 @@
+name: alphafill-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - brotli-python=1.1.0=py310h53e7c6a_2
+  - bzip2=1.0.8=hfdf4475_7
+  - ca-certificates=2025.1.31=h8857fd0_0
+  - certifi=2025.1.31=pyhd8ed1ab_0
+  - cffi=1.17.1=py310hfce808e_0
+  - charset-normalizer=3.4.1=pyhd8ed1ab_0
+  - gemmi=0.7.1=py310h714daaa_1
+  - h2=4.2.0=pyhd8ed1ab_0
+  - hpack=4.1.0=pyhd8ed1ab_0
+  - hyperframe=6.1.0=pyhd8ed1ab_0
+  - idna=3.10=pyhd8ed1ab_1
+  - libblas=3.9.0=31_h7f60823_openblas
+  - libcblas=3.9.0=31_hff6cab4_openblas
+  - libcxx=20.1.2=hf95d169_0
+  - libffi=3.4.6=h281671d_1
+  - libgfortran=14.2.0=hef36b68_105
+  - libgfortran5=14.2.0=h58528f3_105
+  - liblapack=3.9.0=31_h236ab99_openblas
+  - liblzma=5.8.1=hd471939_0
+  - libopenblas=0.3.29=openmp_hbf64a52_0
+  - libsqlite=3.49.1=hdb6dae5_2
+  - libzlib=1.3.1=hd23fc13_2
+  - llvm-openmp=20.1.2=ha54dae1_0
+  - ncurses=6.5=h0622a9a_3
+  - numpy=2.2.4=py310h07c5b4d_0
+  - openssl=3.4.1=hc426f3f_0
+  - pandas=2.2.3=py310ha53a654_1
+  - pip=25.0.1=pyh8b19718_0
+  - pycparser=2.22=pyh29332c3_1
+  - pysocks=1.7.1=pyha55dd90_7
+  - python=3.10.16=h65d3e95_2_cpython
+  - python-dateutil=2.9.0.post0=pyhff2d567_1
+  - python-tzdata=2025.2=pyhd8ed1ab_0
+  - python_abi=3.10=6_cp310
+  - pytz=2024.1=pyhd8ed1ab_0
+  - readline=8.2=h7cca4af_2
+  - requests=2.32.3=pyhd8ed1ab_1
+  - setuptools=78.1.0=pyhff2d567_0
+  - six=1.17.0=pyhd8ed1ab_0
+  - tk=8.6.13=h1abcd95_1
+  - tzdata=2025b=h78e105d_0
+  - urllib3=2.3.0=pyhd8ed1ab_0
+  - wheel=0.45.1=pyhd8ed1ab_1
+  - zlib-ng=2.2.4=h04d1b7c_0
+  - zstandard=0.23.0=py310hbb8c376_1
+  - pip:
+      - beautifulsoup4==4.13.3
+      - soupsieve==2.6
+      - typing-extensions==4.13.1
+prefix: /usr/local/Caskroom/miniforge/base/envs/alphafill-env

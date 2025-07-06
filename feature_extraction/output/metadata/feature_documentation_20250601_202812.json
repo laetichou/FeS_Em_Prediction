@@ -1,0 +1,1138 @@
+{
+  "metadata": {
+    "categories": {
+      "counts": {
+        "description": "Amino acid counts in Bar/Protein regions",
+        "prefix": "count",
+        "examples": [
+          "Bar.count.ALA",
+          "Protein.count.CYS"
+        ]
+      },
+      "properties": {
+        "description": "Properties from tableAmm (sums)",
+        "prefix": "prop",
+        "examples": [
+          "Bar.prop.Volume",
+          "Protein.prop.Hydrophobicity"
+        ]
+      },
+      "means": {
+        "description": "Mean property values per region",
+        "prefix": "mean",
+        "examples": [
+          "Bar.mean.Volume",
+          "Protein.mean.Hydrophobicity"
+        ]
+      },
+      "structure": {
+        "description": "Structural features",
+        "prefix": "struct",
+        "examples": [
+          "burial_depth"
+        ]
+      },
+      "sequence": {
+        "description": "CTD sequence-based features",
+        "prefix": "seq",
+        "examples": [
+          "CTDC_PolarizabilityC1",
+          "CTDT_PolarizabilityT12"
+        ]
+      }
+    },
+    "date_generated": "2025-06-01T20:28:12.152426",
+    "description": "Feature definitions and organization for iron-sulfur protein analysis"
+  },
+  "features": {
+    "Bar.count.ALA": {
+      "category": "counts",
+      "description": "Count of ALA residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.ARG": {
+      "category": "counts",
+      "description": "Count of ARG residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.ASN": {
+      "category": "counts",
+      "description": "Count of ASN residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.ASP": {
+      "category": "counts",
+      "description": "Count of ASP residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.CYS": {
+      "category": "counts",
+      "description": "Count of CYS residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.GLN": {
+      "category": "counts",
+      "description": "Count of GLN residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.GLU": {
+      "category": "counts",
+      "description": "Count of GLU residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.GLY": {
+      "category": "counts",
+      "description": "Count of GLY residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.HIS": {
+      "category": "counts",
+      "description": "Count of HIS residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.ILE": {
+      "category": "counts",
+      "description": "Count of ILE residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.LEU": {
+      "category": "counts",
+      "description": "Count of LEU residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.LYS": {
+      "category": "counts",
+      "description": "Count of LYS residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.MET": {
+      "category": "counts",
+      "description": "Count of MET residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.PHE": {
+      "category": "counts",
+      "description": "Count of PHE residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.PRO": {
+      "category": "counts",
+      "description": "Count of PRO residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.SER": {
+      "category": "counts",
+      "description": "Count of SER residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.THR": {
+      "category": "counts",
+      "description": "Count of THR residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.TRP": {
+      "category": "counts",
+      "description": "Count of TRP residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.TYR": {
+      "category": "counts",
+      "description": "Count of TYR residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.count.VAL": {
+      "category": "counts",
+      "description": "Count of VAL residues in the bar region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.ALA": {
+      "category": "counts",
+      "description": "Count of ALA residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.ARG": {
+      "category": "counts",
+      "description": "Count of ARG residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.ASN": {
+      "category": "counts",
+      "description": "Count of ASN residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.ASP": {
+      "category": "counts",
+      "description": "Count of ASP residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.CYS": {
+      "category": "counts",
+      "description": "Count of CYS residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.GLN": {
+      "category": "counts",
+      "description": "Count of GLN residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.GLU": {
+      "category": "counts",
+      "description": "Count of GLU residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.GLY": {
+      "category": "counts",
+      "description": "Count of GLY residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.HIS": {
+      "category": "counts",
+      "description": "Count of HIS residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.ILE": {
+      "category": "counts",
+      "description": "Count of ILE residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.LEU": {
+      "category": "counts",
+      "description": "Count of LEU residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.LYS": {
+      "category": "counts",
+      "description": "Count of LYS residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.MET": {
+      "category": "counts",
+      "description": "Count of MET residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.PHE": {
+      "category": "counts",
+      "description": "Count of PHE residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.PRO": {
+      "category": "counts",
+      "description": "Count of PRO residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.SER": {
+      "category": "counts",
+      "description": "Count of SER residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.THR": {
+      "category": "counts",
+      "description": "Count of THR residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.TRP": {
+      "category": "counts",
+      "description": "Count of TRP residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.TYR": {
+      "category": "counts",
+      "description": "Count of TYR residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Protein.count.VAL": {
+      "category": "counts",
+      "description": "Count of VAL residues in the protein region",
+      "type": "integer",
+      "range": "[0, inf)"
+    },
+    "Bar.prop.Volume": {
+      "category": "properties",
+      "description": "Sum of Amino acid volume for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Volume": {
+      "category": "means",
+      "description": "Average Amino acid volume per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Log(Solubility (m at 20\u00baC))": {
+      "category": "properties",
+      "description": "Sum of Logarithm of solubility in moles/L at 20\u00baC for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Log(Solubility (m at 20\u00baC))": {
+      "category": "means",
+      "description": "Average Logarithm of solubility in moles/L at 20\u00baC per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Hydrophobicity": {
+      "category": "properties",
+      "description": "Sum of Hydrophobicity scale value for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Hydrophobicity": {
+      "category": "means",
+      "description": "Average Hydrophobicity scale value per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Isoelectric point": {
+      "category": "properties",
+      "description": "Sum of pH at which amino acid carries no net charge for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Isoelectric point": {
+      "category": "means",
+      "description": "Average pH at which amino acid carries no net charge per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.P(helix)": {
+      "category": "properties",
+      "description": "Sum of Helix propensity for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.P(helix)": {
+      "category": "means",
+      "description": "Average Helix propensity per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.nOats in side chain": {
+      "category": "properties",
+      "description": "Sum of nOats in side chain for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.nOats in side chain": {
+      "category": "means",
+      "description": "Average nOats in side chain per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.nSats in side chain": {
+      "category": "properties",
+      "description": "Sum of nSats in side chain for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.nSats in side chain": {
+      "category": "means",
+      "description": "Average nSats in side chain per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.nNats in side chain": {
+      "category": "properties",
+      "description": "Sum of nNats in side chain for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.nNats in side chain": {
+      "category": "means",
+      "description": "Average nNats in side chain per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Steric hindrance": {
+      "category": "properties",
+      "description": "Sum of Steric parameter value for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Steric hindrance": {
+      "category": "means",
+      "description": "Average Steric parameter value per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.nH-bonds": {
+      "category": "properties",
+      "description": "Sum of Number of potential hydrogen bonds for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.nH-bonds": {
+      "category": "means",
+      "description": "Average Number of potential hydrogen bonds per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Vol / log(solub)": {
+      "category": "properties",
+      "description": "Sum of Vol / log(solub) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Vol / log(solub)": {
+      "category": "means",
+      "description": "Average Vol / log(solub) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Vol / P(helix)": {
+      "category": "properties",
+      "description": "Sum of Vol / P(helix) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Vol / P(helix)": {
+      "category": "means",
+      "description": "Average Vol / P(helix) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Vol / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of Vol / P(sheet) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Vol / P(sheet)": {
+      "category": "means",
+      "description": "Average Vol / P(sheet) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.log(Solub) x Flex": {
+      "category": "properties",
+      "description": "Sum of log(Solub) x Flex for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.log(Solub) x Flex": {
+      "category": "means",
+      "description": "Average log(Solub) x Flex per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Steric hindrance x Flexibility": {
+      "category": "properties",
+      "description": "Sum of Steric hindrance x Flexibility for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Steric hindrance x Flexibility": {
+      "category": "means",
+      "description": "Average Steric hindrance x Flexibility per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Flexibility": {
+      "category": "properties",
+      "description": "Sum of Flexibility parameter for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Flexibility": {
+      "category": "means",
+      "description": "Average Flexibility parameter per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.P(helix)+P(sheet)": {
+      "category": "properties",
+      "description": "Sum of P(helix)+P(sheet) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.P(helix)+P(sheet)": {
+      "category": "means",
+      "description": "Average P(helix)+P(sheet) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.log(Solub) x Hydrophobicity": {
+      "category": "properties",
+      "description": "Sum of log(Solub) x Hydrophobicity for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.log(Solub) x Hydrophobicity": {
+      "category": "means",
+      "description": "Average log(Solub) x Hydrophobicity per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Hydrophobicity x Flex.": {
+      "category": "properties",
+      "description": "Sum of Hydrophobicity x Flex. for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Hydrophobicity x Flex.": {
+      "category": "means",
+      "description": "Average Hydrophobicity x Flex. per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.V / (P(helix)+P(sheet))": {
+      "category": "properties",
+      "description": "Sum of V / (P(helix)+P(sheet)) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.V / (P(helix)+P(sheet))": {
+      "category": "means",
+      "description": "Average V / (P(helix)+P(sheet)) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Steric hindrance / P(helix)": {
+      "category": "properties",
+      "description": "Sum of Steric hindrance / P(helix) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Steric hindrance / P(helix)": {
+      "category": "means",
+      "description": "Average Steric hindrance / P(helix) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Isoelectric point / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of Isoelectric point / P(sheet) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Isoelectric point / P(sheet)": {
+      "category": "means",
+      "description": "Average Isoelectric point / P(sheet) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.P(sheet)": {
+      "category": "properties",
+      "description": "Sum of P(sheet) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.P(sheet)": {
+      "category": "means",
+      "description": "Average P(sheet) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Vol x isoelectric point": {
+      "category": "properties",
+      "description": "Sum of Vol x isoelectric point for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Vol x isoelectric point": {
+      "category": "means",
+      "description": "Average Vol x isoelectric point per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Isoelectric point / P(helix)": {
+      "category": "properties",
+      "description": "Sum of Isoelectric point / P(helix) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Isoelectric point / P(helix)": {
+      "category": "means",
+      "description": "Average Isoelectric point / P(helix) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.P(helix) / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of P(helix) / P(sheet) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.P(helix) / P(sheet)": {
+      "category": "means",
+      "description": "Average P(helix) / P(sheet) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.Steric hindrance / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of Steric hindrance / P(sheet) for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.Steric hindrance / P(sheet)": {
+      "category": "means",
+      "description": "Average Steric hindrance / P(sheet) per residue in bar region",
+      "type": "float"
+    },
+    "Bar.prop.P(helix) x Flex.": {
+      "category": "properties",
+      "description": "Sum of P(helix) x Flex. for all residues in bar region",
+      "type": "float"
+    },
+    "Bar.mean.P(helix) x Flex.": {
+      "category": "means",
+      "description": "Average P(helix) x Flex. per residue in bar region",
+      "type": "float"
+    },
+    "Protein.prop.Volume": {
+      "category": "properties",
+      "description": "Sum of Amino acid volume for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Volume": {
+      "category": "means",
+      "description": "Average Amino acid volume per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Log(Solubility (m at 20\u00baC))": {
+      "category": "properties",
+      "description": "Sum of Logarithm of solubility in moles/L at 20\u00baC for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Log(Solubility (m at 20\u00baC))": {
+      "category": "means",
+      "description": "Average Logarithm of solubility in moles/L at 20\u00baC per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Hydrophobicity": {
+      "category": "properties",
+      "description": "Sum of Hydrophobicity scale value for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Hydrophobicity": {
+      "category": "means",
+      "description": "Average Hydrophobicity scale value per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Isoelectric point": {
+      "category": "properties",
+      "description": "Sum of pH at which amino acid carries no net charge for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Isoelectric point": {
+      "category": "means",
+      "description": "Average pH at which amino acid carries no net charge per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.P(helix)": {
+      "category": "properties",
+      "description": "Sum of Helix propensity for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.P(helix)": {
+      "category": "means",
+      "description": "Average Helix propensity per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.nOats in side chain": {
+      "category": "properties",
+      "description": "Sum of nOats in side chain for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.nOats in side chain": {
+      "category": "means",
+      "description": "Average nOats in side chain per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.nSats in side chain": {
+      "category": "properties",
+      "description": "Sum of nSats in side chain for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.nSats in side chain": {
+      "category": "means",
+      "description": "Average nSats in side chain per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.nNats in side chain": {
+      "category": "properties",
+      "description": "Sum of Nitrogen atoms in side chain for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.nNats in side chain": {
+      "category": "means",
+      "description": "Average number of Nitrogen atoms in side chain per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Steric hindrance": {
+      "category": "properties",
+      "description": "Sum of Steric parameter value for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Steric hindrance": {
+      "category": "means",
+      "description": "Average Steric parameter value per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.nH-bonds": {
+      "category": "properties",
+      "description": "Sum of Number of potential hydrogen bonds for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.nH-bonds": {
+      "category": "means",
+      "description": "Average Number of potential hydrogen bonds per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Vol / log(solub)": {
+      "category": "properties",
+      "description": "Sum of Vol / log(solub) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Vol / log(solub)": {
+      "category": "means",
+      "description": "Average Vol / log(solub) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Vol / P(helix)": {
+      "category": "properties",
+      "description": "Sum of Vol / P(helix) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Vol / P(helix)": {
+      "category": "means",
+      "description": "Average Vol / P(helix) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Vol / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of Vol / P(sheet) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Vol / P(sheet)": {
+      "category": "means",
+      "description": "Average Vol / P(sheet) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.log(Solub) x Flex": {
+      "category": "properties",
+      "description": "Sum of log(Solub) x Flex for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.log(Solub) x Flex": {
+      "category": "means",
+      "description": "Average log(Solub) x Flex per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Steric hindrance x Flexibility": {
+      "category": "properties",
+      "description": "Sum of Steric hindrance x Flexibility for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Steric hindrance x Flexibility": {
+      "category": "means",
+      "description": "Average Steric hindrance x Flexibility per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Flexibility": {
+      "category": "properties",
+      "description": "Sum of Flexibility parameter for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Flexibility": {
+      "category": "means",
+      "description": "Average Flexibility parameter per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.P(helix)+P(sheet)": {
+      "category": "properties",
+      "description": "Sum of P(helix)+P(sheet) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.P(helix)+P(sheet)": {
+      "category": "means",
+      "description": "Average P(helix)+P(sheet) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.log(Solub) x Hydrophobicity": {
+      "category": "properties",
+      "description": "Sum of log(Solub) x Hydrophobicity for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.log(Solub) x Hydrophobicity": {
+      "category": "means",
+      "description": "Average log(Solub) x Hydrophobicity per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Hydrophobicity x Flex.": {
+      "category": "properties",
+      "description": "Sum of Hydrophobicity x Flex. for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Hydrophobicity x Flex.": {
+      "category": "means",
+      "description": "Average Hydrophobicity x Flex. per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.V / (P(helix)+P(sheet))": {
+      "category": "properties",
+      "description": "Sum of V / (P(helix)+P(sheet)) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.V / (P(helix)+P(sheet))": {
+      "category": "means",
+      "description": "Average V / (P(helix)+P(sheet)) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Steric hindrance / P(helix)": {
+      "category": "properties",
+      "description": "Sum of Steric hindrance / P(helix) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Steric hindrance / P(helix)": {
+      "category": "means",
+      "description": "Average Steric hindrance / P(helix) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Isoelectric point / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of Isoelectric point / P(sheet) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Isoelectric point / P(sheet)": {
+      "category": "means",
+      "description": "Average Isoelectric point / P(sheet) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.P(sheet)": {
+      "category": "properties",
+      "description": "Sum of P(sheet) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.P(sheet)": {
+      "category": "means",
+      "description": "Average P(sheet) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Vol x isoelectric point": {
+      "category": "properties",
+      "description": "Sum of Vol x isoelectric point for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Vol x isoelectric point": {
+      "category": "means",
+      "description": "Average Vol x isoelectric point per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Isoelectric point / P(helix)": {
+      "category": "properties",
+      "description": "Sum of Isoelectric point / P(helix) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Isoelectric point / P(helix)": {
+      "category": "means",
+      "description": "Average Isoelectric point / P(helix) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.P(helix) / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of P(helix) / P(sheet) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.P(helix) / P(sheet)": {
+      "category": "means",
+      "description": "Average P(helix) / P(sheet) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.Steric hindrance / P(sheet)": {
+      "category": "properties",
+      "description": "Sum of Steric hindrance / P(sheet) for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.Steric hindrance / P(sheet)": {
+      "category": "means",
+      "description": "Average Steric hindrance / P(sheet) per residue in protein region",
+      "type": "float"
+    },
+    "Protein.prop.P(helix) x Flex.": {
+      "category": "properties",
+      "description": "Sum of P(helix) x Flex. for all residues in protein region",
+      "type": "float"
+    },
+    "Protein.mean.P(helix) x Flex.": {
+      "category": "means",
+      "description": "Average P(helix) x Flex. per residue in protein region",
+      "type": "float"
+    },
+    "struct.burial_depth": {
+      "category": "structure",
+      "description": "Minimum distance from cofactor barycenter to protein surface",
+      "type": "float",
+      "units": "Angstroms"
+    },
+    "struct.iron_count": {
+      "category": "structure",
+      "description": "Number of iron atoms in the cofactor",
+      "type": "integer",
+      "range": "[1, 4]"
+    },
+    "struct.is_rieske": {
+      "category": "structure",
+      "description": "Binary indicator for Rieske proteins (1 if Rieske, 0 otherwise)",
+      "type": "integer",
+      "range": "[0, 1]"
+    },
+    "struct.is_hipip": {
+      "category": "structure",
+      "description": "Binary indicator for High-Potential Iron Protein (1 if HiPIP, 0 otherwise)",
+      "type": "integer",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_PolarizabilityC1": {
+      "category": "sequence",
+      "description": "Distribution of atomic polarizabilities - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_PolarizabilityC2": {
+      "category": "sequence",
+      "description": "Distribution of atomic polarizabilities - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_PolarizabilityC3": {
+      "category": "sequence",
+      "description": "Distribution of atomic polarizabilities - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_PolarizabilityT12": {
+      "category": "sequence",
+      "description": "Distribution of atomic polarizabilities - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_PolarizabilityT13": {
+      "category": "sequence",
+      "description": "Distribution of atomic polarizabilities - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_PolarizabilityT23": {
+      "category": "sequence",
+      "description": "Distribution of atomic polarizabilities - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_SolventAccessibilityC1": {
+      "category": "sequence",
+      "description": "Distribution of solvent accessibility values - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_SolventAccessibilityC2": {
+      "category": "sequence",
+      "description": "Distribution of solvent accessibility values - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_SolventAccessibilityC3": {
+      "category": "sequence",
+      "description": "Distribution of solvent accessibility values - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_SolventAccessibilityT12": {
+      "category": "sequence",
+      "description": "Distribution of solvent accessibility values - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_SolventAccessibilityT13": {
+      "category": "sequence",
+      "description": "Distribution of solvent accessibility values - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_SolventAccessibilityT23": {
+      "category": "sequence",
+      "description": "Distribution of solvent accessibility values - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_SecondaryStrC1": {
+      "category": "sequence",
+      "description": "Secondary structure propensity distribution - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_SecondaryStrC2": {
+      "category": "sequence",
+      "description": "Secondary structure propensity distribution - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_SecondaryStrC3": {
+      "category": "sequence",
+      "description": "Secondary structure propensity distribution - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_SecondaryStrT12": {
+      "category": "sequence",
+      "description": "Secondary structure propensity distribution - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_SecondaryStrT13": {
+      "category": "sequence",
+      "description": "Secondary structure propensity distribution - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_SecondaryStrT23": {
+      "category": "sequence",
+      "description": "Secondary structure propensity distribution - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_ChargeC1": {
+      "category": "sequence",
+      "description": "Distribution of charge states - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_ChargeC2": {
+      "category": "sequence",
+      "description": "Distribution of charge states - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_ChargeC3": {
+      "category": "sequence",
+      "description": "Distribution of charge states - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_ChargeT12": {
+      "category": "sequence",
+      "description": "Distribution of charge states - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_ChargeT13": {
+      "category": "sequence",
+      "description": "Distribution of charge states - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_ChargeT23": {
+      "category": "sequence",
+      "description": "Distribution of charge states - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_PolarityC1": {
+      "category": "sequence",
+      "description": "Distribution of polarity values - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_PolarityC2": {
+      "category": "sequence",
+      "description": "Distribution of polarity values - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_PolarityC3": {
+      "category": "sequence",
+      "description": "Distribution of polarity values - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_PolarityT12": {
+      "category": "sequence",
+      "description": "Distribution of polarity values - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_PolarityT13": {
+      "category": "sequence",
+      "description": "Distribution of polarity values - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_PolarityT23": {
+      "category": "sequence",
+      "description": "Distribution of polarity values - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_NormalizedVDWVC1": {
+      "category": "sequence",
+      "description": "Distribution of normalized van der Waals volumes - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_NormalizedVDWVC2": {
+      "category": "sequence",
+      "description": "Distribution of normalized van der Waals volumes - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_NormalizedVDWVC3": {
+      "category": "sequence",
+      "description": "Distribution of normalized van der Waals volumes - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_NormalizedVDWVT12": {
+      "category": "sequence",
+      "description": "Distribution of normalized van der Waals volumes - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_NormalizedVDWVT13": {
+      "category": "sequence",
+      "description": "Distribution of normalized van der Waals volumes - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_NormalizedVDWVT23": {
+      "category": "sequence",
+      "description": "Distribution of normalized van der Waals volumes - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_HydrophobicityC1": {
+      "category": "sequence",
+      "description": "Distribution of hydrophobicity values - Fraction of amino acids in group 1",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_HydrophobicityC2": {
+      "category": "sequence",
+      "description": "Distribution of hydrophobicity values - Fraction of amino acids in group 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDC_HydrophobicityC3": {
+      "category": "sequence",
+      "description": "Distribution of hydrophobicity values - Fraction of amino acids in group 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_HydrophobicityT12": {
+      "category": "sequence",
+      "description": "Distribution of hydrophobicity values - Frequency of transitions between groups 1 and 2",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_HydrophobicityT13": {
+      "category": "sequence",
+      "description": "Distribution of hydrophobicity values - Frequency of transitions between groups 1 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    },
+    "seq.CTDT_HydrophobicityT23": {
+      "category": "sequence",
+      "description": "Distribution of hydrophobicity values - Frequency of transitions between groups 2 and 3",
+      "type": "float",
+      "range": "[0, 1]"
+    }
+  },
+  "property_descriptions": {
+    "Volume": "Amino acid volume",
+    "Log(Solubility (m at 20\u00baC))": "Logarithm of solubility in moles/L at 20\u00baC",
+    "Hydrophobicity": "Hydrophobicity scale value",
+    "Isoelectric point": "pH at which amino acid carries no net charge",
+    "P(helix)": "Helix propensity",
+    "nOats": "Number of oxygen atoms in side chain",
+    "nSats": "Number of sulfur atoms in side chain",
+    "nNats": "Number of nitrogen atoms in side chain",
+    "Steric hindrance": "Steric parameter value",
+    "nH-bonds": "Number of potential hydrogen bonds",
+    "Flexibility": "Flexibility parameter"
+  }
+}

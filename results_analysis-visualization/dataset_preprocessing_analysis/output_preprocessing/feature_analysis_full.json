@@ -1,0 +1,5155 @@
+[
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 93.2,
+    "min_features": 88,
+    "max_features": 96,
+    "std_features": 2.4,
+    "percent_retained_avg": 46.8,
+    "stability": {
+      "highly_stable_count": 90,
+      "stable_count": 2,
+      "moderate_count": 2,
+      "unstable_count": 4,
+      "total_features": 98,
+      "original_features": 199,
+      "highly_stable_pct": 45.2,
+      "stable_pct": 1.0,
+      "moderate_pct": 1.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 1,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r1_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 93.2,
+    "min_features": 88,
+    "max_features": 96,
+    "std_features": 2.4,
+    "percent_retained_avg": 46.8,
+    "stability": {
+      "highly_stable_count": 90,
+      "stable_count": 2,
+      "moderate_count": 2,
+      "unstable_count": 4,
+      "total_features": 98,
+      "original_features": 199,
+      "highly_stable_pct": 45.2,
+      "stable_pct": 1.0,
+      "moderate_pct": 1.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 2,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r2_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 93.9,
+    "min_features": 88,
+    "max_features": 97,
+    "std_features": 2.7367864366808017,
+    "percent_retained_avg": 47.2,
+    "stability": {
+      "highly_stable_count": 90,
+      "stable_count": 3,
+      "moderate_count": 2,
+      "unstable_count": 4,
+      "total_features": 99,
+      "original_features": 199,
+      "highly_stable_pct": 45.2,
+      "stable_pct": 1.5,
+      "moderate_pct": 1.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.count.SER",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 3,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r3_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 101.0,
+    "min_features": 91,
+    "max_features": 105,
+    "std_features": 4.560701700396552,
+    "percent_retained_avg": 50.8,
+    "stability": {
+      "highly_stable_count": 94,
+      "stable_count": 7,
+      "moderate_count": 2,
+      "unstable_count": 7,
+      "total_features": 110,
+      "original_features": 199,
+      "highly_stable_pct": 47.2,
+      "stable_pct": 3.5,
+      "moderate_pct": 1.0,
+      "unstable_pct": 3.5,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.prop.nH-bonds",
+        "Bar.prop.nNats in side chain",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.count.ARG",
+        "Bar.prop.log(Solub) x Hydrophobicity"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.Vol / log(solub)",
+        "Bar.mean.Vol / log(solub)",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 4,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r4_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 134.0,
+    "min_features": 122,
+    "max_features": 140,
+    "std_features": 5.830951894845301,
+    "percent_retained_avg": 67.3,
+    "stability": {
+      "highly_stable_count": 126,
+      "stable_count": 5,
+      "moderate_count": 7,
+      "unstable_count": 7,
+      "total_features": 145,
+      "original_features": 199,
+      "highly_stable_pct": 63.3,
+      "stable_pct": 2.5,
+      "moderate_pct": 3.5,
+      "unstable_pct": 3.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.count.SER",
+        "struct.is_rieske",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.count.ASN",
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3",
+        "Bar.count.THR",
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Bar.prop.Isoelectric point / P(sheet)",
+        "Bar.mean.V / (P(helix)+P(sheet))"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.P(helix) x Flex.",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 5,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r5_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 149.4,
+    "min_features": 138,
+    "max_features": 155,
+    "std_features": 4.715930449020639,
+    "percent_retained_avg": 75.1,
+    "stability": {
+      "highly_stable_count": 142,
+      "stable_count": 5,
+      "moderate_count": 5,
+      "unstable_count": 8,
+      "total_features": 160,
+      "original_features": 199,
+      "highly_stable_pct": 71.4,
+      "stable_pct": 2.5,
+      "moderate_pct": 2.5,
+      "unstable_pct": 4.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "seq.CTDT__SecondaryStrT12",
+        "Bar.count.THR"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.mean.Hydrophobicity x Flex.",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.mean.nH-bonds",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.count.VAL",
+        "Bar.prop.nH-bonds",
+        "Bar.prop.Steric hindrance",
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance",
+        "seq.CTDC__PolarizabilityC1",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.nSats in side chain",
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 6,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r6_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 158.4,
+    "min_features": 153,
+    "max_features": 163,
+    "std_features": 2.973213749463701,
+    "percent_retained_avg": 79.6,
+    "stability": {
+      "highly_stable_count": 150,
+      "stable_count": 7,
+      "moderate_count": 4,
+      "unstable_count": 5,
+      "total_features": 166,
+      "original_features": 199,
+      "highly_stable_pct": 75.4,
+      "stable_pct": 3.5,
+      "moderate_pct": 2.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.count.ILE",
+        "Bar.mean.nSats in side chain",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "moderate_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3",
+        "Bar.mean.Flexibility"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.Vol / log(solub)",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 7,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r7_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 159.1,
+    "min_features": 155,
+    "max_features": 162,
+    "std_features": 2.0223748416156684,
+    "percent_retained_avg": 79.9,
+    "stability": {
+      "highly_stable_count": 155,
+      "stable_count": 3,
+      "moderate_count": 2,
+      "unstable_count": 5,
+      "total_features": 165,
+      "original_features": 199,
+      "highly_stable_pct": 77.9,
+      "stable_pct": 1.5,
+      "moderate_pct": 1.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 8,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r8_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 152.0,
+    "min_features": 145,
+    "max_features": 158,
+    "std_features": 3.4641016151377544,
+    "percent_retained_avg": 76.4,
+    "stability": {
+      "highly_stable_count": 147,
+      "stable_count": 3,
+      "moderate_count": 2,
+      "unstable_count": 9,
+      "total_features": 161,
+      "original_features": 199,
+      "highly_stable_pct": 73.9,
+      "stable_pct": 1.5,
+      "moderate_pct": 1.0,
+      "unstable_pct": 4.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.mean.Volume",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.P(sheet)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.mean.Flexibility",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 9,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r9_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 154.8,
+    "min_features": 151,
+    "max_features": 158,
+    "std_features": 2.0880613017821097,
+    "percent_retained_avg": 77.8,
+    "stability": {
+      "highly_stable_count": 147,
+      "stable_count": 5,
+      "moderate_count": 4,
+      "unstable_count": 9,
+      "total_features": 165,
+      "original_features": 199,
+      "highly_stable_pct": 73.9,
+      "stable_pct": 2.5,
+      "moderate_pct": 2.0,
+      "unstable_pct": 4.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.mean.P(helix) / P(sheet)",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.Vol / P(helix)"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3",
+        "Bar.mean.Hydrophobicity x Flex.",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 10,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r10_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 148.3,
+    "min_features": 145,
+    "max_features": 151,
+    "std_features": 2.238302928559939,
+    "percent_retained_avg": 74.5,
+    "stability": {
+      "highly_stable_count": 143,
+      "stable_count": 3,
+      "moderate_count": 3,
+      "unstable_count": 8,
+      "total_features": 157,
+      "original_features": 199,
+      "highly_stable_pct": 71.9,
+      "stable_pct": 1.5,
+      "moderate_pct": 1.5,
+      "unstable_pct": 4.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.prop.Isoelectric point / P(sheet)",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3",
+        "Bar.mean.log(Solub) x Hydrophobicity"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance / P(helix)",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.mean.Flexibility",
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 11,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r11_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 151.9,
+    "min_features": 146,
+    "max_features": 158,
+    "std_features": 3.1128764832546763,
+    "percent_retained_avg": 76.3,
+    "stability": {
+      "highly_stable_count": 145,
+      "stable_count": 5,
+      "moderate_count": 3,
+      "unstable_count": 10,
+      "total_features": 163,
+      "original_features": 199,
+      "highly_stable_pct": 72.9,
+      "stable_pct": 2.5,
+      "moderate_pct": 1.5,
+      "unstable_pct": 5.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.mean.Steric hindrance / P(helix)",
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3",
+        "Bar.mean.nH-bonds"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.P(sheet)",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Protein.prop.nOats in side chain",
+        "Bar.mean.Flexibility",
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 12,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r12_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 150.5,
+    "min_features": 145,
+    "max_features": 154,
+    "std_features": 2.7294688127912363,
+    "percent_retained_avg": 75.6,
+    "stability": {
+      "highly_stable_count": 145,
+      "stable_count": 4,
+      "moderate_count": 2,
+      "unstable_count": 6,
+      "total_features": 157,
+      "original_features": 199,
+      "highly_stable_pct": 72.9,
+      "stable_pct": 2.0,
+      "moderate_pct": 1.0,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.mean.nSats in side chain",
+        "Bar.mean.Flexibility"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 13,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r13_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 148.5,
+    "min_features": 141,
+    "max_features": 151,
+    "std_features": 3.170173496829472,
+    "percent_retained_avg": 74.6,
+    "stability": {
+      "highly_stable_count": 142,
+      "stable_count": 6,
+      "moderate_count": 2,
+      "unstable_count": 7,
+      "total_features": 157,
+      "original_features": 199,
+      "highly_stable_pct": 71.4,
+      "stable_pct": 3.0,
+      "moderate_pct": 1.0,
+      "unstable_pct": 3.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Bar.mean.P(helix) / P(sheet)",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.mean.nH-bonds",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.prop.Isoelectric point / P(helix)"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Bar.mean.Vol x isoelectric point",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 14,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r14_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 146.8,
+    "min_features": 137,
+    "max_features": 149,
+    "std_features": 3.8678159211627428,
+    "percent_retained_avg": 73.8,
+    "stability": {
+      "highly_stable_count": 140,
+      "stable_count": 4,
+      "moderate_count": 4,
+      "unstable_count": 8,
+      "total_features": 156,
+      "original_features": 199,
+      "highly_stable_pct": 70.4,
+      "stable_pct": 2.0,
+      "moderate_pct": 2.0,
+      "unstable_pct": 4.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12"
+      ],
+      "stable_examples": [
+        "Bar.prop.nOats in side chain",
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex",
+        "Bar.mean.nH-bonds"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3",
+        "Bar.mean.V / (P(helix)+P(sheet))"
+      ],
+      "unstable_examples": [
+        "Bar.mean.nOats in side chain",
+        "Bar.mean.nNats in side chain",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "Bar.prop.Vol / log(solub)",
+        "Bar.mean.P(helix) / P(sheet)",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 15,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r15_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 60,
+    "avg_features": 148.6,
+    "min_features": 142,
+    "max_features": 153,
+    "std_features": 3.8,
+    "percent_retained_avg": 74.7,
+    "stability": {
+      "highly_stable_count": 143,
+      "stable_count": 3,
+      "moderate_count": 4,
+      "unstable_count": 6,
+      "total_features": 156,
+      "original_features": 199,
+      "highly_stable_pct": 71.9,
+      "stable_pct": 1.5,
+      "moderate_pct": 2.0,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12"
+      ],
+      "stable_examples": [
+        "Bar.prop.nOats in side chain",
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.nH-bonds",
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "Bar.mean.nNats in side chain",
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Bar.mean.Vol x isoelectric point",
+        "Protein.prop.nOats in side chain",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_all",
+    "radius": 16,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_all/features_r16_FES.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 3.0,
+    "min_features": 3,
+    "max_features": 3,
+    "std_features": 0.0,
+    "percent_retained_avg": 3.7,
+    "stability": {
+      "highly_stable_count": 3,
+      "stable_count": 0,
+      "moderate_count": 0,
+      "unstable_count": 0,
+      "total_features": 3,
+      "original_features": 81,
+      "highly_stable_pct": 3.7,
+      "stable_pct": 0.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.burial_depth",
+        "pH",
+        "struct.is_rieske"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [],
+      "unstable_examples": []
+    },
+    "dataset_type": "FES_bar",
+    "radius": 1,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r1_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 3.0,
+    "min_features": 3,
+    "max_features": 3,
+    "std_features": 0.0,
+    "percent_retained_avg": 3.7,
+    "stability": {
+      "highly_stable_count": 3,
+      "stable_count": 0,
+      "moderate_count": 0,
+      "unstable_count": 0,
+      "total_features": 3,
+      "original_features": 81,
+      "highly_stable_pct": 3.7,
+      "stable_pct": 0.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.burial_depth",
+        "pH",
+        "struct.is_rieske"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [],
+      "unstable_examples": []
+    },
+    "dataset_type": "FES_bar",
+    "radius": 2,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r2_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 3.7,
+    "min_features": 3,
+    "max_features": 4,
+    "std_features": 0.45825756949558405,
+    "percent_retained_avg": 4.6,
+    "stability": {
+      "highly_stable_count": 3,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 0,
+      "total_features": 4,
+      "original_features": 81,
+      "highly_stable_pct": 3.7,
+      "stable_pct": 1.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.burial_depth",
+        "pH",
+        "struct.is_rieske"
+      ],
+      "stable_examples": [
+        "Bar.count.SER"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": []
+    },
+    "dataset_type": "FES_bar",
+    "radius": 3,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r3_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 10.8,
+    "min_features": 4,
+    "max_features": 13,
+    "std_features": 2.6381811916545836,
+    "percent_retained_avg": 13.3,
+    "stability": {
+      "highly_stable_count": 7,
+      "stable_count": 5,
+      "moderate_count": 0,
+      "unstable_count": 3,
+      "total_features": 15,
+      "original_features": 81,
+      "highly_stable_pct": 8.6,
+      "stable_pct": 6.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.count.LYS",
+        "struct.is_rieske",
+        "Bar.count.CYS",
+        "Bar.prop.Volume",
+        "struct.burial_depth",
+        "pH",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "stable_examples": [
+        "Bar.prop.nNats in side chain",
+        "Bar.prop.log(Solub) x Hydrophobicity",
+        "Bar.count.ARG",
+        "Bar.prop.Steric hindrance x Flexibility",
+        "Bar.prop.nH-bonds"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.prop.Vol / log(solub)",
+        "Bar.mean.Vol / log(solub)"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 4,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r4_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 43.8,
+    "min_features": 37,
+    "max_features": 47,
+    "std_features": 3.6551333764994123,
+    "percent_retained_avg": 54.1,
+    "stability": {
+      "highly_stable_count": 39,
+      "stable_count": 3,
+      "moderate_count": 5,
+      "unstable_count": 3,
+      "total_features": 50,
+      "original_features": 81,
+      "highly_stable_pct": 48.1,
+      "stable_pct": 3.7,
+      "moderate_pct": 6.2,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.prop.Steric hindrance",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds",
+        "Bar.prop.nOats in side chain",
+        "Bar.mean.nH-bonds",
+        "struct.is_rieske"
+      ],
+      "stable_examples": [
+        "Bar.count.HIS",
+        "Bar.count.SER",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.count.ASN",
+        "Bar.count.THR",
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.prop.Isoelectric point / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Vol x isoelectric point",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.P(helix) x Flex."
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 5,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r5_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 59.2,
+    "min_features": 53,
+    "max_features": 62,
+    "std_features": 2.6,
+    "percent_retained_avg": 73.1,
+    "stability": {
+      "highly_stable_count": 55,
+      "stable_count": 3,
+      "moderate_count": 3,
+      "unstable_count": 4,
+      "total_features": 65,
+      "original_features": 81,
+      "highly_stable_pct": 67.9,
+      "stable_pct": 3.7,
+      "moderate_pct": 3.7,
+      "unstable_pct": 4.9,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.mean.nH-bonds",
+        "Bar.prop.Isoelectric point",
+        "Bar.mean.Hydrophobicity x Flex."
+      ],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.nH-bonds",
+        "Bar.count.VAL"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.mean.Steric hindrance",
+        "Bar.prop.nSats in side chain",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 6,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r6_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 68.2,
+    "min_features": 66,
+    "max_features": 71,
+    "std_features": 1.5362291495737217,
+    "percent_retained_avg": 84.2,
+    "stability": {
+      "highly_stable_count": 63,
+      "stable_count": 5,
+      "moderate_count": 2,
+      "unstable_count": 1,
+      "total_features": 71,
+      "original_features": 81,
+      "highly_stable_pct": 77.8,
+      "stable_pct": 6.2,
+      "moderate_pct": 2.5,
+      "unstable_pct": 1.2,
+      "highly_stable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.P(sheet)"
+      ],
+      "stable_examples": [
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Bar.count.ILE",
+        "Bar.mean.nSats in side chain",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "moderate_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.mean.Flexibility"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Vol / log(solub)"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 7,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r7_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 68.9,
+    "min_features": 68,
+    "max_features": 70,
+    "std_features": 0.7000000000000001,
+    "percent_retained_avg": 85.1,
+    "stability": {
+      "highly_stable_count": 68,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 1,
+      "total_features": 70,
+      "original_features": 81,
+      "highly_stable_pct": 84.0,
+      "stable_pct": 1.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 1.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity"
+      ],
+      "stable_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance / P(sheet)"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 8,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r8_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 61.8,
+    "min_features": 60,
+    "max_features": 66,
+    "std_features": 2.181742422927143,
+    "percent_retained_avg": 76.3,
+    "stability": {
+      "highly_stable_count": 60,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 5,
+      "total_features": 66,
+      "original_features": 81,
+      "highly_stable_pct": 74.1,
+      "stable_pct": 1.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 6.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.nH-bonds",
+        "Bar.mean.Steric hindrance"
+      ],
+      "stable_examples": [
+        "Bar.mean.Volume"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.P(sheet)",
+        "Bar.mean.Flexibility"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 9,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r9_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 64.6,
+    "min_features": 61,
+    "max_features": 68,
+    "std_features": 1.7999999999999998,
+    "percent_retained_avg": 79.8,
+    "stability": {
+      "highly_stable_count": 60,
+      "stable_count": 3,
+      "moderate_count": 2,
+      "unstable_count": 5,
+      "total_features": 70,
+      "original_features": 81,
+      "highly_stable_pct": 74.1,
+      "stable_pct": 3.7,
+      "moderate_pct": 2.5,
+      "unstable_pct": 6.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.prop.P(sheet)"
+      ],
+      "stable_examples": [
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.P(helix) / P(sheet)",
+        "Bar.mean.Vol / P(helix)"
+      ],
+      "moderate_examples": [
+        "Bar.mean.Hydrophobicity x Flex.",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 10,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r10_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 58.1,
+    "min_features": 56,
+    "max_features": 60,
+    "std_features": 1.044030650891055,
+    "percent_retained_avg": 71.7,
+    "stability": {
+      "highly_stable_count": 56,
+      "stable_count": 1,
+      "moderate_count": 1,
+      "unstable_count": 4,
+      "total_features": 62,
+      "original_features": 81,
+      "highly_stable_pct": 69.1,
+      "stable_pct": 1.2,
+      "moderate_pct": 1.2,
+      "unstable_pct": 4.9,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds",
+        "Bar.mean.Steric hindrance"
+      ],
+      "stable_examples": [
+        "Bar.prop.Isoelectric point / P(sheet)"
+      ],
+      "moderate_examples": [
+        "Bar.mean.log(Solub) x Hydrophobicity"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance / P(helix)",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.mean.Flexibility",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 11,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r11_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 61.7,
+    "min_features": 60,
+    "max_features": 65,
+    "std_features": 1.4866068747318506,
+    "percent_retained_avg": 76.2,
+    "stability": {
+      "highly_stable_count": 58,
+      "stable_count": 3,
+      "moderate_count": 1,
+      "unstable_count": 6,
+      "total_features": 68,
+      "original_features": 81,
+      "highly_stable_pct": 71.6,
+      "stable_pct": 3.7,
+      "moderate_pct": 1.2,
+      "unstable_pct": 7.4,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.Steric hindrance / P(helix)",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nH-bonds"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.P(sheet)",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.mean.Flexibility",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 12,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r12_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 60.3,
+    "min_features": 58,
+    "max_features": 62,
+    "std_features": 1.0999999999999999,
+    "percent_retained_avg": 74.4,
+    "stability": {
+      "highly_stable_count": 58,
+      "stable_count": 2,
+      "moderate_count": 0,
+      "unstable_count": 2,
+      "total_features": 62,
+      "original_features": 81,
+      "highly_stable_pct": 71.6,
+      "stable_pct": 2.5,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.mean.nSats in side chain",
+        "Bar.mean.Flexibility"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 13,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r13_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 58.3,
+    "min_features": 56,
+    "max_features": 61,
+    "std_features": 1.3453624047073711,
+    "percent_retained_avg": 72.0,
+    "stability": {
+      "highly_stable_count": 55,
+      "stable_count": 4,
+      "moderate_count": 0,
+      "unstable_count": 3,
+      "total_features": 62,
+      "original_features": 81,
+      "highly_stable_pct": 67.9,
+      "stable_pct": 4.9,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.mean.nH-bonds",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.mean.P(helix) / P(sheet)",
+        "Bar.prop.Isoelectric point / P(helix)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 14,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r14_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 56.6,
+    "min_features": 52,
+    "max_features": 59,
+    "std_features": 1.8547236990991407,
+    "percent_retained_avg": 69.9,
+    "stability": {
+      "highly_stable_count": 53,
+      "stable_count": 2,
+      "moderate_count": 2,
+      "unstable_count": 4,
+      "total_features": 61,
+      "original_features": 81,
+      "highly_stable_pct": 65.4,
+      "stable_pct": 2.5,
+      "moderate_pct": 2.5,
+      "unstable_pct": 4.9,
+      "highly_stable_examples": [
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "stable_examples": [
+        "Bar.prop.nOats in side chain",
+        "Bar.mean.nH-bonds"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "Bar.mean.V / (P(helix)+P(sheet))"
+      ],
+      "unstable_examples": [
+        "Bar.mean.nOats in side chain",
+        "Bar.mean.nNats in side chain",
+        "Bar.prop.Vol / log(solub)",
+        "Bar.mean.P(helix) / P(sheet)"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 15,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r15_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 60,
+    "avg_features": 58.4,
+    "min_features": 55,
+    "max_features": 60,
+    "std_features": 1.624807680927192,
+    "percent_retained_avg": 72.1,
+    "stability": {
+      "highly_stable_count": 56,
+      "stable_count": 1,
+      "moderate_count": 2,
+      "unstable_count": 2,
+      "total_features": 61,
+      "original_features": 81,
+      "highly_stable_pct": 69.1,
+      "stable_pct": 1.2,
+      "moderate_pct": 2.5,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "stable_examples": [
+        "Bar.prop.nOats in side chain"
+      ],
+      "moderate_examples": [
+        "Bar.prop.nH-bonds",
+        "Bar.prop.P(helix) x Flex."
+      ],
+      "unstable_examples": [
+        "Bar.mean.nNats in side chain",
+        "Bar.mean.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "FES_bar",
+    "radius": 16,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/FES_bar/features_r16_FES_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 123,
+    "original_samples": 60,
+    "avg_features": 93.2,
+    "min_features": 88,
+    "max_features": 96,
+    "std_features": 2.4,
+    "percent_retained_avg": 75.8,
+    "stability": {
+      "highly_stable_count": 90,
+      "stable_count": 2,
+      "moderate_count": 2,
+      "unstable_count": 4,
+      "total_features": 98,
+      "original_features": 123,
+      "highly_stable_pct": 73.2,
+      "stable_pct": 1.6,
+      "moderate_pct": 1.6,
+      "unstable_pct": 3.3,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "seq.CTDC__HydrophobicityC2",
+        "Protein.prop.log(Solub) x Flex"
+      ],
+      "moderate_examples": [
+        "seq.CTDT__NormalizedVDWVT13",
+        "seq.CTDC__SecondaryStrC3"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__PolarizabilityC1",
+        "Protein.prop.nNats in side chain",
+        "Protein.prop.nOats in side chain",
+        "seq.CTDC__NormalizedVDWVC2"
+      ]
+    },
+    "dataset_type": "FES_protein",
+    "radius": null,
+    "is_protein_only": true,
+    "filepath": "feature_extraction/feature_subsets/FES_protein/features_FES_protein.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 93.6,
+    "min_features": 90,
+    "max_features": 96,
+    "std_features": 2.3748684174075834,
+    "percent_retained_avg": 47.0,
+    "stability": {
+      "highly_stable_count": 88,
+      "stable_count": 3,
+      "moderate_count": 5,
+      "unstable_count": 2,
+      "total_features": 98,
+      "original_features": 199,
+      "highly_stable_pct": 44.2,
+      "stable_pct": 1.5,
+      "moderate_pct": 2.5,
+      "unstable_pct": 1.0,
+      "highly_stable_examples": [
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "Bar.count.ASN",
+        "Protein.count.LEU",
+        "Bar.count.MET"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Hydrophobicity",
+        "Protein.count.VAL",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.prop.Volume",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 1,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r1_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 93.6,
+    "min_features": 90,
+    "max_features": 96,
+    "std_features": 2.3748684174075834,
+    "percent_retained_avg": 47.0,
+    "stability": {
+      "highly_stable_count": 88,
+      "stable_count": 3,
+      "moderate_count": 5,
+      "unstable_count": 2,
+      "total_features": 98,
+      "original_features": 199,
+      "highly_stable_pct": 44.2,
+      "stable_pct": 1.5,
+      "moderate_pct": 2.5,
+      "unstable_pct": 1.0,
+      "highly_stable_examples": [
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "Bar.count.ASN",
+        "Protein.count.LEU",
+        "Bar.count.MET"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Hydrophobicity",
+        "Protein.count.VAL",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.prop.Volume",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 2,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r2_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 104.3,
+    "min_features": 99,
+    "max_features": 109,
+    "std_features": 2.968164415931166,
+    "percent_retained_avg": 52.4,
+    "stability": {
+      "highly_stable_count": 94,
+      "stable_count": 8,
+      "moderate_count": 6,
+      "unstable_count": 6,
+      "total_features": 114,
+      "original_features": 199,
+      "highly_stable_pct": 47.2,
+      "stable_pct": 4.0,
+      "moderate_pct": 3.0,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2"
+      ],
+      "stable_examples": [
+        "Bar.count.VAL",
+        "Bar.count.HIS",
+        "Bar.prop.nNats in side chain",
+        "Bar.mean.nOats in side chain",
+        "Bar.count.CYS",
+        "Bar.prop.log(Solub) x Hydrophobicity",
+        "Protein.count.LEU",
+        "Bar.count.MET"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nH-bonds",
+        "Bar.prop.P(helix)",
+        "Bar.prop.nH-bonds",
+        "Protein.count.VAL",
+        "Protein.count.PRO",
+        "Bar.prop.nSats in side chain"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.P(helix) x Flex.",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.prop.Hydrophobicity x Flex.",
+        "Bar.prop.log(Solub) x Flex"
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 3,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r3_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 109.7,
+    "min_features": 104,
+    "max_features": 113,
+    "std_features": 2.5317977802344322,
+    "percent_retained_avg": 55.1,
+    "stability": {
+      "highly_stable_count": 101,
+      "stable_count": 8,
+      "moderate_count": 4,
+      "unstable_count": 5,
+      "total_features": 118,
+      "original_features": 199,
+      "highly_stable_pct": 50.8,
+      "stable_pct": 4.0,
+      "moderate_pct": 2.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12"
+      ],
+      "stable_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "Bar.count.HIS",
+        "Bar.prop.nNats in side chain",
+        "Bar.count.CYS",
+        "Bar.mean.Vol / log(solub)",
+        "Bar.prop.Isoelectric point",
+        "Protein.count.LEU",
+        "Bar.count.PHE"
+      ],
+      "moderate_examples": [
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.nSats in side chain",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.prop.Isoelectric point / P(sheet)",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.nH-bonds"
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 4,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r4_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 129.8,
+    "min_features": 125,
+    "max_features": 134,
+    "std_features": 2.4,
+    "percent_retained_avg": 65.2,
+    "stability": {
+      "highly_stable_count": 123,
+      "stable_count": 4,
+      "moderate_count": 4,
+      "unstable_count": 7,
+      "total_features": 138,
+      "original_features": 199,
+      "highly_stable_pct": 61.8,
+      "stable_pct": 2.0,
+      "moderate_pct": 2.0,
+      "unstable_pct": 3.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity"
+      ],
+      "stable_examples": [
+        "Bar.count.HIS",
+        "Bar.count.GLN",
+        "Bar.count.ARG",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.prop.nOats in side chain",
+        "Protein.count.VAL",
+        "Protein.count.PRO",
+        "Bar.mean.Steric hindrance"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.mean.Vol x isoelectric point",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.mean.Steric hindrance / P(helix)",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.nSats in side chain",
+        "Bar.prop.Steric hindrance"
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 5,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r5_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 157.8,
+    "min_features": 155,
+    "max_features": 161,
+    "std_features": 1.6,
+    "percent_retained_avg": 79.3,
+    "stability": {
+      "highly_stable_count": 154,
+      "stable_count": 1,
+      "moderate_count": 4,
+      "unstable_count": 5,
+      "total_features": 164,
+      "original_features": 199,
+      "highly_stable_pct": 77.4,
+      "stable_pct": 0.5,
+      "moderate_pct": 2.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Protein.count.VAL",
+        "Protein.count.PRO",
+        "Bar.prop.nSats in side chain",
+        "Bar.mean.nNats in side chain"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 6,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r6_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 156.7,
+    "min_features": 153,
+    "max_features": 161,
+    "std_features": 2.0999999999999996,
+    "percent_retained_avg": 78.7,
+    "stability": {
+      "highly_stable_count": 152,
+      "stable_count": 4,
+      "moderate_count": 2,
+      "unstable_count": 5,
+      "total_features": 163,
+      "original_features": 199,
+      "highly_stable_pct": 76.4,
+      "stable_pct": 2.0,
+      "moderate_pct": 1.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.mean.P(sheet)",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.P(sheet)",
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.prop.Vol x isoelectric point",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 7,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r7_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 155.2,
+    "min_features": 153,
+    "max_features": 157,
+    "std_features": 1.469693845669907,
+    "percent_retained_avg": 78.0,
+    "stability": {
+      "highly_stable_count": 151,
+      "stable_count": 1,
+      "moderate_count": 6,
+      "unstable_count": 3,
+      "total_features": 161,
+      "original_features": 199,
+      "highly_stable_pct": 75.9,
+      "stable_pct": 0.5,
+      "moderate_pct": 3.0,
+      "unstable_pct": 1.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nNats in side chain",
+        "Bar.mean.P(sheet)",
+        "Bar.mean.log(Solub) x Flex",
+        "Protein.count.VAL",
+        "Bar.prop.Vol / P(helix)",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 8,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r8_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 152.9,
+    "min_features": 151,
+    "max_features": 160,
+    "std_features": 2.5079872407968904,
+    "percent_retained_avg": 76.8,
+    "stability": {
+      "highly_stable_count": 148,
+      "stable_count": 2,
+      "moderate_count": 4,
+      "unstable_count": 9,
+      "total_features": 163,
+      "original_features": 199,
+      "highly_stable_pct": 74.4,
+      "stable_pct": 1.0,
+      "moderate_pct": 2.0,
+      "unstable_pct": 4.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.mean.P(sheet)",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nOats in side chain",
+        "Protein.count.VAL",
+        "Bar.prop.Steric hindrance",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.prop.Vol x isoelectric point",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 9,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r9_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 152.3,
+    "min_features": 150,
+    "max_features": 158,
+    "std_features": 2.1931712199461306,
+    "percent_retained_avg": 76.5,
+    "stability": {
+      "highly_stable_count": 147,
+      "stable_count": 2,
+      "moderate_count": 4,
+      "unstable_count": 9,
+      "total_features": 162,
+      "original_features": 199,
+      "highly_stable_pct": 73.9,
+      "stable_pct": 1.0,
+      "moderate_pct": 2.0,
+      "unstable_pct": 4.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nOats in side chain",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "Bar.mean.nNats in side chain",
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.mean.P(sheet)",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.Vol x isoelectric point",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 10,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r10_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 150.1,
+    "min_features": 146,
+    "max_features": 156,
+    "std_features": 2.5865034312755126,
+    "percent_retained_avg": 75.4,
+    "stability": {
+      "highly_stable_count": 145,
+      "stable_count": 3,
+      "moderate_count": 3,
+      "unstable_count": 8,
+      "total_features": 159,
+      "original_features": 199,
+      "highly_stable_pct": 72.9,
+      "stable_pct": 1.5,
+      "moderate_pct": 1.5,
+      "unstable_pct": 4.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.prop.Vol / P(helix)",
+        "Bar.mean.nOats in side chain",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.mean.P(helix)+P(sheet)",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.prop.P(helix)",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.Vol x isoelectric point",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 11,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r11_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 150.2,
+    "min_features": 145,
+    "max_features": 159,
+    "std_features": 3.4,
+    "percent_retained_avg": 75.5,
+    "stability": {
+      "highly_stable_count": 145,
+      "stable_count": 3,
+      "moderate_count": 3,
+      "unstable_count": 10,
+      "total_features": 161,
+      "original_features": 199,
+      "highly_stable_pct": 72.9,
+      "stable_pct": 1.5,
+      "moderate_pct": 1.5,
+      "unstable_pct": 5.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.mean.P(helix)+P(sheet)",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.mean.Steric hindrance / P(helix)",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.prop.P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.mean.P(sheet)",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 12,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r12_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 150.2,
+    "min_features": 146,
+    "max_features": 159,
+    "std_features": 3.370459909270543,
+    "percent_retained_avg": 75.5,
+    "stability": {
+      "highly_stable_count": 146,
+      "stable_count": 2,
+      "moderate_count": 3,
+      "unstable_count": 10,
+      "total_features": 161,
+      "original_features": 199,
+      "highly_stable_pct": 73.4,
+      "stable_pct": 1.0,
+      "moderate_pct": 1.5,
+      "unstable_pct": 5.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.mean.Steric hindrance / P(helix)",
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.mean.P(helix)+P(sheet)",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.prop.P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.mean.P(sheet)",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 13,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r13_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 153.2,
+    "min_features": 152,
+    "max_features": 155,
+    "std_features": 1.077032961426901,
+    "percent_retained_avg": 77.0,
+    "stability": {
+      "highly_stable_count": 149,
+      "stable_count": 2,
+      "moderate_count": 3,
+      "unstable_count": 6,
+      "total_features": 160,
+      "original_features": 199,
+      "highly_stable_pct": 74.9,
+      "stable_pct": 1.0,
+      "moderate_pct": 1.5,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Protein.count.LEU",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "Bar.mean.nNats in side chain",
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 14,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r14_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 150.6,
+    "min_features": 148,
+    "max_features": 152,
+    "std_features": 1.42828568570857,
+    "percent_retained_avg": 75.7,
+    "stability": {
+      "highly_stable_count": 148,
+      "stable_count": 1,
+      "moderate_count": 2,
+      "unstable_count": 5,
+      "total_features": 156,
+      "original_features": 199,
+      "highly_stable_pct": 74.4,
+      "stable_pct": 0.5,
+      "moderate_pct": 1.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.Isoelectric point",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.mean.nNats in side chain"
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 15,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r15_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 92,
+    "avg_features": 149.7,
+    "min_features": 148,
+    "max_features": 151,
+    "std_features": 1.004987562112089,
+    "percent_retained_avg": 75.2,
+    "stability": {
+      "highly_stable_count": 147,
+      "stable_count": 1,
+      "moderate_count": 3,
+      "unstable_count": 2,
+      "total_features": 153,
+      "original_features": 199,
+      "highly_stable_pct": 73.9,
+      "stable_pct": 0.5,
+      "moderate_pct": 1.5,
+      "unstable_pct": 1.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_all",
+    "radius": 16,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_all/features_r16_SF4.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 6.4,
+    "min_features": 4,
+    "max_features": 8,
+    "std_features": 1.9595917942265426,
+    "percent_retained_avg": 7.9,
+    "stability": {
+      "highly_stable_count": 3,
+      "stable_count": 2,
+      "moderate_count": 3,
+      "unstable_count": 0,
+      "total_features": 8,
+      "original_features": 81,
+      "highly_stable_pct": 3.7,
+      "stable_pct": 2.5,
+      "moderate_pct": 3.7,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.burial_depth",
+        "pH",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.count.ASN",
+        "Bar.count.MET"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Volume",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 1,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r1_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 6.4,
+    "min_features": 4,
+    "max_features": 8,
+    "std_features": 1.9595917942265426,
+    "percent_retained_avg": 7.9,
+    "stability": {
+      "highly_stable_count": 3,
+      "stable_count": 2,
+      "moderate_count": 3,
+      "unstable_count": 0,
+      "total_features": 8,
+      "original_features": 81,
+      "highly_stable_pct": 3.7,
+      "stable_pct": 2.5,
+      "moderate_pct": 3.7,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.burial_depth",
+        "pH",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.count.ASN",
+        "Bar.count.MET"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Volume",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 2,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r2_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 17.1,
+    "min_features": 13,
+    "max_features": 21,
+    "std_features": 2.7730849247724096,
+    "percent_retained_avg": 21.1,
+    "stability": {
+      "highly_stable_count": 9,
+      "stable_count": 7,
+      "moderate_count": 4,
+      "unstable_count": 4,
+      "total_features": 24,
+      "original_features": 81,
+      "highly_stable_pct": 11.1,
+      "stable_pct": 8.6,
+      "moderate_pct": 4.9,
+      "unstable_pct": 4.9,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "struct.is_hipip",
+        "Bar.count.ASN",
+        "Bar.count.ALA",
+        "Bar.prop.Volume",
+        "pH",
+        "struct.burial_depth",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "stable_examples": [
+        "Bar.count.HIS",
+        "Bar.prop.nNats in side chain",
+        "Bar.prop.log(Solub) x Hydrophobicity",
+        "Bar.count.CYS",
+        "Bar.mean.nOats in side chain",
+        "Bar.count.VAL",
+        "Bar.count.MET"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nH-bonds",
+        "Bar.prop.nSats in side chain",
+        "Bar.prop.nH-bonds",
+        "Bar.prop.P(helix)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance x Flexibility",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.Hydrophobicity x Flex.",
+        "Bar.prop.log(Solub) x Flex"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 3,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r3_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 22.5,
+    "min_features": 18,
+    "max_features": 25,
+    "std_features": 2.0124611797498106,
+    "percent_retained_avg": 27.8,
+    "stability": {
+      "highly_stable_count": 16,
+      "stable_count": 7,
+      "moderate_count": 2,
+      "unstable_count": 3,
+      "total_features": 28,
+      "original_features": 81,
+      "highly_stable_pct": 19.8,
+      "stable_pct": 8.6,
+      "moderate_pct": 2.5,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASN",
+        "Bar.count.VAL",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip",
+        "Bar.prop.Volume",
+        "struct.burial_depth",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "stable_examples": [
+        "Bar.count.CYS",
+        "Bar.count.HIS",
+        "Bar.prop.Steric hindrance x Flexibility",
+        "Bar.mean.Vol / log(solub)",
+        "Bar.prop.Isoelectric point",
+        "Bar.prop.nNats in side chain",
+        "Bar.count.PHE"
+      ],
+      "moderate_examples": [
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.nSats in side chain"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.Isoelectric point / P(sheet)",
+        "Bar.prop.nH-bonds"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 4,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r4_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 42.6,
+    "min_features": 37,
+    "max_features": 46,
+    "std_features": 2.33238075793812,
+    "percent_retained_avg": 52.6,
+    "stability": {
+      "highly_stable_count": 38,
+      "stable_count": 3,
+      "moderate_count": 2,
+      "unstable_count": 5,
+      "total_features": 48,
+      "original_features": 81,
+      "highly_stable_pct": 46.9,
+      "stable_pct": 3.7,
+      "moderate_pct": 2.5,
+      "unstable_pct": 6.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds",
+        "Bar.count.VAL",
+        "Bar.mean.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.count.HIS",
+        "Bar.count.GLN",
+        "Bar.count.ARG"
+      ],
+      "moderate_examples": [
+        "Bar.prop.nOats in side chain",
+        "Bar.mean.Steric hindrance"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Vol x isoelectric point",
+        "Bar.mean.Steric hindrance / P(helix)",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.nSats in side chain",
+        "Bar.prop.Steric hindrance"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 5,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r5_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 70.6,
+    "min_features": 69,
+    "max_features": 73,
+    "std_features": 1.2,
+    "percent_retained_avg": 87.2,
+    "stability": {
+      "highly_stable_count": 69,
+      "stable_count": 0,
+      "moderate_count": 2,
+      "unstable_count": 3,
+      "total_features": 74,
+      "original_features": 81,
+      "highly_stable_pct": 85.2,
+      "stable_pct": 0.0,
+      "moderate_pct": 2.5,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [
+        "Bar.prop.nSats in side chain",
+        "Bar.mean.nNats in side chain"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.Steric hindrance / P(sheet)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 6,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r6_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 69.5,
+    "min_features": 67,
+    "max_features": 73,
+    "std_features": 1.6881943016134133,
+    "percent_retained_avg": 85.8,
+    "stability": {
+      "highly_stable_count": 67,
+      "stable_count": 3,
+      "moderate_count": 0,
+      "unstable_count": 3,
+      "total_features": 73,
+      "original_features": 81,
+      "highly_stable_pct": 82.7,
+      "stable_pct": 3.7,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity"
+      ],
+      "stable_examples": [
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.mean.P(sheet)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.prop.P(sheet)",
+        "Bar.prop.V / (P(helix)+P(sheet))"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 7,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r7_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 68.0,
+    "min_features": 67,
+    "max_features": 69,
+    "std_features": 0.7745966692414834,
+    "percent_retained_avg": 84.0,
+    "stability": {
+      "highly_stable_count": 66,
+      "stable_count": 0,
+      "moderate_count": 4,
+      "unstable_count": 1,
+      "total_features": 71,
+      "original_features": 81,
+      "highly_stable_pct": 81.5,
+      "stable_pct": 0.0,
+      "moderate_pct": 4.9,
+      "unstable_pct": 1.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [
+        "Bar.mean.nNats in side chain",
+        "Bar.mean.P(sheet)",
+        "Bar.mean.log(Solub) x Flex",
+        "Bar.prop.Vol / P(helix)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 8,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r8_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 65.7,
+    "min_features": 64,
+    "max_features": 72,
+    "std_features": 2.1931712199461306,
+    "percent_retained_avg": 81.1,
+    "stability": {
+      "highly_stable_count": 63,
+      "stable_count": 1,
+      "moderate_count": 2,
+      "unstable_count": 7,
+      "total_features": 73,
+      "original_features": 81,
+      "highly_stable_pct": 77.8,
+      "stable_pct": 1.2,
+      "moderate_pct": 2.5,
+      "unstable_pct": 8.6,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.mean.P(sheet)"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nOats in side chain",
+        "Bar.prop.Steric hindrance"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Bar.prop.Vol / P(sheet)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 9,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r9_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 65.1,
+    "min_features": 62,
+    "max_features": 70,
+    "std_features": 2.071231517720798,
+    "percent_retained_avg": 80.4,
+    "stability": {
+      "highly_stable_count": 62,
+      "stable_count": 1,
+      "moderate_count": 2,
+      "unstable_count": 7,
+      "total_features": 72,
+      "original_features": 81,
+      "highly_stable_pct": 76.5,
+      "stable_pct": 1.2,
+      "moderate_pct": 2.5,
+      "unstable_pct": 8.6,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume"
+      ],
+      "stable_examples": [
+        "Bar.mean.V / (P(helix)+P(sheet))"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nOats in side chain",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))"
+      ],
+      "unstable_examples": [
+        "Bar.mean.nNats in side chain",
+        "Bar.prop.P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.mean.P(sheet)",
+        "Bar.prop.Vol / P(sheet)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 10,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r10_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 62.9,
+    "min_features": 60,
+    "max_features": 68,
+    "std_features": 2.211334438749598,
+    "percent_retained_avg": 77.7,
+    "stability": {
+      "highly_stable_count": 60,
+      "stable_count": 2,
+      "moderate_count": 1,
+      "unstable_count": 6,
+      "total_features": 69,
+      "original_features": 81,
+      "highly_stable_pct": 74.1,
+      "stable_pct": 2.5,
+      "moderate_pct": 1.2,
+      "unstable_pct": 7.4,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume"
+      ],
+      "stable_examples": [
+        "Bar.prop.Vol / P(helix)",
+        "Bar.mean.nOats in side chain"
+      ],
+      "moderate_examples": [
+        "Bar.mean.P(helix)+P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.P(helix)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 11,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r11_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 63.0,
+    "min_features": 59,
+    "max_features": 71,
+    "std_features": 3.0,
+    "percent_retained_avg": 77.8,
+    "stability": {
+      "highly_stable_count": 60,
+      "stable_count": 2,
+      "moderate_count": 1,
+      "unstable_count": 8,
+      "total_features": 71,
+      "original_features": 81,
+      "highly_stable_pct": 74.1,
+      "stable_pct": 2.5,
+      "moderate_pct": 1.2,
+      "unstable_pct": 9.9,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume"
+      ],
+      "stable_examples": [
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Bar.mean.P(helix)+P(sheet)"
+      ],
+      "moderate_examples": [
+        "Bar.mean.Steric hindrance / P(helix)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.mean.P(sheet)",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.P(helix)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 12,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r12_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 63.0,
+    "min_features": 60,
+    "max_features": 71,
+    "std_features": 2.898275349237888,
+    "percent_retained_avg": 77.8,
+    "stability": {
+      "highly_stable_count": 61,
+      "stable_count": 1,
+      "moderate_count": 1,
+      "unstable_count": 8,
+      "total_features": 71,
+      "original_features": 81,
+      "highly_stable_pct": 75.3,
+      "stable_pct": 1.2,
+      "moderate_pct": 1.2,
+      "unstable_pct": 9.9,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume"
+      ],
+      "stable_examples": [
+        "Bar.mean.Steric hindrance / P(helix)"
+      ],
+      "moderate_examples": [
+        "Bar.mean.P(helix)+P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.prop.Vol x isoelectric point",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.mean.P(sheet)",
+        "Bar.mean.V / (P(helix)+P(sheet))",
+        "Bar.prop.Vol / P(sheet)",
+        "Bar.prop.P(helix)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 13,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r13_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 66.0,
+    "min_features": 64,
+    "max_features": 67,
+    "std_features": 0.7745966692414834,
+    "percent_retained_avg": 81.5,
+    "stability": {
+      "highly_stable_count": 64,
+      "stable_count": 1,
+      "moderate_count": 1,
+      "unstable_count": 4,
+      "total_features": 70,
+      "original_features": 81,
+      "highly_stable_pct": 79.0,
+      "stable_pct": 1.2,
+      "moderate_pct": 1.2,
+      "unstable_pct": 4.9,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Isoelectric point / P(helix)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.nNats in side chain",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.prop.P(helix)"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 14,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r14_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 63.4,
+    "min_features": 62,
+    "max_features": 65,
+    "std_features": 0.7999999999999999,
+    "percent_retained_avg": 78.3,
+    "stability": {
+      "highly_stable_count": 63,
+      "stable_count": 0,
+      "moderate_count": 0,
+      "unstable_count": 3,
+      "total_features": 66,
+      "original_features": 81,
+      "highly_stable_pct": 77.8,
+      "stable_pct": 0.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.Isoelectric point",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.mean.nNats in side chain"
+      ]
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 15,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r15_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 92,
+    "avg_features": 62.5,
+    "min_features": 61,
+    "max_features": 63,
+    "std_features": 0.6708203932499369,
+    "percent_retained_avg": 77.2,
+    "stability": {
+      "highly_stable_count": 62,
+      "stable_count": 0,
+      "moderate_count": 1,
+      "unstable_count": 0,
+      "total_features": 63,
+      "original_features": 81,
+      "highly_stable_pct": 76.5,
+      "stable_pct": 0.0,
+      "moderate_pct": 1.2,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance x Flexibility"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "SF4_bar",
+    "radius": 16,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/SF4_bar/features_r16_SF4_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 123,
+    "original_samples": 92,
+    "avg_features": 90.2,
+    "min_features": 88,
+    "max_features": 91,
+    "std_features": 1.0770329614269007,
+    "percent_retained_avg": 73.3,
+    "stability": {
+      "highly_stable_count": 88,
+      "stable_count": 1,
+      "moderate_count": 2,
+      "unstable_count": 2,
+      "total_features": 93,
+      "original_features": 123,
+      "highly_stable_pct": 71.5,
+      "stable_pct": 0.8,
+      "moderate_pct": 1.6,
+      "unstable_pct": 1.6,
+      "highly_stable_examples": [
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2",
+        "seq.CTDT__SecondaryStrT13"
+      ],
+      "stable_examples": [
+        "Protein.count.LEU"
+      ],
+      "moderate_examples": [
+        "Protein.count.VAL",
+        "Protein.count.PRO"
+      ],
+      "unstable_examples": [
+        "seq.CTDC__HydrophobicityC3",
+        "Protein.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "SF4_protein",
+    "radius": null,
+    "is_protein_only": true,
+    "filepath": "feature_extraction/feature_subsets/SF4_protein/features_SF4_protein.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 8.0,
+    "min_features": 6,
+    "max_features": 10,
+    "std_features": 2.0,
+    "percent_retained_avg": 9.9,
+    "stability": {
+      "highly_stable_count": 6,
+      "stable_count": 0,
+      "moderate_count": 4,
+      "unstable_count": 0,
+      "total_features": 10,
+      "original_features": 81,
+      "highly_stable_pct": 7.4,
+      "stable_pct": 0.0,
+      "moderate_pct": 4.9,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.is_hipip",
+        "struct.burial_depth",
+        "struct.is_rieske",
+        "Bar.count.MET",
+        "pH",
+        "struct.iron_count"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [
+        "Bar.count.ASN",
+        "Bar.prop.Volume",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 1,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r1_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 12.0,
+    "min_features": 6,
+    "max_features": 15,
+    "std_features": 3.4641016151377544,
+    "percent_retained_avg": 14.8,
+    "stability": {
+      "highly_stable_count": 6,
+      "stable_count": 5,
+      "moderate_count": 4,
+      "unstable_count": 0,
+      "total_features": 15,
+      "original_features": 81,
+      "highly_stable_pct": 7.4,
+      "stable_pct": 6.2,
+      "moderate_pct": 4.9,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "struct.is_hipip",
+        "struct.burial_depth",
+        "struct.is_rieske",
+        "Bar.count.MET",
+        "pH",
+        "struct.iron_count"
+      ],
+      "stable_examples": [
+        "Bar.count.GLY",
+        "Bar.prop.Flexibility",
+        "Bar.prop.Isoelectric point",
+        "Bar.prop.Volume",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASN",
+        "Bar.prop.Hydrophobicity"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 2,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r2_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 24.8,
+    "min_features": 21,
+    "max_features": 27,
+    "std_features": 1.8330302779823362,
+    "percent_retained_avg": 30.6,
+    "stability": {
+      "highly_stable_count": 17,
+      "stable_count": 6,
+      "moderate_count": 4,
+      "unstable_count": 6,
+      "total_features": 33,
+      "original_features": 81,
+      "highly_stable_pct": 21.0,
+      "stable_pct": 7.4,
+      "moderate_pct": 4.9,
+      "unstable_pct": 7.4,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASN",
+        "Bar.prop.nH-bonds",
+        "Bar.count.VAL",
+        "struct.is_hipip",
+        "struct.is_rieske",
+        "struct.burial_depth",
+        "Bar.prop.Volume",
+        "struct.iron_count"
+      ],
+      "stable_examples": [
+        "Bar.count.CYS",
+        "Bar.prop.nOats in side chain",
+        "Bar.count.SER",
+        "Bar.count.GLY",
+        "Bar.prop.nSats in side chain",
+        "Bar.prop.Flexibility"
+      ],
+      "moderate_examples": [
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.mean.nOats in side chain",
+        "Bar.prop.P(helix)",
+        "Bar.mean.nH-bonds"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.Hydrophobicity x Flex.",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Bar.count.HIS",
+        "Bar.prop.nNats in side chain",
+        "Bar.mean.Steric hindrance x Flexibility"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 3,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r3_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 34.9,
+    "min_features": 30,
+    "max_features": 38,
+    "std_features": 2.6627053911388696,
+    "percent_retained_avg": 43.1,
+    "stability": {
+      "highly_stable_count": 28,
+      "stable_count": 6,
+      "moderate_count": 2,
+      "unstable_count": 6,
+      "total_features": 42,
+      "original_features": 81,
+      "highly_stable_pct": 34.6,
+      "stable_pct": 7.4,
+      "moderate_pct": 2.5,
+      "unstable_pct": 7.4,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.prop.nH-bonds",
+        "Bar.count.VAL",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.count.GLN",
+        "Bar.mean.Flexibility",
+        "Bar.count.GLY",
+        "Bar.count.ARG",
+        "Bar.mean.nSats in side chain",
+        "Bar.prop.Flexibility"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nH-bonds",
+        "Bar.prop.Isoelectric point / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Isoelectric point",
+        "Bar.mean.Volume",
+        "Bar.count.HIS",
+        "Bar.mean.Vol / log(solub)",
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.Hydrophobicity x Flex."
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 4,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r4_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 49.3,
+    "min_features": 46,
+    "max_features": 51,
+    "std_features": 1.345362404707371,
+    "percent_retained_avg": 60.9,
+    "stability": {
+      "highly_stable_count": 45,
+      "stable_count": 5,
+      "moderate_count": 0,
+      "unstable_count": 2,
+      "total_features": 52,
+      "original_features": 81,
+      "highly_stable_pct": 55.6,
+      "stable_pct": 6.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.count.SER",
+        "Bar.mean.Vol x isoelectric point",
+        "Bar.mean.P(helix) x Flex.",
+        "Bar.mean.Isoelectric point / P(helix)",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.mean.Vol / P(sheet)"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 5,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r5_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 70.0,
+    "min_features": 65,
+    "max_features": 72,
+    "std_features": 2.04939015319192,
+    "percent_retained_avg": 86.4,
+    "stability": {
+      "highly_stable_count": 66,
+      "stable_count": 3,
+      "moderate_count": 2,
+      "unstable_count": 3,
+      "total_features": 74,
+      "original_features": 81,
+      "highly_stable_pct": 81.5,
+      "stable_pct": 3.7,
+      "moderate_pct": 2.5,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.mean.nNats in side chain"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Bar.prop.Isoelectric point / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.nSats in side chain",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.P(helix) / P(sheet)"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 6,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r6_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 75.2,
+    "min_features": 74,
+    "max_features": 77,
+    "std_features": 0.9797958971132711,
+    "percent_retained_avg": 92.8,
+    "stability": {
+      "highly_stable_count": 74,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 2,
+      "total_features": 77,
+      "original_features": 81,
+      "highly_stable_pct": 91.4,
+      "stable_pct": 1.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.Steric hindrance / P(helix)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS"
+      ],
+      "stable_examples": [
+        "Bar.prop.P(sheet)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.prop.Vol x isoelectric point"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 7,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r7_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 70.4,
+    "min_features": 70,
+    "max_features": 72,
+    "std_features": 0.8,
+    "percent_retained_avg": 86.9,
+    "stability": {
+      "highly_stable_count": 70,
+      "stable_count": 0,
+      "moderate_count": 0,
+      "unstable_count": 3,
+      "total_features": 73,
+      "original_features": 81,
+      "highly_stable_pct": 86.4,
+      "stable_pct": 0.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.7,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.prop.Steric hindrance",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.prop.Steric hindrance / P(sheet)"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 8,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r8_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 69.4,
+    "min_features": 68,
+    "max_features": 70,
+    "std_features": 0.66332495807108,
+    "percent_retained_avg": 85.7,
+    "stability": {
+      "highly_stable_count": 69,
+      "stable_count": 0,
+      "moderate_count": 1,
+      "unstable_count": 0,
+      "total_features": 70,
+      "original_features": 81,
+      "highly_stable_pct": 85.2,
+      "stable_pct": 0.0,
+      "moderate_pct": 1.2,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [
+        "Bar.prop.Vol / P(sheet)"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 9,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r9_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 68.7,
+    "min_features": 68,
+    "max_features": 70,
+    "std_features": 0.6403124237432849,
+    "percent_retained_avg": 84.8,
+    "stability": {
+      "highly_stable_count": 68,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 1,
+      "total_features": 70,
+      "original_features": 81,
+      "highly_stable_pct": 84.0,
+      "stable_pct": 1.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 1.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume"
+      ],
+      "stable_examples": [
+        "Bar.prop.Steric hindrance"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.Vol / P(sheet)"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 10,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r10_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 67.4,
+    "min_features": 66,
+    "max_features": 68,
+    "std_features": 0.66332495807108,
+    "percent_retained_avg": 83.2,
+    "stability": {
+      "highly_stable_count": 66,
+      "stable_count": 2,
+      "moderate_count": 0,
+      "unstable_count": 0,
+      "total_features": 68,
+      "original_features": 81,
+      "highly_stable_pct": 81.5,
+      "stable_pct": 2.5,
+      "moderate_pct": 0.0,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.prop.Isoelectric point",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 11,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r11_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 68.1,
+    "min_features": 67,
+    "max_features": 69,
+    "std_features": 0.5385164807134505,
+    "percent_retained_avg": 84.1,
+    "stability": {
+      "highly_stable_count": 67,
+      "stable_count": 0,
+      "moderate_count": 1,
+      "unstable_count": 2,
+      "total_features": 70,
+      "original_features": 81,
+      "highly_stable_pct": 82.7,
+      "stable_pct": 0.0,
+      "moderate_pct": 1.2,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [
+        "Bar.mean.nNats in side chain"
+      ],
+      "unstable_examples": [
+        "Bar.prop.P(helix)",
+        "Bar.mean.log(Solub) x Flex"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 12,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r12_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 66.8,
+    "min_features": 66,
+    "max_features": 67,
+    "std_features": 0.4,
+    "percent_retained_avg": 82.5,
+    "stability": {
+      "highly_stable_count": 67,
+      "stable_count": 0,
+      "moderate_count": 0,
+      "unstable_count": 0,
+      "total_features": 67,
+      "original_features": 81,
+      "highly_stable_pct": 82.7,
+      "stable_pct": 0.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 13,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r13_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 67.0,
+    "min_features": 67,
+    "max_features": 67,
+    "std_features": 0.0,
+    "percent_retained_avg": 82.7,
+    "stability": {
+      "highly_stable_count": 66,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 1,
+      "total_features": 68,
+      "original_features": 81,
+      "highly_stable_pct": 81.5,
+      "stable_pct": 1.2,
+      "moderate_pct": 0.0,
+      "unstable_pct": 1.2,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.mean.Vol / log(solub)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Bar.prop.Isoelectric point / P(helix)"
+      ]
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 14,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r14_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 66.3,
+    "min_features": 65,
+    "max_features": 67,
+    "std_features": 0.6403124237432849,
+    "percent_retained_avg": 81.9,
+    "stability": {
+      "highly_stable_count": 65,
+      "stable_count": 1,
+      "moderate_count": 1,
+      "unstable_count": 0,
+      "total_features": 67,
+      "original_features": 81,
+      "highly_stable_pct": 80.2,
+      "stable_pct": 1.2,
+      "moderate_pct": 1.2,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [
+        "Bar.mean.Vol / log(solub)"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance x Flexibility"
+      ],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 15,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r15_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 81,
+    "original_samples": 168,
+    "avg_features": 64.0,
+    "min_features": 64,
+    "max_features": 64,
+    "std_features": 0.0,
+    "percent_retained_avg": 79.0,
+    "stability": {
+      "highly_stable_count": 64,
+      "stable_count": 0,
+      "moderate_count": 0,
+      "unstable_count": 0,
+      "total_features": 64,
+      "original_features": 81,
+      "highly_stable_pct": 79.0,
+      "stable_pct": 0.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 0.0,
+      "highly_stable_examples": [
+        "Bar.prop.Vol / log(solub)",
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.mean.log(Solub) x Hydrophobicity",
+        "Bar.count.ASP",
+        "Bar.mean.Isoelectric point",
+        "Bar.count.ASN",
+        "Bar.count.CYS",
+        "Bar.mean.Hydrophobicity",
+        "Bar.mean.Volume",
+        "Bar.prop.nH-bonds"
+      ],
+      "stable_examples": [],
+      "moderate_examples": [],
+      "unstable_examples": []
+    },
+    "dataset_type": "all_cofactors_bar",
+    "radius": 16,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_bar/features_r16_all_bar.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 123,
+    "original_samples": 168,
+    "avg_features": 94.5,
+    "min_features": 93,
+    "max_features": 96,
+    "std_features": 0.9219544457292888,
+    "percent_retained_avg": 76.8,
+    "stability": {
+      "highly_stable_count": 93,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 4,
+      "total_features": 98,
+      "original_features": 123,
+      "highly_stable_pct": 75.6,
+      "stable_pct": 0.8,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.3,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "all_cofactors_protein",
+    "radius": null,
+    "is_protein_only": true,
+    "filepath": "feature_extraction/feature_subsets/all_cofactors_protein/features_all_protein.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 97.5,
+    "min_features": 95,
+    "max_features": 101,
+    "std_features": 1.91049731745428,
+    "percent_retained_avg": 49.0,
+    "stability": {
+      "highly_stable_count": 94,
+      "stable_count": 1,
+      "moderate_count": 4,
+      "unstable_count": 4,
+      "total_features": 103,
+      "original_features": 199,
+      "highly_stable_pct": 47.2,
+      "stable_pct": 0.5,
+      "moderate_pct": 2.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [
+        "Bar.count.ASN",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.prop.Volume"
+      ],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 1,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r1_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 101.5,
+    "min_features": 95,
+    "max_features": 106,
+    "std_features": 3.4132096331752027,
+    "percent_retained_avg": 51.0,
+    "stability": {
+      "highly_stable_count": 94,
+      "stable_count": 6,
+      "moderate_count": 4,
+      "unstable_count": 4,
+      "total_features": 108,
+      "original_features": 199,
+      "highly_stable_pct": 47.2,
+      "stable_pct": 3.0,
+      "moderate_pct": 2.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12",
+        "Protein.mean.log(Solub) x Hydrophobicity",
+        "Protein.count.GLU",
+        "seq.CTDC__SecondaryStrC2"
+      ],
+      "stable_examples": [
+        "Bar.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.count.GLY",
+        "Bar.prop.Flexibility",
+        "seq.CTDC__ChargeC1",
+        "Bar.prop.Volume",
+        "Bar.prop.Isoelectric point"
+      ],
+      "moderate_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Bar.count.ASN",
+        "Bar.prop.Hydrophobicity",
+        "Bar.prop.Vol / log(solub)"
+      ],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 2,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r2_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 114.3,
+    "min_features": 111,
+    "max_features": 118,
+    "std_features": 1.9000000000000001,
+    "percent_retained_avg": 57.4,
+    "stability": {
+      "highly_stable_count": 105,
+      "stable_count": 7,
+      "moderate_count": 4,
+      "unstable_count": 10,
+      "total_features": 126,
+      "original_features": 199,
+      "highly_stable_pct": 52.8,
+      "stable_pct": 3.5,
+      "moderate_pct": 2.0,
+      "unstable_pct": 5.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "struct.is_hipip",
+        "seq.CTDT__SecondaryStrT12"
+      ],
+      "stable_examples": [
+        "Bar.prop.nOats in side chain",
+        "Bar.count.SER",
+        "Bar.count.GLY",
+        "Bar.prop.Flexibility",
+        "Bar.count.CYS",
+        "seq.CTDC__ChargeC1",
+        "Bar.prop.nSats in side chain"
+      ],
+      "moderate_examples": [
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.mean.nOats in side chain",
+        "Bar.prop.P(helix)",
+        "Bar.mean.nH-bonds"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Steric hindrance",
+        "Bar.prop.Hydrophobicity x Flex.",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))",
+        "Protein.prop.Volume",
+        "Bar.count.HIS",
+        "Bar.prop.nNats in side chain",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.mean.Steric hindrance x Flexibility"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 3,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r3_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 124.4,
+    "min_features": 119,
+    "max_features": 129,
+    "std_features": 2.764054992217051,
+    "percent_retained_avg": 62.5,
+    "stability": {
+      "highly_stable_count": 116,
+      "stable_count": 7,
+      "moderate_count": 2,
+      "unstable_count": 10,
+      "total_features": 135,
+      "original_features": 199,
+      "highly_stable_pct": 58.3,
+      "stable_pct": 3.5,
+      "moderate_pct": 1.0,
+      "unstable_pct": 5.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain",
+        "struct.is_hipip"
+      ],
+      "stable_examples": [
+        "Bar.count.GLY",
+        "Bar.prop.Flexibility",
+        "Bar.count.GLN",
+        "seq.CTDC__ChargeC1",
+        "Bar.mean.Flexibility",
+        "Bar.count.ARG",
+        "Bar.mean.nSats in side chain"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nH-bonds",
+        "Bar.prop.Isoelectric point / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Bar.prop.Isoelectric point",
+        "Protein.prop.Volume",
+        "Bar.count.HIS",
+        "Bar.mean.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Bar.mean.Vol / log(solub)",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.prop.Hydrophobicity x Flex.",
+        "Bar.prop.Steric hindrance"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 4,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r4_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 138.8,
+    "min_features": 136,
+    "max_features": 142,
+    "std_features": 1.6,
+    "percent_retained_avg": 69.7,
+    "stability": {
+      "highly_stable_count": 133,
+      "stable_count": 6,
+      "moderate_count": 0,
+      "unstable_count": 6,
+      "total_features": 145,
+      "original_features": 199,
+      "highly_stable_pct": 66.8,
+      "stable_pct": 3.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23",
+        "Bar.prop.nOats in side chain"
+      ],
+      "stable_examples": [
+        "Bar.mean.P(helix) x Flex.",
+        "Bar.count.SER",
+        "seq.CTDC__ChargeC1",
+        "Bar.mean.Vol x isoelectric point",
+        "Bar.mean.Isoelectric point / P(helix)",
+        "Bar.mean.Steric hindrance / P(sheet)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "Bar.mean.Vol / P(sheet)",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Bar.prop.Vol / log(solub)",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 5,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r5_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 159.5,
+    "min_features": 154,
+    "max_features": 163,
+    "std_features": 2.4186773244895647,
+    "percent_retained_avg": 80.2,
+    "stability": {
+      "highly_stable_count": 154,
+      "stable_count": 4,
+      "moderate_count": 2,
+      "unstable_count": 7,
+      "total_features": 167,
+      "original_features": 199,
+      "highly_stable_pct": 77.4,
+      "stable_pct": 2.0,
+      "moderate_pct": 1.0,
+      "unstable_pct": 3.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1",
+        "Bar.mean.nNats in side chain",
+        "Bar.prop.Vol / P(helix)",
+        "Bar.prop.Steric hindrance / P(helix)"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Bar.prop.Isoelectric point / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "Bar.prop.nSats in side chain",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.prop.P(helix) x Flex.",
+        "Bar.prop.P(helix) / P(sheet)",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 6,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r6_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 164.7,
+    "min_features": 163,
+    "max_features": 168,
+    "std_features": 1.5524174696260025,
+    "percent_retained_avg": 82.8,
+    "stability": {
+      "highly_stable_count": 162,
+      "stable_count": 2,
+      "moderate_count": 0,
+      "unstable_count": 6,
+      "total_features": 170,
+      "original_features": 199,
+      "highly_stable_pct": 81.4,
+      "stable_pct": 1.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1",
+        "Bar.prop.P(sheet)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.prop.Vol x isoelectric point",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 7,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r7_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 159.9,
+    "min_features": 158,
+    "max_features": 163,
+    "std_features": 1.374772708486752,
+    "percent_retained_avg": 80.4,
+    "stability": {
+      "highly_stable_count": 158,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 7,
+      "total_features": 166,
+      "original_features": 199,
+      "highly_stable_pct": 79.4,
+      "stable_pct": 0.5,
+      "moderate_pct": 0.0,
+      "unstable_pct": 3.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.prop.P(helix)+P(sheet)",
+        "Bar.prop.V / (P(helix)+P(sheet))",
+        "Bar.prop.Steric hindrance / P(sheet)",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 8,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r8_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 158.9,
+    "min_features": 157,
+    "max_features": 161,
+    "std_features": 1.445683229480096,
+    "percent_retained_avg": 79.8,
+    "stability": {
+      "highly_stable_count": 157,
+      "stable_count": 1,
+      "moderate_count": 1,
+      "unstable_count": 4,
+      "total_features": 163,
+      "original_features": 199,
+      "highly_stable_pct": 78.9,
+      "stable_pct": 0.5,
+      "moderate_pct": 0.5,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Vol / P(sheet)"
+      ],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 9,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r9_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 158.2,
+    "min_features": 157,
+    "max_features": 160,
+    "std_features": 1.2489995996796797,
+    "percent_retained_avg": 79.5,
+    "stability": {
+      "highly_stable_count": 156,
+      "stable_count": 2,
+      "moderate_count": 0,
+      "unstable_count": 5,
+      "total_features": 163,
+      "original_features": 199,
+      "highly_stable_pct": 78.4,
+      "stable_pct": 1.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1",
+        "Bar.prop.Steric hindrance"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Bar.prop.Vol / P(sheet)",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 10,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r10_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 156.9,
+    "min_features": 155,
+    "max_features": 159,
+    "std_features": 1.3,
+    "percent_retained_avg": 78.8,
+    "stability": {
+      "highly_stable_count": 154,
+      "stable_count": 3,
+      "moderate_count": 0,
+      "unstable_count": 4,
+      "total_features": 161,
+      "original_features": 199,
+      "highly_stable_pct": 77.4,
+      "stable_pct": 1.5,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1",
+        "Bar.prop.Isoelectric point",
+        "Bar.mean.Log(Solubility (m at 20\u00baC))"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 11,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r11_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 157.6,
+    "min_features": 156,
+    "max_features": 160,
+    "std_features": 1.2806248474865698,
+    "percent_retained_avg": 79.2,
+    "stability": {
+      "highly_stable_count": 155,
+      "stable_count": 1,
+      "moderate_count": 1,
+      "unstable_count": 6,
+      "total_features": 163,
+      "original_features": 199,
+      "highly_stable_pct": 77.9,
+      "stable_pct": 0.5,
+      "moderate_pct": 0.5,
+      "unstable_pct": 3.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [
+        "Bar.mean.nNats in side chain"
+      ],
+      "unstable_examples": [
+        "Bar.prop.P(helix)",
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))",
+        "Bar.mean.log(Solub) x Flex"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 12,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r12_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 156.3,
+    "min_features": 155,
+    "max_features": 158,
+    "std_features": 1.0049875621120892,
+    "percent_retained_avg": 78.5,
+    "stability": {
+      "highly_stable_count": 155,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 4,
+      "total_features": 160,
+      "original_features": 199,
+      "highly_stable_pct": 77.9,
+      "stable_pct": 0.5,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 13,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r13_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 156.5,
+    "min_features": 155,
+    "max_features": 158,
+    "std_features": 0.9219544457292888,
+    "percent_retained_avg": 78.6,
+    "stability": {
+      "highly_stable_count": 154,
+      "stable_count": 2,
+      "moderate_count": 0,
+      "unstable_count": 5,
+      "total_features": 161,
+      "original_features": 199,
+      "highly_stable_pct": 77.4,
+      "stable_pct": 1.0,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.5,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1",
+        "Bar.mean.Vol / log(solub)"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Bar.prop.Isoelectric point / P(helix)",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 14,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r14_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 155.8,
+    "min_features": 154,
+    "max_features": 158,
+    "std_features": 1.077032961426901,
+    "percent_retained_avg": 78.3,
+    "stability": {
+      "highly_stable_count": 153,
+      "stable_count": 2,
+      "moderate_count": 1,
+      "unstable_count": 4,
+      "total_features": 160,
+      "original_features": 199,
+      "highly_stable_pct": 76.9,
+      "stable_pct": 1.0,
+      "moderate_pct": 0.5,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1",
+        "Bar.mean.Vol / log(solub)"
+      ],
+      "moderate_examples": [
+        "Bar.prop.Steric hindrance x Flexibility"
+      ],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 15,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r15_all.csv"
+  },
+  {
+    "status": "success",
+    "original_features": 199,
+    "original_samples": 168,
+    "avg_features": 153.5,
+    "min_features": 152,
+    "max_features": 155,
+    "std_features": 0.9219544457292888,
+    "percent_retained_avg": 77.1,
+    "stability": {
+      "highly_stable_count": 152,
+      "stable_count": 1,
+      "moderate_count": 0,
+      "unstable_count": 4,
+      "total_features": 157,
+      "original_features": 199,
+      "highly_stable_pct": 76.4,
+      "stable_pct": 0.5,
+      "moderate_pct": 0.0,
+      "unstable_pct": 2.0,
+      "highly_stable_examples": [
+        "Bar.prop.log(Solub) x Flex",
+        "Protein.count.LEU",
+        "Protein.mean.P(helix) / P(sheet)",
+        "Bar.count.ASN",
+        "Protein.mean.Steric hindrance",
+        "seq.CTDT__SolventAccessibilityT23",
+        "Bar.mean.Steric hindrance",
+        "Bar.mean.Steric hindrance / P(sheet)",
+        "Bar.count.VAL",
+        "seq.CTDT__HydrophobicityT23"
+      ],
+      "stable_examples": [
+        "seq.CTDC__ChargeC1"
+      ],
+      "moderate_examples": [],
+      "unstable_examples": [
+        "Protein.prop.Volume",
+        "seq.CTDC__NormalizedVDWVC1",
+        "Protein.prop.Hydrophobicity x Flex.",
+        "Protein.prop.Log(Solubility (m at 20\u00baC))"
+      ]
+    },
+    "dataset_type": "complete_dataset",
+    "radius": 16,
+    "is_protein_only": false,
+    "filepath": "feature_extraction/feature_subsets/complete_dataset/features_r16_all.csv"
+  }
+]

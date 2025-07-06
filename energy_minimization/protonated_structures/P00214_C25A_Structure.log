@@ -1,0 +1,42 @@
+2025-04-03 16:59:52,366 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2025-04-03 16:59:52,366 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-04-03 16:59:52,366 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-04-03 16:59:52,366 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2025-04-03 16:59:52,367 INFO:main.py:772:main_driver:Loading topology files.
+2025-04-03 16:59:52,425 INFO:main.py:774:main_driver:Loading molecule: FeS_mutant_structures/P00214_C25A_Structure.pdb
+2025-04-03 16:59:52,431 INFO:main.py:779:main_driver:Setting up molecule.
+2025-04-03 16:59:52,437 INFO:main.py:417:setup_molecule:Created biomolecule object with 107 residues and 848 atoms.
+2025-04-03 16:59:52,437 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2025-04-03 16:59:52,440 INFO:main.py:613:non_trivial:Loading forcefield.
+2025-04-03 16:59:52,452 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2025-04-03 16:59:52,454 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2025-04-03 16:59:52,454 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2025-04-03 16:59:52,454 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2025-04-03 16:59:52,480 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2025-04-03 16:59:52,598 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2025-04-03 16:59:52,735 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2025-04-03 16:59:52,896 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2025-04-03 16:59:52,898 INFO:main.py:722:non_trivial:Regenerating headers.
+2025-04-03 16:59:52,898 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2025-04-03 16:59:52,907 WARNING:main.py:320:print_pqr:Ignoring 392 header lines in output.
+2025-04-03 16:59:53,400 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2025-04-03 16:59:53,401 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-04-03 16:59:53,401 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-04-03 16:59:53,401 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2025-04-03 16:59:53,401 INFO:main.py:772:main_driver:Loading topology files.
+2025-04-03 16:59:53,459 INFO:main.py:774:main_driver:Loading molecule: FeS_mutant_structures/P00214_C25A_Structure.pdb
+2025-04-03 16:59:53,463 INFO:main.py:779:main_driver:Setting up molecule.
+2025-04-03 16:59:53,470 INFO:main.py:417:setup_molecule:Created biomolecule object with 107 residues and 848 atoms.
+2025-04-03 16:59:53,471 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2025-04-03 16:59:53,474 INFO:main.py:613:non_trivial:Loading forcefield.
+2025-04-03 16:59:53,488 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2025-04-03 16:59:53,490 INFO:main.py:468:is_repairable:This biomolecule is clean.  No repair needed.
+2025-04-03 16:59:53,490 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2025-04-03 16:59:53,491 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2025-04-03 16:59:53,518 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2025-04-03 16:59:53,646 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2025-04-03 16:59:53,793 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2025-04-03 16:59:53,959 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2025-04-03 16:59:53,961 INFO:main.py:722:non_trivial:Regenerating headers.
+2025-04-03 16:59:53,962 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2025-04-03 16:59:53,972 WARNING:main.py:320:print_pqr:Ignoring 392 header lines in output.

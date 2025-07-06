@@ -1,0 +1,52 @@
+Setting the LD random seed to -327656457
+
+Generated 630 of the 630 non-bonded parameter combinations
+
+Generated 630 of the 630 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+Excluding 3 bonded neighbours molecule type 'Na+'
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Analysing residue names:
+There are:    83    Protein residues
+There are:    15      Other residues
+There are:  5391      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.424 nm between atom 5 and 13
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x48x56, spacing 0.114 0.117 0.113
+
+Estimate for the relative computational load of the PME mesh part: 0.24
+
+This run will generate roughly 2 Mb of data
+
+--- stderr ---
+                :-) GROMACS - gmx grompp, 2024.5-conda_forge (-:
+
+Executable:   /usr/local/Caskroom/miniforge/base/envs/gromacs_env/bin.AVX2_256/gmx
+Data prefix:  /usr/local/Caskroom/miniforge/base/envs/gromacs_env
+Working dir:  /Users/laetitiaguerin/Library/CloudStorage/OneDrive-Personal/Documents/BSc_Nanobiology/Year_5/BEP/Energy_minimization/tleap_runs/P00208_D13G_V14G
+Command line:
+  gmx grompp -f minim.mdp -c P00208_D13G_V14G.gro -p P00208_D13G_V14G_gromacs.top -o P00208_D13G_V14G_minim.tpr
+
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file minim.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 36000.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+There was 1 NOTE
+
+GROMACS reminds you: "Fifty years of programming language research, and we end up with C++???" (Richard O'Keefe)
+

@@ -1,0 +1,2319 @@
+2025-07-03 12:01:58,573 - INFO - Starting ML analysis for iron-sulfur protein-only dataset
+2025-07-03 12:01:58,586 - INFO - 
+==================================================
+2025-07-03 12:01:58,587 - INFO - Training models for protein-only dataset
+2025-07-03 12:01:58,587 - INFO - ==================================================
+2025-07-03 12:01:58,588 - INFO - Loading data from specific file: data/SF4_protein/features_SF4_protein.csv
+2025-07-03 12:01:58,711 - INFO - Loaded 92 samples with 123 features
+2025-07-03 12:01:58,712 - INFO - Target range: -746.00 to 450.00 mV
+2025-07-03 12:01:58,716 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:58,819 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:58,821 - INFO - Final feature set: 92 features
+2025-07-03 12:01:58,822 - INFO - 
+Training LinearRegression...
+2025-07-03 12:01:58,825 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:58,837 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:58,838 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,100 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,112 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,113 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,267 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,279 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,280 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,388 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,400 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,401 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,468 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,480 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,482 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,549 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,561 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,562 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,680 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,692 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,693 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,762 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,774 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,775 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,850 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,862 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,863 - INFO - Final feature set: 92 features
+2025-07-03 12:01:59,931 - INFO - Removed 2 zero-variance features
+2025-07-03 12:01:59,943 - INFO - Removed 29 highly correlated features
+2025-07-03 12:01:59,944 - INFO - Final feature set: 92 features
+2025-07-03 12:02:17,906 - INFO - R2 values: min=-2.4308, max=0.9067, median=0.4478
+2025-07-03 12:02:17,907 - INFO - LinearRegression - MAE: 164.16 ± 55.51 mV, R2: 0.2098 ± 0.7231
+2025-07-03 12:02:17,907 - INFO - 
+Training ElasticNet...
+2025-07-03 12:02:17,911 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:17,924 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:17,924 - INFO - Final feature set: 92 features
+2025-07-03 12:02:18,259 - INFO - Best parameters: {'model__alpha': 1.0, 'model__l1_ratio': 0.9}
+2025-07-03 12:02:18,904 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:18,916 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:18,917 - INFO - Final feature set: 92 features
+2025-07-03 12:02:19,672 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:19,684 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:19,685 - INFO - Final feature set: 92 features
+2025-07-03 12:02:20,395 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:20,407 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:20,408 - INFO - Final feature set: 92 features
+2025-07-03 12:02:21,157 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:21,172 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:21,173 - INFO - Final feature set: 92 features
+2025-07-03 12:02:21,909 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:21,921 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:21,922 - INFO - Final feature set: 92 features
+2025-07-03 12:02:22,676 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:22,688 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:22,690 - INFO - Final feature set: 92 features
+2025-07-03 12:02:23,407 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:23,420 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:23,421 - INFO - Final feature set: 92 features
+2025-07-03 12:02:24,127 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:24,140 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:24,140 - INFO - Final feature set: 92 features
+2025-07-03 12:02:24,864 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:24,876 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:24,878 - INFO - Final feature set: 92 features
+2025-07-03 12:02:27,754 - INFO - R2 values: min=0.5271, max=0.9519, median=0.7967
+2025-07-03 12:02:27,754 - INFO - ElasticNet - MAE: 97.28 ± 19.89 mV, R2: 0.7650 ± 0.1122
+2025-07-03 12:02:27,755 - INFO - 
+Training SVR...
+2025-07-03 12:02:27,758 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:27,770 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:27,771 - INFO - Final feature set: 92 features
+2025-07-03 12:02:28,244 - INFO - Best parameters: {'model__C': 10, 'model__epsilon': 0.2, 'model__gamma': 0.1, 'model__kernel': 'poly'}
+2025-07-03 12:02:30,077 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:30,089 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:30,090 - INFO - Final feature set: 92 features
+2025-07-03 12:02:32,061 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:32,073 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:32,074 - INFO - Final feature set: 92 features
+2025-07-03 12:02:34,169 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:34,182 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:34,183 - INFO - Final feature set: 92 features
+2025-07-03 12:02:36,366 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:36,379 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:36,380 - INFO - Final feature set: 92 features
+2025-07-03 12:02:38,421 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:38,434 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:38,435 - INFO - Final feature set: 92 features
+2025-07-03 12:02:40,575 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:40,672 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:40,673 - INFO - Final feature set: 92 features
+2025-07-03 12:02:42,745 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:42,757 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:42,758 - INFO - Final feature set: 92 features
+2025-07-03 12:02:44,765 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:44,777 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:44,779 - INFO - Final feature set: 92 features
+2025-07-03 12:02:46,824 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:46,837 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:46,838 - INFO - Final feature set: 92 features
+2025-07-03 12:02:51,219 - INFO - R2 values: min=-0.3718, max=0.7969, median=0.5725
+2025-07-03 12:02:51,220 - INFO - SVR - MAE: 123.14 ± 27.21 mV, R2: 0.5339 ± 0.2094
+2025-07-03 12:02:51,220 - INFO - 
+Training GaussianProcessRegressor...
+2025-07-03 12:02:51,224 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:51,237 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:51,238 - INFO - Final feature set: 92 features
+2025-07-03 12:02:51,655 - INFO - Best parameters: {'model__alpha': 0.0001, 'model__kernel': 1**2 * RBF(length_scale=1)}
+2025-07-03 12:02:53,391 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:53,404 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:53,404 - INFO - Final feature set: 92 features
+2025-07-03 12:02:55,534 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:55,547 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:55,548 - INFO - Final feature set: 92 features
+2025-07-03 12:02:59,729 - INFO - Removed 2 zero-variance features
+2025-07-03 12:02:59,745 - INFO - Removed 29 highly correlated features
+2025-07-03 12:02:59,747 - INFO - Final feature set: 92 features
+2025-07-03 12:03:02,487 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:02,500 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:02,501 - INFO - Final feature set: 92 features
+2025-07-03 12:03:07,179 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:07,194 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:07,196 - INFO - Final feature set: 92 features
+2025-07-03 12:03:09,229 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:09,242 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:09,243 - INFO - Final feature set: 92 features
+2025-07-03 12:03:12,818 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:12,831 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:12,832 - INFO - Final feature set: 92 features
+2025-07-03 12:03:15,810 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:15,823 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:15,824 - INFO - Final feature set: 92 features
+2025-07-03 12:03:18,979 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:18,992 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:18,993 - INFO - Final feature set: 92 features
+2025-07-03 12:03:23,128 - INFO - R2 values: min=-1.6661, max=0.8429, median=0.5136
+2025-07-03 12:03:23,129 - INFO - GaussianProcessRegressor - MAE: 168.52 ± 67.85 mV, R2: 0.2614 ± 0.5667
+2025-07-03 12:03:23,129 - INFO - 
+Training KNeighborsRegressor...
+2025-07-03 12:03:23,133 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:23,146 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:23,147 - INFO - Final feature set: 92 features
+2025-07-03 12:03:28,488 - INFO - Best parameters: {'model__metric': 'euclidean', 'model__n_neighbors': 3, 'model__weights': 'distance'}
+2025-07-03 12:03:47,909 - INFO - Removed 2 zero-variance features
+2025-07-03 12:03:47,922 - INFO - Removed 29 highly correlated features
+2025-07-03 12:03:47,923 - INFO - Final feature set: 92 features
+2025-07-03 12:04:11,936 - INFO - Removed 2 zero-variance features
+2025-07-03 12:04:11,949 - INFO - Removed 29 highly correlated features
+2025-07-03 12:04:11,950 - INFO - Final feature set: 92 features
+2025-07-03 12:04:36,156 - INFO - Removed 2 zero-variance features
+2025-07-03 12:04:36,169 - INFO - Removed 29 highly correlated features
+2025-07-03 12:04:36,170 - INFO - Final feature set: 92 features
+2025-07-03 12:05:00,330 - INFO - Removed 2 zero-variance features
+2025-07-03 12:05:00,343 - INFO - Removed 29 highly correlated features
+2025-07-03 12:05:00,344 - INFO - Final feature set: 92 features
+2025-07-03 12:05:24,452 - INFO - Removed 2 zero-variance features
+2025-07-03 12:05:24,466 - INFO - Removed 29 highly correlated features
+2025-07-03 12:05:24,467 - INFO - Final feature set: 92 features
+2025-07-03 12:05:48,605 - INFO - Removed 2 zero-variance features
+2025-07-03 12:05:48,618 - INFO - Removed 29 highly correlated features
+2025-07-03 12:05:48,619 - INFO - Final feature set: 92 features
+2025-07-03 12:06:13,080 - INFO - Removed 2 zero-variance features
+2025-07-03 12:06:13,093 - INFO - Removed 29 highly correlated features
+2025-07-03 12:06:13,094 - INFO - Final feature set: 92 features
+2025-07-03 12:06:37,300 - INFO - Removed 2 zero-variance features
+2025-07-03 12:06:37,313 - INFO - Removed 29 highly correlated features
+2025-07-03 12:06:37,314 - INFO - Final feature set: 92 features
+2025-07-03 12:07:01,350 - INFO - Removed 2 zero-variance features
+2025-07-03 12:07:01,363 - INFO - Removed 29 highly correlated features
+2025-07-03 12:07:01,364 - INFO - Final feature set: 92 features
+2025-07-03 12:07:31,928 - INFO - R2 values: min=-0.7608, max=0.9413, median=0.7648
+2025-07-03 12:07:31,929 - INFO - KNeighborsRegressor - MAE: 106.69 ± 28.27 mV, R2: 0.6410 ± 0.3056
+2025-07-03 12:07:31,930 - INFO - 
+Training RandomForestRegressor...
+2025-07-03 12:07:31,934 - INFO - Removed 2 zero-variance features
+2025-07-03 12:07:31,947 - INFO - Removed 29 highly correlated features
+2025-07-03 12:07:31,948 - INFO - Final feature set: 92 features
+2025-07-03 12:07:38,069 - INFO - Best parameters: {'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200}
+2025-07-03 12:07:58,616 - INFO - Removed 2 zero-variance features
+2025-07-03 12:07:58,630 - INFO - Removed 29 highly correlated features
+2025-07-03 12:07:58,631 - INFO - Final feature set: 92 features
+2025-07-03 12:08:24,367 - INFO - Removed 2 zero-variance features
+2025-07-03 12:08:24,381 - INFO - Removed 29 highly correlated features
+2025-07-03 12:08:24,382 - INFO - Final feature set: 92 features
+2025-07-03 12:08:50,092 - INFO - Removed 2 zero-variance features
+2025-07-03 12:08:50,105 - INFO - Removed 29 highly correlated features
+2025-07-03 12:08:50,105 - INFO - Final feature set: 92 features
+2025-07-03 12:09:15,658 - INFO - Removed 2 zero-variance features
+2025-07-03 12:09:15,671 - INFO - Removed 29 highly correlated features
+2025-07-03 12:09:15,672 - INFO - Final feature set: 92 features
+2025-07-03 12:09:41,846 - INFO - Removed 2 zero-variance features
+2025-07-03 12:09:41,863 - INFO - Removed 29 highly correlated features
+2025-07-03 12:09:41,864 - INFO - Final feature set: 92 features
+2025-07-03 12:10:07,758 - INFO - Removed 2 zero-variance features
+2025-07-03 12:10:07,771 - INFO - Removed 29 highly correlated features
+2025-07-03 12:10:07,772 - INFO - Final feature set: 92 features
+2025-07-03 12:10:33,559 - INFO - Removed 2 zero-variance features
+2025-07-03 12:10:33,572 - INFO - Removed 29 highly correlated features
+2025-07-03 12:10:33,573 - INFO - Final feature set: 92 features
+2025-07-03 12:10:59,286 - INFO - Removed 2 zero-variance features
+2025-07-03 12:10:59,299 - INFO - Removed 29 highly correlated features
+2025-07-03 12:10:59,300 - INFO - Final feature set: 92 features
+2025-07-03 12:11:25,160 - INFO - Removed 2 zero-variance features
+2025-07-03 12:11:25,173 - INFO - Removed 29 highly correlated features
+2025-07-03 12:11:25,174 - INFO - Final feature set: 92 features
+2025-07-03 12:11:54,146 - INFO - R2 values: min=0.3040, max=0.9281, median=0.7738
+2025-07-03 12:11:54,147 - INFO - RandomForestRegressor - MAE: 102.61 ± 22.14 mV, R2: 0.7264 ± 0.1434
+2025-07-03 12:11:54,147 - INFO - 
+Training GradientBoostingRegressor...
+2025-07-03 12:11:54,152 - INFO - Removed 2 zero-variance features
+2025-07-03 12:11:54,164 - INFO - Removed 29 highly correlated features
+2025-07-03 12:11:54,165 - INFO - Final feature set: 92 features
+2025-07-03 12:11:59,676 - INFO - Best parameters: {'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__min_samples_leaf': 1, 'model__min_samples_split': 5, 'model__n_estimators': 200, 'model__subsample': 1.0}
+2025-07-03 12:12:20,987 - INFO - Removed 2 zero-variance features
+2025-07-03 12:12:21,000 - INFO - Removed 29 highly correlated features
+2025-07-03 12:12:21,001 - INFO - Final feature set: 92 features
+2025-07-03 12:12:48,282 - INFO - Removed 2 zero-variance features
+2025-07-03 12:12:48,296 - INFO - Removed 29 highly correlated features
+2025-07-03 12:12:48,297 - INFO - Final feature set: 92 features
+2025-07-03 12:13:15,191 - INFO - Removed 2 zero-variance features
+2025-07-03 12:13:15,204 - INFO - Removed 29 highly correlated features
+2025-07-03 12:13:15,205 - INFO - Final feature set: 92 features
+2025-07-03 12:13:41,597 - INFO - Removed 2 zero-variance features
+2025-07-03 12:13:41,610 - INFO - Removed 29 highly correlated features
+2025-07-03 12:13:41,611 - INFO - Final feature set: 92 features
+2025-07-03 12:14:08,126 - INFO - Removed 2 zero-variance features
+2025-07-03 12:14:08,139 - INFO - Removed 29 highly correlated features
+2025-07-03 12:14:08,140 - INFO - Final feature set: 92 features
+2025-07-03 12:14:34,802 - INFO - Removed 2 zero-variance features
+2025-07-03 12:14:34,814 - INFO - Removed 29 highly correlated features
+2025-07-03 12:14:34,815 - INFO - Final feature set: 92 features
+2025-07-03 12:15:02,130 - INFO - Removed 2 zero-variance features
+2025-07-03 12:15:02,144 - INFO - Removed 29 highly correlated features
+2025-07-03 12:15:02,145 - INFO - Final feature set: 92 features
+2025-07-03 12:15:29,197 - INFO - Removed 2 zero-variance features
+2025-07-03 12:15:29,211 - INFO - Removed 29 highly correlated features
+2025-07-03 12:15:29,213 - INFO - Final feature set: 92 features
+2025-07-03 12:15:55,781 - INFO - Removed 2 zero-variance features
+2025-07-03 12:15:55,794 - INFO - Removed 29 highly correlated features
+2025-07-03 12:15:55,795 - INFO - Final feature set: 92 features
+2025-07-03 12:16:25,045 - INFO - R2 values: min=-0.5098, max=0.9610, median=0.8207
+2025-07-03 12:16:25,046 - INFO - GradientBoostingRegressor - MAE: 81.59 ± 22.54 mV, R2: 0.7609 ± 0.2247
+2025-07-03 12:16:25,047 - INFO - 
+Best overall model: GradientBoostingRegressor
+2025-07-03 12:16:25,048 - INFO - Best MAE: 81.59 mV
+2025-07-03 12:16:25,048 - INFO - 
+Top 3 performing models:
+2025-07-03 12:16:25,049 - INFO - 1. GradientBoostingRegressor - MAE: 81.59 mV
+2025-07-03 12:16:25,049 - INFO - 2. ElasticNet - MAE: 97.28 mV
+2025-07-03 12:16:25,049 - INFO - 3. RandomForestRegressor - MAE: 102.61 mV
+2025-07-03 12:16:25,050 - INFO - 
+Performing SHAP analysis for top model: GradientBoostingRegressor
+2025-07-03 12:16:25,050 - INFO - Performing SHAP analysis for GradientBoostingRegressor on SF4 Cofactors Only
+2025-07-03 12:16:25,050 - INFO - Loading data from specific file: data/SF4_protein/features_SF4_protein.csv
+2025-07-03 12:16:25,107 - INFO - Loaded 92 samples with 123 features
+2025-07-03 12:16:25,108 - INFO - Target range: -746.00 to 450.00 mV
+2025-07-03 12:16:25,112 - INFO - Removed 2 zero-variance features
+2025-07-03 12:16:25,124 - INFO - Removed 29 highly correlated features
+2025-07-03 12:16:25,126 - INFO - Final feature set: 92 features
+2025-07-03 12:16:38,480 - INFO - SHAP analysis completed for GradientBoostingRegressor on SF4 Cofactors Only
+2025-07-03 12:16:38,482 - INFO - 
+Performing SHAP analysis for top model: ElasticNet
+2025-07-03 12:16:38,483 - INFO - Performing SHAP analysis for ElasticNet on SF4 Cofactors Only
+2025-07-03 12:16:38,483 - INFO - Loading data from specific file: data/SF4_protein/features_SF4_protein.csv
+2025-07-03 12:16:38,490 - INFO - Loaded 92 samples with 123 features
+2025-07-03 12:16:38,491 - INFO - Target range: -746.00 to 450.00 mV
+2025-07-03 12:16:38,494 - INFO - Removed 2 zero-variance features
+2025-07-03 12:16:38,507 - INFO - Removed 29 highly correlated features
+2025-07-03 12:16:38,508 - INFO - Final feature set: 92 features
+2025-07-03 12:16:38,836 - INFO - num_full_subsets = 1
+2025-07-03 12:16:38,838 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:38,838 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:38,877 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:38,929 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:38,930 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:38,952 - INFO - phi = array([446.16006686,   0.        ,   0.        ,  13.68888638,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -67.54235666,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        25.09272506,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  16.78598202,
+        19.6463323 ,   0.        ,   0.        ,   0.        ,
+        14.49963666,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  23.70265275,  28.06525364,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        34.72095832,   0.        ])
+2025-07-03 12:16:38,974 - INFO - num_full_subsets = 1
+2025-07-03 12:16:38,975 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:38,975 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,014 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,024 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,024 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,029 - INFO - phi = array([-76.49550069,  46.6491388 ,   0.        ,   0.        ,
+         0.        ,  19.40490902,   0.        ,   0.        ,
+       -33.46251557,   0.        ,   0.        , -46.13335342,
+        46.28636419,   0.        ,   0.        ,   0.        ,
+        39.24983571,  18.38153426,   0.        ,   0.        ,
+       -30.24545213,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  33.65153037,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,050 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,051 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,051 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,092 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,102 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,102 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,107 - INFO - phi = array([-77.29231461,   0.        ,   0.        , -13.56124215,
+       -18.71044947,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  49.11241133,
+         0.        , -19.53921987,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -28.31962903,  -9.45214827,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -23.32512314,   0.        ,   0.        ,   0.        ,
+         0.        ,  -9.23248946,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -34.79572664,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,129 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,130 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,130 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,172 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,182 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,183 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,188 - INFO - phi = array([-76.7118371 ,  -7.89110456,   0.        , -14.5468036 ,
+       -20.13971032,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  49.361719  ,
+         0.        , -17.96644467,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -8.75063386,
+       -30.60554755,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -23.99639456,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -33.8691741 ,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,209 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,210 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,211 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,251 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,260 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,261 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,266 - INFO - phi = array([447.06999818,   0.        ,   0.        ,  11.41046731,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -96.33545429,
+        30.89650954,   9.44066919,   0.        ,   0.        ,
+        17.01004668,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  18.34547121,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        16.03805706,  38.71207793,  62.51547432,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,288 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,289 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,289 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,330 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,340 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,340 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,346 - INFO - phi = array([436.12993594,   0.        ,   0.        ,   0.        ,
+         0.        ,  18.21224127,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        66.27947821,   0.        ,   0.        ,   0.        ,
+        19.63049375,  11.27309753,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  20.74724636,
+        20.0764649 ,   0.        ,   0.        ,  13.26887423,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  21.89425643,  47.1243109 ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,367 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,368 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,368 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,409 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,418 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,419 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,424 - INFO - phi = array([-70.92652596,   0.        ,   0.        , -16.79304401,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  68.46037357,
+        73.00297287,   0.        ,   0.        ,   0.        ,
+       -11.85100175,   0.        ,   0.        ,   0.        ,
+       -29.3355722 ,   0.        ,   0.        ,   0.        ,
+       -19.11737979,   0.        ,   0.        ,   0.        ,
+       -43.38310771,   0.        ,   0.        ,   0.        ,
+       -25.74063344,   0.        ,   0.        ,   0.        ,
+         0.        , -30.44714736,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,446 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,447 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,447 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,488 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,497 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:39,498 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,503 - INFO - phi = array([436.62601697,   0.        ,   0.        ,   0.        ,
+        12.71035632,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        51.18845131,   0.        ,   0.        ,   0.        ,
+        10.27947571,   8.78916709,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  25.28389084,
+        29.25181988,   0.        ,   0.        ,  14.50118101,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   8.91950076,  31.80771947,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,524 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,525 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,526 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,567 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,577 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,577 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,583 - INFO - phi = array([431.54153954,   0.        ,   0.        ,   0.        ,
+        15.37362391,  18.3353547 ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        46.75922013,  36.26500621,   0.        ,   0.        ,
+         0.        ,  20.5622493 ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  20.18330211,
+        45.33751525,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  12.38748582,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        33.95566989,   0.        ])
+2025-07-03 12:16:39,604 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,605 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,606 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,647 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,657 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:39,658 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,663 - INFO - phi = array([439.20584541,   0.        ,   0.        ,   0.        ,
+        38.59536609,  41.37340317,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  41.45446591,  30.65850042,   0.        ,
+        13.83149052,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  31.9328504 ,
+        43.28862501,   0.        ,   0.        ,   0.        ,
+        24.55977192,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  12.73934249,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,684 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,686 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,686 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,728 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,737 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,738 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,743 - INFO - phi = array([-80.0760033 ,   0.        ,   0.        , -19.07656929,
+         0.        , -30.61045992,   0.        ,   0.        ,
+        60.23404786,   0.        ,   0.        ,  45.84418478,
+       -33.12009725,   0.        ,   0.        ,   0.        ,
+       -73.10340658,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -29.44768029,
+       -38.82392305,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -18.40422984,   0.        ])
+2025-07-03 12:16:39,765 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,766 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,766 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,811 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,822 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,822 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,828 - INFO - phi = array([-72.73014619,   0.        ,   0.        ,   0.        ,
+         0.        , -23.13950935,   0.        ,   0.        ,
+        65.15521916,   0.        ,   0.        ,   0.        ,
+       -32.1760329 ,   0.        ,   0.        ,   0.        ,
+       -57.91182664, -15.36497712,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -25.01979009,
+       -33.60028319,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  -8.63411871,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -13.16267187,   0.        ])
+2025-07-03 12:16:39,850 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,851 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,851 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,895 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,905 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,906 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,911 - INFO - phi = array([-81.79688209,   0.        ,   0.        , -21.2109577 ,
+         0.        ,  24.51330114,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        36.0813426 ,   0.        ,  22.15956956,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  27.09147373,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        26.08014755,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        21.44916934,   0.        , -31.89979249,   0.        ,
+         0.        ,   0.        ,   0.        , -20.88252202,
+         0.        ,   0.        ])
+2025-07-03 12:16:39,933 - INFO - num_full_subsets = 1
+2025-07-03 12:16:39,934 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:39,934 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:39,975 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:39,985 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:39,985 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:39,991 - INFO - phi = array([-76.07301985,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -73.34802608,   0.        ,   0.        ,   0.        ,
+        39.47988065,   0.        , -32.93748731,   0.        ,
+        68.21467127,   0.        ,   0.        ,   0.        ,
+       -23.71479894,   0.        ,   0.        , -21.21215114,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -20.22521116,   0.        ,   0.        ,   0.        ,
+        42.00073384,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  35.83845859,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,012 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,013 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,013 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,054 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,064 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:40,065 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,070 - INFO - phi = array([412.71001744,   0.        ,   0.        ,   0.        ,
+         0.        ,  19.34425746,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        12.1603741 ,  10.11341749,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  15.6347485 ,
+        47.645112  ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        21.28684733,   0.        ,   0.        ,   0.        ,
+         0.        ,  18.5978617 ,  27.28406076,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        35.91863048,   0.        ])
+2025-07-03 12:16:40,108 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,109 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,109 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,150 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,160 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,160 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+2025-07-03 12:16:40,165 - INFO - phi = array([441.58246602,   0.        ,   0.        ,   0.        ,
+         0.        ,  24.25515138,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  30.33038512,
+        33.40419619,   0.        ,   0.        ,   0.        ,
+        22.38459905,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  17.26466728,
+        11.74662984,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  44.17216706,  42.33499637,   0.        ,
+         0.        ,   0.        ,   0.        , -64.83178558,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,187 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,188 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,188 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,231 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,240 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,240 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000007)
+2025-07-03 12:16:40,245 - INFO - phi = array([-85.9065814 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        51.11928534,   0.        ,   0.        ,  57.61255794,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -34.35344205,   0.        ,   0.        ,   0.        ,
+        40.00837441,   0.        ,   0.        ,   0.        ,
+       -42.88550089,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        36.73217535,   0.        , -62.28223091,   0.        ,
+         0.        ,   0.        ,   0.        ,  45.87960142,
+       -38.33541378,   0.        ])
+2025-07-03 12:16:40,267 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,267 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,268 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,309 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,318 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,319 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,324 - INFO - phi = array([-82.81424359,   0.        ,   0.        ,   0.        ,
+         0.        , -37.16605922,   0.        ,   0.        ,
+        50.00519583,   0.        ,   0.        ,  54.99925206,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        39.50449462,   0.        ,   0.        ,   0.        ,
+       -38.537396  ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        36.25715811,   0.        , -61.45995146,   0.        ,
+         0.        ,   0.        ,   0.        ,  44.9683357 ,
+       -38.1679606 ,   0.        ])
+2025-07-03 12:16:40,345 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,346 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,346 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,387 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,397 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:40,397 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,403 - INFO - phi = array([432.21789742,   0.        ,   0.        ,   0.        ,
+        27.78986532,  29.8616002 ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        17.46202047,  39.81755075,  17.17081055,   0.        ,
+         0.        ,   8.11597767,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  29.54277963,
+        40.13018482,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  22.54393329,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,425 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,426 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,427 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,468 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,478 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:40,478 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,483 - INFO - phi = array([ -81.14643596,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        , -233.48593683,
+          0.        ,   62.5231615 ,   53.22459795,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+         44.87715808,    0.        ,    0.        ,    0.        ,
+         55.33767967,    0.        ,    0.        ,    0.        ,
+         63.46288144,    0.        ,    0.        ,    0.        ,
+       -123.52999421,   79.38031284,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,  -49.40318516,
+          0.        ,    0.        ])
+2025-07-03 12:16:40,505 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,506 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,507 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,547 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,557 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,571 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,576 - INFO - phi = array([ -82.50421864,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        , -240.88444239,
+          0.        ,   47.89387242,   44.65635608,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+         37.40055784,   24.12110482,    0.        ,    0.        ,
+         42.17328137,    0.        ,    0.        ,    0.        ,
+         54.8584976 ,    0.        ,    0.        ,    0.        ,
+       -123.18263847,   66.70786868,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ])
+2025-07-03 12:16:40,598 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,599 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,599 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,640 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,650 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,650 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,655 - INFO - phi = array([-78.74265067,   0.        ,   0.        , -20.22860099,
+       -24.59819229,   0.        ,   0.        ,   0.        ,
+       -32.16488281,   0.        ,   0.        ,  48.30246774,
+        24.37812886, -31.24111028,   0.        ,   0.        ,
+        56.6616367 ,   0.        ,   0.        ,   0.        ,
+       -23.6716027 ,   0.        ,   0.        ,  27.69737992,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,676 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,677 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,678 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,719 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,728 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,729 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,734 - INFO - phi = array([-78.02216455,   0.        ,   0.        , -15.90810664,
+       -19.82344834,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  52.09208928,
+         0.        , -19.69094065,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -31.07917471, -13.06056811,   0.        ,   0.        ,
+        -5.91040466,   0.        ,   0.        ,   0.        ,
+       -22.01161283,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -34.66195746,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,756 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,757 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,757 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,798 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,807 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,808 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,814 - INFO - phi = array([-68.80383766,  -2.45933994,   0.        , -11.02818897,
+       -14.69943457,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -14.80499237,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -4.44443886,
+       -25.22117831,  -4.43619082,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -19.42624598,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -22.75244118,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,835 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,836 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,836 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,877 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,887 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,888 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,895 - INFO - phi = array([-80.27551446,   0.        ,   0.        ,   0.        ,
+         0.        ,  28.08264138,   0.        ,   0.        ,
+       -56.40114361,   0.        ,   0.        , -81.56021567,
+        33.66056357,  45.16161016,   0.        ,   0.        ,
+        48.28444778,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        34.32190634,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  19.34383315,   0.        ,
+         0.        ,   0.        ,   0.        ,  20.64066708,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,917 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,917 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,918 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:40,959 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:40,970 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:40,970 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:40,975 - INFO - phi = array([-85.28196817,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        36.33781175,   0.        ,   0.        ,  48.79238709,
+        53.06614722,   0.        ,  26.29169748,   0.        ,
+       -64.73413924,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  36.55633189,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -54.71307662,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -47.57980729, -60.20671859,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:40,997 - INFO - num_full_subsets = 1
+2025-07-03 12:16:40,998 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:40,998 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,040 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,050 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:41,050 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,056 - INFO - phi = array([-84.20636251,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        35.78264703,   0.        ,   0.        ,  47.84610941,
+        53.72025179,   0.        ,  26.03439109,   0.        ,
+       -63.26757031,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  36.07817615,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -54.79483543,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -45.18712789, -63.47701382,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:41,077 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,078 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,079 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,120 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,129 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,130 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,136 - INFO - phi = array([-71.60094219,   0.        ,   0.        ,   0.        ,
+       -17.89584497,  -3.81802517,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -12.79890911, -41.67064978, -32.13323217,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -30.80512649,
+       -26.85278212,   0.        ,   0.        ,   0.        ,
+       -10.25745981,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -29.50755641,   0.        ])
+2025-07-03 12:16:41,157 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,158 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,159 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,200 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,210 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,210 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,215 - INFO - phi = array([443.96540821,   0.        ,   0.        ,   0.        ,
+        11.79652831,  54.20772874,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        40.37832529,   0.        ,   0.        ,   0.        ,
+        10.94955869,   0.        ,   0.        ,   0.        ,
+        14.68144411,  10.29044829,   0.        ,   0.        ,
+        54.33013609,   0.        ,   0.        ,   0.        ,
+        25.61103745,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  33.10688626,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:41,237 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,238 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,238 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,280 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,290 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,291 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,296 - INFO - phi = array([-79.94755842,  49.37950751,   0.        ,  85.2393051 ,
+         0.        ,  35.20139504,   0.        ,   0.        ,
+       -83.16035889,   0.        ,   0.        , -74.16657977,
+         0.        ,  33.86163179,   0.        ,   0.        ,
+        63.18401789,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        28.60881842,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        33.21894649,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:41,339 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,351 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,365 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,416 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,437 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,437 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,442 - INFO - phi = array([-82.36213646,  56.23696659,   0.        , 188.56837685,
+         0.        ,  31.90871179,   0.        ,   0.        ,
+       -77.4550664 ,   0.        ,   0.        , -67.72498365,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        57.81652248,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        35.31299133,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        40.13399881,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  28.88568855,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:41,464 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,465 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,465 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,507 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,528 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,529 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,534 - INFO - phi = array([-83.11114589,  17.14070057,   0.        ,  15.9420862 ,
+        15.74645908,   0.        ,   0.        ,   0.        ,
+       -32.90326406,   0.        ,   0.        ,   0.        ,
+         0.        ,  30.20534166,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        20.78652514,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        10.53911538,   0.        ,   0.        ,   0.        ,
+       -29.53609045,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        14.76245481,   0.        ])
+2025-07-03 12:16:41,555 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,569 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,591 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,642 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,673 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:41,719 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,744 - INFO - phi = array([-82.59524199,  18.25908818,   0.        ,  17.43822455,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -30.43299774,   0.        ,   0.        ,   0.        ,
+         0.        ,  29.22656106,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        19.91385836,  12.31253199,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        11.09052479,   0.        ,   0.        ,   0.        ,
+       -31.35316036,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        15.71279361,   0.        ])
+2025-07-03 12:16:41,766 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,767 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,767 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,805 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,826 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,826 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,831 - INFO - phi = array([-68.792705  ,  -3.45396367,   0.        , -11.37899437,
+        -8.48878716,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -4.19480162,
+       -28.2272113 ,  -5.16950412,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -13.88875053,   0.        ,   0.        ,   0.        ,
+         0.        ,  -6.32323104,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -19.78047253,
+         0.        ,   0.        ])
+2025-07-03 12:16:41,853 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,866 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,867 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:41,909 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:41,930 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:41,931 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:41,936 - INFO - phi = array([-74.33970613,   0.        ,   0.        , -16.80890612,
+       -17.91802167,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  46.24504107,
+         0.        ,  -9.82074234,   0.        ,   0.        ,
+        -7.99497254,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -30.3837916 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -23.50199322,   0.        ,   0.        ,   0.        ,
+         0.        ,  -8.18615109,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -26.98917769,
+         0.        ,   0.        ])
+2025-07-03 12:16:41,958 - INFO - num_full_subsets = 1
+2025-07-03 12:16:41,959 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:41,959 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,000 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,027 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,027 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,032 - INFO - phi = array([-80.8724571 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  46.62888512,
+         0.        , -30.30918251,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -19.80910516,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  20.93064495,  27.42944888,
+        20.95199437,   0.        , -33.66977293,   0.        ,
+         0.        ,   0.        ,   0.        ,  53.46521247,
+       -16.19755433,   0.        ])
+2025-07-03 12:16:42,053 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,054 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,055 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,096 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,118 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,118 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,123 - INFO - phi = array([-71.16809202,   0.        ,   0.        ,   0.        ,
+       -18.02448171,  -6.06639908,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -42.68760733, -34.85838687,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -15.33661253,   0.        ,   0.        , -27.16382235,
+       -28.38113889,   0.        ,   0.        ,   0.        ,
+        -6.76139726,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -37.55191479,   0.        ])
+2025-07-03 12:16:42,145 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,146 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,146 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,187 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,197 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:42,198 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000007)
+2025-07-03 12:16:42,203 - INFO - phi = array([-77.55494959,   0.        ,   0.        ,   0.        ,
+         0.        ,  41.09009412,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        23.43595059,   0.        , -20.80340638,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -22.70616761,   0.        ,   0.        ,   0.        ,
+         0.        ,  24.4433343 ,   0.        ,   0.        ,
+       -29.63242104,   0.        ,   0.        ,   0.        ,
+        32.2652571 ,   0.        ,   0.        ,   0.        ,
+         0.        , -30.45585782,  32.46545832,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:42,224 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,225 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,225 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,266 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,277 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,283 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,288 - INFO - phi = array([-82.25389487,   0.        ,   0.        , -25.08826005,
+       -29.84207866,   0.        ,   0.        ,   0.        ,
+       -34.37748925,   0.        ,   0.        ,  47.99756865,
+         0.        , -54.63058845,   0.        ,   0.        ,
+        77.28018147,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  35.74605724,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        55.12564582,   0.        ,   0.        ,   0.        ,
+       -26.35348162,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:42,310 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,311 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,312 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,353 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,362 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:42,363 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,368 - INFO - phi = array([437.48467101,   0.        ,   0.        ,   0.        ,
+         0.        ,   9.41752588,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  11.33639395,   0.        ,
+        11.68919414,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  13.6792803 ,
+        23.4023838 ,   0.        ,   0.        ,  12.18246402,
+        12.4966841 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  23.39252609,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         8.66685585,   0.        ])
+2025-07-03 12:16:42,389 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,390 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,391 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,432 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,441 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,443 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,450 - INFO - phi = array([-80.28947323,   0.        ,   0.        ,   0.        ,
+         0.        , -20.4707284 ,   0.        ,   0.        ,
+        62.91808648,   0.        ,   0.        ,  54.66399275,
+       -34.19643717,   0.        ,   0.        ,   0.        ,
+       -67.89275887, -19.9113629 ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -30.18387947,
+       -35.49361074,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -13.76942065,   0.        ])
+2025-07-03 12:16:42,473 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,475 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,477 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,518 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,528 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,528 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,534 - INFO - phi = array([-79.75576742,   0.        ,   0.        ,   0.        ,
+         0.        , -21.30111965,   0.        ,   0.        ,
+        63.76706853,   0.        ,   0.        ,  53.76019122,
+       -39.68755263,   0.        ,   0.        ,   0.        ,
+       -60.90688763, -17.21065143,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -27.96775418,
+       -36.52998651,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -18.7931325 ,   0.        ])
+2025-07-03 12:16:42,555 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,556 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,556 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,597 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,606 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,607 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,613 - INFO - phi = array([-62.55394073,   0.        ,   0.        ,   0.        ,
+         0.        , -15.00946615,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  -9.44917658,   0.        ,   0.        ,
+       -14.52172951,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -27.91002274,
+       -69.54374299,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -24.00324877,   0.        ,   0.        ,   0.        ,
+         0.        ,  -8.48012652, -43.65276065,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        -6.24429809,   0.        ])
+2025-07-03 12:16:42,635 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,636 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,636 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,678 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,687 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,688 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,693 - INFO - phi = array([-61.0050262 ,   0.        ,   0.        ,   0.        ,
+       -10.2051654 , -10.55257402,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -25.66826137,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -30.6943697 ,
+       -70.90768078,   0.        ,   0.        ,  -9.81467149,
+         0.        ,   0.        ,   0.        ,  -7.70885245,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -47.07430167,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        -7.73760965,   0.        ])
+2025-07-03 12:16:42,714 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,715 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,715 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,758 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,767 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,768 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,773 - INFO - phi = array([-82.49529976,   0.        ,   0.        ,   0.        ,
+         0.        , -45.81130929,   0.        ,   0.        ,
+        61.47196788,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  39.29066482,   0.        ,
+       -47.71918801,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  31.16178273,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        30.2230376 ,   0.        ,   0.        ,   0.        ,
+       -47.8334922 ,   0.        ,   0.        ,   0.        ,
+        33.95928869,   0.        , -84.23940386,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:42,795 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,800 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,800 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,842 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,875 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:42,875 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,880 - INFO - phi = array([-81.37964131,   0.        ,   0.        ,   0.        ,
+         0.        , -51.03791079,   0.        ,   0.        ,
+        62.04051052,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  37.39418236,   0.        ,
+       -46.75614117,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  32.66523887,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        30.54829774,   0.        ,   0.        ,   0.        ,
+       -46.44018013,   0.        ,   0.        ,   0.        ,
+        34.41609353,   0.        , -83.44240103,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:42,901 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,902 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,903 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:42,944 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:42,953 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:42,954 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:42,959 - INFO - phi = array([-73.4979581 ,   0.        ,   0.        ,   0.        ,
+       -29.84242289,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        69.22825974, -28.54845862, -26.75780301,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -57.97774692,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -56.28649345,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  91.10552416,   0.        ,
+         0.        ,   0.        ,   0.        ,  62.37517651,
+       -33.26553011,   0.        ])
+2025-07-03 12:16:42,981 - INFO - num_full_subsets = 1
+2025-07-03 12:16:42,982 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:42,982 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,023 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,033 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,034 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,039 - INFO - phi = array([-83.78900235,  25.17842094,   9.7321635 ,  30.77890883,
+        16.99154459,   0.        ,   0.        ,   0.        ,
+       -40.56087366,   0.        ,   0.        ,   0.        ,
+         0.        ,  33.71858405,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        19.47592859,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -24.20883222,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        14.87147397,   0.        ])
+2025-07-03 12:16:43,060 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,061 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,061 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,102 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,112 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,112 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,117 - INFO - phi = array([-81.69234327,  27.07086852,   0.        ,  31.77811003,
+        18.19982054,   0.        ,   0.        ,   0.        ,
+       -41.68551146,   0.        ,   0.        ,   0.        ,
+         0.        ,  31.97459811,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        19.74677938,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -23.89860783,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        13.21689737,   7.47770487])
+2025-07-03 12:16:43,139 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,140 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,140 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,181 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,191 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,191 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,197 - INFO - phi = array([-82.63458368,  27.31374349,   0.        ,  29.98276199,
+        20.74179369,   0.        ,   0.        ,   0.        ,
+       -41.40142132,   0.        ,   0.        ,   0.        ,
+         0.        ,  30.87012085,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   8.11243285,
+        17.38913396,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -22.8507265 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        14.66506093,   0.        ])
+2025-07-03 12:16:43,219 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,219 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,220 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,261 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,272 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:43,272 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,277 - INFO - phi = array([-76.76188427,   0.        ,   0.        ,   0.        ,
+         0.        , -39.54206831,   0.        ,   0.        ,
+        65.37893622,   0.        ,   0.        ,  42.00088824,
+         0.        ,   0.        ,  55.01091723,   0.        ,
+       -42.70769396,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        50.03717946,   0.        ,   0.        ,   0.        ,
+       -46.96868868,   0.        ,   0.        ,   0.        ,
+        53.61257618,   0.        , -96.03739706,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:43,299 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,300 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,300 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,341 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,351 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,352 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,357 - INFO - phi = array([ -81.44872009,    0.        ,    0.        ,    0.        ,
+          0.        ,  -51.29044373,    0.        ,    0.        ,
+         56.97423697,    0.        ,    0.        ,   39.51747317,
+          0.        ,    0.        ,   45.12394342,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+         31.61634119,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+         44.71957445,    0.        ,    0.        ,    0.        ,
+        -50.63212229,    0.        ,    0.        ,    0.        ,
+         43.03513168,    0.        , -113.59264973,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ])
+2025-07-03 12:16:43,378 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,379 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,380 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,421 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,447 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,448 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,453 - INFO - phi = array([-88.7837841 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -57.62248291,   0.        ,   0.        ,   0.        ,
+        20.13041482,  29.69717149,   0.        ,   0.        ,
+         0.        ,   9.74961174,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        25.17763554,  11.57806979,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        18.08489342,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  14.86560984,   0.        ,
+         0.        ,   0.        ,   0.        ,  25.89519457,
+         0.        ,   0.        ])
+2025-07-03 12:16:43,475 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,476 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,477 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,519 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,547 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,573 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,622 - INFO - phi = array([-71.21494856,   0.        ,   0.        , -12.20888487,
+       -22.22197482,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        -5.39069381, -12.94406674,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -10.98451259,
+       -28.95495127,   0.        ,   0.        ,   0.        ,
+        -7.23213229,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -16.17127449,
+        -4.17368611,   0.        ])
+2025-07-03 12:16:43,642 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,644 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,644 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,682 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,703 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,703 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,708 - INFO - phi = array([-71.97421692,   0.        ,   0.        , -13.60526312,
+       -19.18472624,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        -2.15993819, -16.92102179,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -3.64207615,
+       -30.95800759,  -3.94990429,   0.        ,   0.        ,
+        -9.55599473,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -19.54597652,
+         0.        ,   0.        ])
+2025-07-03 12:16:43,730 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,731 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,731 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,773 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,783 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,784 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000007)
+2025-07-03 12:16:43,789 - INFO - phi = array([-71.63107782,  -5.39231691,   0.        ,   0.        ,
+       -22.98222749,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -75.47860225,
+       -52.77203644, -19.36150579,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -40.94784316,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        40.67575372,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -13.64790258,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -24.17688008,   0.        ])
+2025-07-03 12:16:43,811 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,811 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,812 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,854 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,863 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,864 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:43,869 - INFO - phi = array([-72.02067152,  -7.10936101,   0.        ,   0.        ,
+       -20.36131554,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -74.36469902,
+       -55.38181858, -17.98698088,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -44.92327962,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        43.41072509,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -13.55220691,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -23.4250308 ,   0.        ])
+2025-07-03 12:16:43,891 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,892 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,892 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:43,933 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:43,944 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:43,945 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000007)
+2025-07-03 12:16:43,950 - INFO - phi = array([-75.37377419,   0.        ,   0.        ,   0.        ,
+         0.        , -16.32355059,   0.        ,   0.        ,
+        -9.68119302,   0.        ,   0.        , -65.22242253,
+         0.        ,   0.        , -23.36075263,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -9.45388006,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -22.84060449,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  37.26603533,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  41.58542005,
+       -22.73325555,   0.        ])
+2025-07-03 12:16:43,972 - INFO - num_full_subsets = 1
+2025-07-03 12:16:43,973 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:43,973 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,015 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,024 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,025 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,030 - INFO - phi = array([-74.95340991,   0.        ,   0.        ,   0.        ,
+         0.        , -22.62802931,   0.        ,   0.        ,
+       -13.71039298,   0.        ,   0.        , -71.92144981,
+        22.83120377,   0.        , -27.73935411,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -21.25607988,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  32.5320523 ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  38.21827545,
+       -27.51079319,   0.        ])
+2025-07-03 12:16:44,052 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,054 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,054 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,095 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,105 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,106 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,111 - INFO - phi = array([-75.63846195,   0.        ,   0.        , -17.99798231,
+       -18.10386701,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  49.22396409,
+         0.        , -20.82311843,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -7.35428458,
+       -30.49131932,  -9.7571557 ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -22.38973139,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -31.8629274 ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,132 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,134 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,135 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,177 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,186 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,187 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,192 - INFO - phi = array([-66.64932389,   0.        ,   0.        , -11.10662948,
+       -16.9016793 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -19.80964399,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  -2.48478988,
+       -23.27291297,  -7.74894572,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -14.01849154,   0.        ,   0.        ,   0.        ,
+         0.        ,  -2.11732293,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -21.08514432,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,214 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,215 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,216 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,257 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,267 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,268 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,273 - INFO - phi = array([-71.50812331,   0.        ,   0.        ,  29.75299101,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -17.85828283,   0.        ,   0.        , -42.45631747,
+       -19.59975389,   0.        , -36.97316656,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -18.34309246,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -22.47083022,   0.        ,   0.        ,   0.        ,
+        61.25373155,   0.        ,   0.        ,   0.        ,
+       -22.45580515,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,295 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,296 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,296 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,337 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,347 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,347 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,352 - INFO - phi = array([-69.15958173,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -17.33334981,   0.        ,   0.        , -43.70689753,
+       -21.32382968,   0.        , -39.83024854,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -17.20071116,
+         0.        ,  32.59340453,   0.        ,   0.        ,
+       -22.58126733,   0.        ,   0.        ,   0.        ,
+        60.98106048,   0.        ,   0.        ,   0.        ,
+       -23.09722857,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,374 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,375 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,376 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,417 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,427 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,427 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,432 - INFO - phi = array([-66.12023493,   0.        ,   0.        ,   0.        ,
+         0.        , -18.56336538,   0.        ,   0.        ,
+       -16.27074459,   0.        ,   0.        ,   0.        ,
+       -59.40402514,   0.        , -13.02561795,   0.        ,
+         0.        , -20.251453  ,   0.        ,   0.        ,
+        64.44984298,   0.        ,  -8.05868141,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -15.20125728, -52.76913021,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,453 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,454 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,455 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,496 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,505 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,506 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,512 - INFO - phi = array([-85.66470706,   0.        ,   0.        ,   0.        ,
+         0.        , -46.1990712 ,   0.        ,   0.        ,
+        41.89498718,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  40.15520039,   0.        ,
+       -45.42516151,   0.        ,   0.        ,   0.        ,
+        41.78986026,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        75.83798739,   0.        ,   0.        ,   0.        ,
+       -55.2474316 ,   0.        ,   0.        ,   0.        ,
+        40.66486861,   0.        , -98.70729419,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,533 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,534 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,535 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,576 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,586 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,586 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,592 - INFO - phi = array([-86.59907328,   0.        ,   0.        ,   0.        ,
+         0.        , -46.21612047,   0.        ,   0.        ,
+        41.58730474,   0.        ,   0.        ,   0.        ,
+       -39.57312546,   0.        ,  37.14058685,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        40.86592418,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        71.37294031,   0.        ,   0.        ,   0.        ,
+       -51.81076304,   0.        ,   0.        ,   0.        ,
+        40.91982186,   0.        , -98.58825742,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,613 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,614 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,614 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,656 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,665 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:44,665 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,684 - INFO - phi = array([-83.17022624,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        23.16714006,   0.        ,   0.        ,  19.71442227,
+       -64.23293937,   0.        ,  20.62640139,   0.        ,
+       -37.06555422,   0.        ,   0.        ,   0.        ,
+        41.49539964,   0.        ,   0.        ,   0.        ,
+        11.97037062,   0.        ,   0.        ,   0.        ,
+        22.12941557,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -49.59674507,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,711 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,712 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,713 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,754 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,763 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,764 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+2025-07-03 12:16:44,769 - INFO - phi = array([-79.30291713,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        25.27106983,   0.        ,   0.        ,  23.12832018,
+       -63.90325877,   0.        ,  24.43025176,   0.        ,
+       -34.08767733,   0.        ,   0.        ,   0.        ,
+        43.97068002,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        22.74213546,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -15.65145999,   0.        ,
+         0.        ,   0.        , -41.55945937,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:44,790 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,791 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,792 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,833 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,843 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:44,844 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,849 - INFO - phi = array([-82.34349891,   0.        ,   0.        ,  17.70490832,
+        10.59363937,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -20.62429966,
+       -30.73466361,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        10.95377722,  10.92655387,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  15.31326087,  41.12690872,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  13.87297568])
+2025-07-03 12:16:44,871 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,872 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,873 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,914 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:44,923 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:44,924 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:44,929 - INFO - phi = array([-89.20770971,   0.        ,   0.        ,  13.36140524,
+         9.51028526,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -32.61085722,   6.87195381,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         9.00658139,   7.27383658,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  11.57480635,  37.08416937,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  13.9250908 ])
+2025-07-03 12:16:44,951 - INFO - num_full_subsets = 1
+2025-07-03 12:16:44,952 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:44,953 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:44,994 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,003 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,004 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,009 - INFO - phi = array([-75.69748465,   0.        ,   0.        , -13.44014026,
+       -12.83125773,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  39.3750348 ,
+         0.        ,  -8.50775628,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -26.9447654 , -12.26393833,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -22.79959156,   0.        ,   0.        ,   0.        ,
+        28.97489252,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -35.27703354,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,031 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,032 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,033 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,074 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,083 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,084 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,089 - INFO - phi = array([-80.50965977,   0.        ,   0.        , -17.46825992,
+       -18.70439565,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  42.22212451,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -32.07492804, -15.11055767,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -28.61584085,   0.        ,   0.        ,   0.        ,
+        25.21108328,   0.        ,  23.68625971,   0.        ,
+         0.        ,   0.        ,   0.        , -38.04786603,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,110 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,111 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,112 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,153 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,162 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:45,163 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,168 - INFO - phi = array([-72.10887072,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        41.1548167 ,   0.        ,   0.        ,   0.        ,
+        49.08160094, -48.06598478,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -21.57293929,   0.        ,   0.        ,   0.        ,
+       -34.31963913,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -24.860949  ,   0.        ,  41.37418498,   0.        ,
+         0.        , -32.13698512,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -37.04324801,   0.        ])
+2025-07-03 12:16:45,192 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,193 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,194 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,235 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,245 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,246 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,251 - INFO - phi = array([-69.12619689,   0.        ,   0.        ,   0.        ,
+       -15.67020006,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -39.93235376, -36.63022842,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -16.99512048,   0.        ,   0.        , -28.03816386,
+       -25.32670469,   0.        ,   0.        ,   0.        ,
+       -11.43482985,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,  -5.11069309,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -34.58629137,   0.        ])
+2025-07-03 12:16:45,273 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,275 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,275 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,316 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,326 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,326 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,331 - INFO - phi = array([-77.35191582,   0.        ,   0.        , -14.96581536,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -43.75557293,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -39.64827078,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -14.10945948,   0.        ,   0.        , -28.97122915,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -48.87285066,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        , -16.87625477,  42.116821  ,   0.        ,
+         0.        ,   0.        ,   0.        ,  50.47005952,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,353 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,354 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,354 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,405 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,415 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,416 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,421 - INFO - phi = array([-66.08753628,   0.        ,   0.        ,  -6.64991866,
+         0.        , -54.30528781,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -12.62463027, -15.61409172,   0.        ,   0.        ,
+       -37.72892103, -15.66299204,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -11.55171963,   0.        ,   0.        , -15.92335839,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -21.72090303,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,445 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,446 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,447 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,488 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,498 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,499 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,504 - INFO - phi = array([-60.07800664,   0.        ,   0.        ,   0.        ,
+         0.        , -53.93687815,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -17.78215286, -15.78735935,   0.        ,   0.        ,
+       -43.69701813, -16.40917955,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -12.8668286 ,   0.        ,   0.        ,  -9.42906015,
+        -7.29460241,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -20.58827301,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,525 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,526 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,527 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,568 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,578 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:45,579 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,584 - INFO - phi = array([-82.30054881,   0.        ,   0.        ,   0.        ,
+         0.        , -70.01996132,   0.        ,   0.        ,
+        57.56022638,   0.        ,   0.        ,  45.09505513,
+         0.        ,   0.        ,  31.20038983,   0.        ,
+       -96.08416412,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -64.30385962,   0.        ,   0.        ,   0.        ,
+        32.30967562,   0.        ,  29.58139506,   0.        ,
+         0.        ,   0.        ,   0.        ,  30.37518494,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,606 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,607 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,608 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,649 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,658 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,659 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,664 - INFO - phi = array([-84.25809925,   0.        ,   0.        ,   0.        ,
+         0.        , -69.15779532,   0.        ,   0.        ,
+        58.37583554,   0.        ,   0.        ,  48.97394933,
+         0.        ,   0.        ,  30.7718141 ,   0.        ,
+       -99.91152383,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -61.68906202,   0.        ,   0.        ,   0.        ,
+        25.74919969,   0.        ,  28.50276502,   0.        ,
+         0.        ,   0.        ,   0.        ,  36.05630983,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,686 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,687 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,688 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,729 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,738 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,739 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,744 - INFO - phi = array([   0.        ,    0.        ,    0.        ,    0.        ,
+         10.63578759,   36.98840198,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        , -144.58360802,
+         23.50097775,    0.        ,    0.        ,    0.        ,
+         20.85894307,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+         26.42823178,    0.        ,    0.        ,   14.52972383,
+          0.        ,    0.        ,    0.        ,    0.        ,
+         31.58138259,    0.        ,    0.        ,    0.        ,
+          0.        ,   14.56731507,   28.12017481,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ])
+2025-07-03 12:16:45,766 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,767 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,768 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,809 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,818 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,819 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,824 - INFO - phi = array([-57.00058712,   0.        ,   0.        ,   0.        ,
+        -3.73547791,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -31.21170745, -22.40580268, -28.8163455 ,   0.        ,
+         0.        , -11.74754535,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -27.48577103,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -25.35641313,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        -4.08956132,  -8.95366306,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,846 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,847 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,848 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,889 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,901 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,901 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000007)
+2025-07-03 12:16:45,907 - INFO - phi = array([-73.80939971,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  85.11785124,
+       -35.34715081, -30.03802543, -36.56090864,   0.        ,
+         0.        , -18.74743928,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -35.18611736,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -35.44602985,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -16.53700727, -24.24864745,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:45,928 - INFO - num_full_subsets = 1
+2025-07-03 12:16:45,929 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:45,930 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:45,971 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:45,981 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:45,981 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:45,987 - INFO - phi = array([-80.87893719,   0.        ,   0.        ,   0.        ,
+       -36.16245634,   0.        ,   0.        ,   0.        ,
+       -31.44186441,   0.        ,   0.        ,  49.63619841,
+         0.        , -52.82932442,   0.        ,   0.        ,
+        78.1774163 ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  37.41588371,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        53.9307777 ,   0.        ,   0.        ,   0.        ,
+       -26.79589718,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -23.92223998,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:46,009 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,010 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,011 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,052 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,062 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,063 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,068 - INFO - phi = array([-80.46988377,  30.38394136,   0.        ,  87.75617513,
+         0.        ,  30.6030617 ,   0.        ,   0.        ,
+       -56.08333368,   0.        ,   0.        , -84.3900714 ,
+         0.        ,  29.82763073,   0.        ,   0.        ,
+        56.10445422,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        42.17895187,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  28.45098769,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:46,089 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,090 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,090 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,131 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,141 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:46,141 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,146 - INFO - phi = array([ 0.        , 53.72886615,  0.        , 47.13986309, 15.88139213,
+        0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+        0.        ,  0.        , 59.77916583, 46.27873152,  0.        ,
+        0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+        0.        ,  0.        ,  0.        , 11.17119122, 10.27723752,
+        0.        ,  0.        ,  6.82185409,  0.        ,  0.        ,
+        0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+       12.61993229,  0.        ,  0.        ,  8.68637014,  0.        ,
+        0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+        0.        ])
+2025-07-03 12:16:46,168 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,169 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,170 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,211 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,221 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,221 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000007)
+2025-07-03 12:16:46,226 - INFO - phi = array([-75.2442968 ,   0.        ,   0.        ,  36.56646144,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -52.09933859,   0.        ,   0.        , -57.56666157,
+       -22.15888553,   0.        , -35.76799154,   0.        ,
+        57.88122975,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -26.74755363,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        49.97348337,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  26.01259199,
+         0.        ,   0.        ])
+2025-07-03 12:16:46,248 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,249 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,250 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,291 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,300 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,301 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,306 - INFO - phi = array([-75.07059451,   0.        ,   0.        ,   0.        ,
+         0.        , -25.60686214,   0.        ,   0.        ,
+       -12.06571357,   0.        ,   0.        ,   0.        ,
+       -64.88965295,   0.        , -17.38231809,   0.        ,
+         0.        , -21.78283367,   0.        ,   0.        ,
+        55.97337384,   0.        ,   0.        , -16.35224379,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        45.25398685,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        , -58.48956528,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:46,328 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,329 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,329 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,370 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,380 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,381 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,386 - INFO - phi = array([-80.93873734,  25.87184822,   0.        ,  34.39537533,
+        19.75891844,   0.        ,   0.        ,   0.        ,
+       -45.58352352,   0.        ,   0.        ,   0.        ,
+         0.        ,  33.05012077,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        26.56660508,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        13.59660482,   0.        ,   0.        ,   0.        ,
+       -27.89905987,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        22.68687412,   0.        ])
+2025-07-03 12:16:46,408 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,408 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,409 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,450 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,460 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,461 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,466 - INFO - phi = array([-86.9404974 ,  23.1952671 ,   0.        ,  30.05781207,
+        18.03980337,   0.        ,   0.        ,   0.        ,
+       -51.0728638 ,   0.        ,   0.        ,   0.        ,
+         0.        ,  28.91279699,   0.        ,   0.        ,
+        10.37787973,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        18.39789306,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        12.50776539,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        18.02916955,   0.        ])
+2025-07-03 12:16:46,487 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,488 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,489 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,530 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,540 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,540 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,546 - INFO - phi = array([453.57241839,   0.        ,   0.        ,   0.        ,
+       -35.39739116,  28.94406104,   0.        ,   0.        ,
+       -52.40902757,   0.        ,   0.        ,   0.        ,
+         0.        , -33.63803604,   0.        ,   0.        ,
+        64.57418601,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        34.18810677,   0.        ,   0.        ,   0.        ,
+        34.70376905,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -62.41743111,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        , -39.45184442,
+         0.        ,   0.        ])
+2025-07-03 12:16:46,567 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,568 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,568 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,609 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,619 - INFO - np.sum(w_aug) = np.float64(46.000000000000014)
+2025-07-03 12:16:46,620 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,625 - INFO - phi = array([449.94823071,   0.        ,   0.        ,   0.        ,
+         0.        ,  46.07966676,   0.        ,   0.        ,
+       -56.86026886,   0.        ,   0.        , -61.18317072,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        49.49277589,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        44.62803624,   0.        ,   0.        ,  24.75062046,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -72.73272016,  56.92794484,  35.29941507,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ])
+2025-07-03 12:16:46,647 - INFO - num_full_subsets = 1
+2025-07-03 12:16:46,648 - INFO - remaining_weight_vector = array([0.15301406, 0.10438169, 0.08015022, 0.06568408, 0.05610516,
+       0.04932321, 0.04429354, 0.04043615, 0.03740344, 0.03497464,
+       0.03300303, 0.0313875 , 0.03005633, 0.0289575 , 0.02805258,
+       0.02731285, 0.02671674, 0.02624803, 0.02589469, 0.02564807,
+       0.02550234, 0.02545414])
+2025-07-03 12:16:46,648 - INFO - num_paired_subset_sizes = 22
+2025-07-03 12:16:46,689 - INFO - weight_left = np.float64(0.7674097178519277)
+2025-07-03 12:16:46,699 - INFO - np.sum(w_aug) = np.float64(46.00000000000002)
+2025-07-03 12:16:46,700 - INFO - np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+2025-07-03 12:16:46,705 - INFO - phi = array([438.92686534,   0.        ,   0.        ,   8.10516002,
+         0.        ,   0.        ,   0.        ,   0.        ,
+       -49.70116244,   0.        ,   0.        ,   0.        ,
+        28.75948357,   0.        ,   0.        ,   0.        ,
+         0.        ,   8.46473433,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,  11.41975681,
+        18.93055004,   0.        ,   0.        ,   7.10569866,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+         0.        ,   0.        ,  24.41512761,   0.        ,
+         0.        ,   0.        ,   0.        ,   0.        ,
+        26.34561381,   0.        ])
+2025-07-03 12:16:48,539 - INFO - SHAP analysis completed for ElasticNet on SF4 Cofactors Only
+2025-07-03 12:16:48,540 - INFO - 
+Performing SHAP analysis for top model: RandomForestRegressor
+2025-07-03 12:16:48,540 - INFO - Performing SHAP analysis for RandomForestRegressor on SF4 Cofactors Only
+2025-07-03 12:16:48,540 - INFO - Loading data from specific file: data/SF4_protein/features_SF4_protein.csv
+2025-07-03 12:16:48,547 - INFO - Loaded 92 samples with 123 features
+2025-07-03 12:16:48,548 - INFO - Target range: -746.00 to 450.00 mV
+2025-07-03 12:16:48,551 - INFO - Removed 2 zero-variance features
+2025-07-03 12:16:48,564 - INFO - Removed 29 highly correlated features
+2025-07-03 12:16:48,565 - INFO - Final feature set: 92 features
+2025-07-03 12:16:59,108 - INFO - SHAP analysis completed for RandomForestRegressor on SF4 Cofactors Only
+2025-07-03 12:16:59,267 - ERROR - Error saving results: Object of type Product is not JSON serializable
+2025-07-03 12:16:59,268 - ERROR - Continuing with visualization generation...
+2025-07-03 12:17:02,407 - INFO - Visualizations saved
+2025-07-03 12:17:02,408 - INFO - Analysis completed!

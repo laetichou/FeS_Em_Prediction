@@ -1,0 +1,93 @@
+feature,importance
+seq.CTDC__HydrophobicityC3,25.610483805488872
+seq.CTDC__PolarityC1,24.47804951695074
+struct.is_hipip,23.080547860875594
+Protein.prop.nSats in side chain,19.73570791395246
+Protein.mean.P(sheet),14.438626114048969
+struct.burial_depth,14.257338696663581
+seq.CTDC__SecondaryStrC2,11.08725704976027
+seq.CTDC__PolarizabilityC2,8.362675108172823
+seq.CTDT__SecondaryStrT13,8.109961209868736
+Protein.mean.Steric hindrance,7.832006810589143
+Protein.mean.Steric hindrance / P(helix),7.5458658591585115
+Protein.count.VAL,6.92370079112697
+seq.CTDC__SecondaryStrC3,6.7980919220858285
+Protein.mean.P(helix) x Flex.,6.697843893956271
+Protein.count.ILE,5.966522678866135
+seq.CTDC__HydrophobicityC2,5.439551275197664
+Protein.count.CYS,5.4353964447302765
+seq.CTDT__SecondaryStrT23,4.423474977071558
+Protein.mean.nSats in side chain,4.266428788922611
+Protein.mean.Volume,4.201928645561668
+Protein.mean.log(Solub) x Flex,4.121938711248223
+Protein.mean.Log(Solubility (m at 20ºC)),3.886416078419903
+Protein.mean.Isoelectric point / P(sheet),3.565125833795976
+seq.CTDC__PolarizabilityC1,3.3534118314538794
+Protein.prop.log(Solub) x Flex,3.2560713018772067
+seq.CTDC__SecondaryStrC1,3.2005053466992686
+Protein.mean.Hydrophobicity x Flex.,3.147421284228132
+seq.CTDC__NormalizedVDWVC2,2.99209950080974
+seq.CTDT__PolarizabilityT13,2.9374115375496292
+Protein.mean.Flexibility,2.5437917294880896
+Protein.mean.Hydrophobicity,2.4969298350058837
+Protein.mean.Steric hindrance / P(sheet),2.483926077820346
+seq.CTDT__ChargeT23,2.356816358480467
+Protein.count.SER,2.0361769485195125
+Protein.mean.nNats in side chain,2.0323642089037293
+seq.CTDT__PolarityT12,1.884919596935873
+Protein.mean.Vol / P(helix),1.8441278582562497
+Protein.mean.Vol / log(solub),1.54967567026791
+Protein.count.LYS,1.5470620073346264
+Protein.count.MET,1.4942016959167297
+seq.CTDT__ChargeT13,1.4287825719550968
+seq.CTDT__HydrophobicityT23,1.426397618676598
+Protein.count.GLY,1.4136324151093107
+seq.CTDC__SolventAccessibilityC1,1.3979945208386126
+Protein.mean.Vol x isoelectric point,1.2360871164665683
+Protein.count.GLU,1.1490407179168578
+seq.CTDC__ChargeC3,1.1387736074535375
+seq.CTDC__ChargeC2,1.129642407967766
+Protein.mean.V / (P(helix)+P(sheet)),1.0767665988836925
+seq.CTDT__SolventAccessibilityT12,1.0737286266202044
+Protein.mean.Vol / P(sheet),1.0470036833661183
+seq.CTDC__PolarizabilityC3,1.0196550153787782
+seq.CTDT__HydrophobicityT13,0.964401647552551
+Protein.count.ASN,0.9361224083770753
+Protein.mean.Isoelectric point / P(helix),0.9172948347378592
+Protein.count.THR,0.9108328946055348
+seq.CTDT__SecondaryStrT12,0.8987764745226834
+Protein.count.ALA,0.8856806104588238
+Protein.count.PRO,0.8764038292246307
+seq.CTDC__PolarityC2,0.8734530467204907
+Protein.mean.Steric hindrance x Flexibility,0.8650967501746526
+Protein.count.LEU,0.8606402760126727
+seq.CTDT__PolarizabilityT12,0.8357766437269191
+Protein.count.ASP,0.8291905775474614
+Protein.mean.nH-bonds,0.7513739311846094
+Protein.mean.log(Solub) x Hydrophobicity,0.7432288547764755
+Protein.mean.P(helix)+P(sheet),0.7337172381256688
+seq.CTDC__SolventAccessibilityC3,0.7275932840190196
+Protein.mean.P(helix) / P(sheet),0.7038525733815966
+Protein.count.HIS,0.6900931003303244
+Protein.mean.P(helix),0.6753411412955417
+Protein.count.TRP,0.67337078875251
+Protein.prop.Vol / log(solub),0.6652701430716798
+seq.CTDT__HydrophobicityT12,0.638583158934164
+seq.CTDT__PolarizabilityT23,0.6051712320953598
+Protein.count.PHE,0.602309299803984
+seq.CTDT__ChargeT12,0.5937659447213491
+seq.CTDT__SolventAccessibilityT13,0.59121738491209
+Protein.count.GLN,0.586037718949828
+seq.CTDT__NormalizedVDWVT12,0.5828690477819017
+Protein.count.ARG,0.56216168544466
+seq.CTDT__NormalizedVDWVT23,0.5042046324722896
+Protein.mean.Isoelectric point,0.5022674163798936
+pH,0.5005941881502415
+seq.CTDT__PolarityT23,0.49853382817682723
+Protein.count.TYR,0.47724913686107506
+seq.CTDC__PolarityC3,0.44642213961560373
+seq.CTDT__PolarityT13,0.4174929171486966
+seq.CTDT__SolventAccessibilityT23,0.40822186046917175
+seq.CTDC__ChargeC1,0.3904521439246806
+Protein.mean.nOats in side chain,0.3538361836277339
+seq.CTDC__SolventAccessibilityC2,0.27291339930332

@@ -1,0 +1,16 @@
+=== RMSD Statistics (Å) ===
+
+With all values (n=98):
+Mean: 0.530
+Std Dev: 1.599
+Median: 0.097
+Range: 0.000 - 14.707
+
+Without outliers > 10Å (n=97):
+Mean: 0.384
+Std Dev: 0.699
+Median: 0.093
+Range: 0.000 - 3.826
+
+Outliers removed: 1
+  - 14.707Å

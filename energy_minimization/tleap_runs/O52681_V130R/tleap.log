@@ -1,0 +1,71 @@
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/prep to search path.
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib to search path.
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm to search path.
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/amino19.lib
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/aminoct12.lib
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/aminont12.lib
+----- Source: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.water.opc
+----- Source of /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.water.opc done
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/atomic_ions.lib
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/solvents.lib
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+----- Source: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.phosaa19SB
+----- Source of /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.phosaa19SB done
+Log file: ./leap.log
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.phosaa19SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/phosaa19SB.lib
+----- Source: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.protein.ff19SB_modAA
+----- Source of /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.protein.ff19SB_modAA done
+Log file: ./leap.log
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+atom type NF - unknown hybridization sp
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+atom type CY - unknown hybridization sp
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+atom type NY - unknown hybridization sp
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ff19SBmodAA
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for Modified Amino acids (Belfon & Simmerling) to be used with leaprc.protein.ff19SB
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/mod_amino19.lib
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+Loading PDB file: ./O52681_V130R_pqr.pdb
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Fatal Error!
+	No atoms!
+
+Exiting LEaP: Errors = 1; Warnings = 3; Notes = 0.
+
+--- stderr ---

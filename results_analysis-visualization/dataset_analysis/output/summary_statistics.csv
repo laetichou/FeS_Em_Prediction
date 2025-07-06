@@ -1,0 +1,15 @@
+Property,Statistic,Value
+Protein Residues,Mean,145.70833333333334
+Protein Residues,Median,105.0
+Protein Residues,Std Dev,118.26168291057449
+Protein Max Diameter,Mean (Å),49.28753551982698
+Protein Surface,Mean (Å²),5511.947812327649
+Burial Depth,Mean (Å),7.445556951420648
+Burial Depth,Median (Å),5.432609558105469
+Burial Depth,Std Dev (Å),4.732989506396124
+Redox Potential,Mean (mV),-285.32142857142856
+Redox Potential,Median (mV),-375.0
+Redox Potential,Std Dev (mV),259.8948963386106
+pH,Mean,7.317857142857143
+pH,Median,7.0
+pH,Std Dev,0.456269883966214

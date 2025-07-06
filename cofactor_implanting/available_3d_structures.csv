@@ -1,0 +1,49 @@
+UniProt,crystal_structure,cofactors,structure_notes,extra_notes
+O85673,no,F2S and Fe3+,manually transplanted
+P00193,yes,2 F4S,,crystal structure has whole sequence
+P00195,yes,2 F4S,,NMR structure
+P00198,yes,2 F4S
+P00200,no,2 F4S,manually transplanted
+P00203,no,F4S,manually transplanted
+P00207,no,2 F4S,manually transplanted
+P00208,yes,2 F4S
+P00209,yes,F4S or F3S,crystal and nmr available for F3S and crystal is homodimer
+P00210,yes,F4S,crystal is homodimer and nmr is available
+P00211,no,2 F4S,manually transplanted,homodimer interaction
+P00260,yes,F4S,,homodimer interaction
+P00261,no,F4S,manually transplanted,homodimer interaction
+P00262,no,F4S,manually transplanted,homodimer interaction
+P00263,no,F4S,manually transplanted,homodimer interaction
+P00264,no,F4S,manually transplanted,homodimer interaction
+P00265,no,F4S,manually transplanted,homodimer interaction
+P00266,no,F4S,manually transplanted,homodimer interaction
+P00268,yes,Fe3+,also manually transplanted in _complete,
+P04168,yes,F4S,,crystal homodimer and nmr available
+P04169,no,F4S,manually transplanted,homodimer interaction and perhaps similar to P04168
+P07485,yes,F4S,,nmr is perhaps dimer
+P09947,no,Fe3+,manually transplanted
+P0AE56,no,F2S,manually transplanted (bad RMSD) from Q8N5K1 (bad bc 6 cofactors got transplanted instead of one) so retransplanted from O52681
+P0DUV7,yes,F4S,,no AF structure and xray has no cofactor but homotrimerizes with central pore which is probable binding center
+P10245,yes,F4S,,crystal has whole sequence
+P11425,no,2 F4S,manually transplanted
+P14071,no,Fe3+,manually transplanted
+P24297,yes,Fe3+
+P33678,yes,F4S,,crystal homodimer chains A and B
+P38524,yes,F4S,,crystal monomer despite homodimer interaction
+P38589,no,F4S,manually transplanted,homodimer interaction
+P38941,no,F4S,manually transplanted,homodimer interaction
+P46797,yes,F4S,,NMR also available
+P50727,no,F4S,manually transplanted
+P56263,no,Fe3+,manually transplanted
+P71820,yes,F3S
+P73276,no,F3S,manually transplanted (terrible RMSD),one cluster per monomer
+P73811,no,F4S,manually transplanted
+P80882,yes,F4S,,homodimer interaction and crystal seems to be homotrimer or three chains
+P9WF43,yes,F4S,,homodimer interaction and nmr has whole sequence
+Q8N5K1,yes,F2S,,crystal homodimer structure (has 2 F2S)
+Q9CQB5,no,F2S,manually transplanted from Q8N5K1 and then O52681,homodimer interaction
+Q9NZ45,yes,F2S,transplant has 2 FES instead of one--manual transplant done,crystal homodimer structure 4EZF
+Q9X0Q7,no,F4S,manually transplanted
+Q9X115,no,F4S,manually transplanted
+Q9X1D7,no,F2S,manually transplanted from Q9NZ45 and then O52681 (better)
+Q9X1L9,no,F3S,manually transplanted

@@ -1,0 +1,303 @@
+{
+  "SVR_r5": {
+    "best_parameters": {
+      "model__C": 10,
+      "model__epsilon": 0.01,
+      "model__gamma": 0.1,
+      "model__kernel": "rbf"
+    },
+    "grid_search_params": {
+      "C": [
+        0.1,
+        1,
+        10
+      ],
+      "gamma": [
+        "scale",
+        "auto",
+        0.001,
+        0.01,
+        0.1,
+        1
+      ],
+      "kernel": [
+        "rbf"
+      ],
+      "epsilon": [
+        0.01,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "LinearRegression_r1": {
+    "best_parameters": {},
+    "grid_search_params": {}
+  },
+  "RandomForestRegressor_r8": {
+    "best_parameters": {
+      "model__max_depth": 10,
+      "model__max_features": "sqrt",
+      "model__min_samples_leaf": 1,
+      "model__min_samples_split": 2,
+      "model__n_estimators": 100
+    },
+    "grid_search_params": {
+      "n_estimators": [
+        100,
+        200
+      ],
+      "max_depth": [
+        5,
+        7,
+        10
+      ],
+      "min_samples_split": [
+        2,
+        5,
+        10
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4
+      ],
+      "max_features": [
+        "sqrt",
+        "log2"
+      ]
+    }
+  },
+  "ElasticNet_r5": {
+    "best_parameters": {
+      "model__alpha": 1.0,
+      "model__l1_ratio": 0.9
+    },
+    "grid_search_params": {
+      "alpha": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "l1_ratio": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ]
+    }
+  },
+  "SVR_r9": {
+    "best_parameters": {
+      "model__C": 10,
+      "model__epsilon": 0.2,
+      "model__gamma": "scale",
+      "model__kernel": "rbf"
+    },
+    "grid_search_params": {
+      "C": [
+        0.1,
+        1,
+        10
+      ],
+      "gamma": [
+        "scale",
+        "auto",
+        0.001,
+        0.01,
+        0.1,
+        1
+      ],
+      "kernel": [
+        "rbf"
+      ],
+      "epsilon": [
+        0.01,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "LinearRegression_r9": {
+    "best_parameters": {},
+    "grid_search_params": {}
+  },
+  "SVR_r8": {
+    "best_parameters": {
+      "model__C": 10,
+      "model__epsilon": 0.01,
+      "model__gamma": "scale",
+      "model__kernel": "rbf"
+    },
+    "grid_search_params": {
+      "C": [
+        0.1,
+        1,
+        10
+      ],
+      "gamma": [
+        "scale",
+        "auto",
+        0.001,
+        0.01,
+        0.1,
+        1
+      ],
+      "kernel": [
+        "rbf"
+      ],
+      "epsilon": [
+        0.01,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "KNeighborsRegressor_r4": {
+    "best_parameters": {
+      "model__metric": "euclidean",
+      "model__n_neighbors": 7,
+      "model__weights": "distance"
+    },
+    "grid_search_params": {
+      "n_neighbors": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        15
+      ],
+      "weights": [
+        "uniform",
+        "distance"
+      ],
+      "metric": [
+        "euclidean",
+        "manhattan",
+        "minkowski"
+      ]
+    }
+  },
+  "KNeighborsRegressor_r12": {
+    "best_parameters": {
+      "model__metric": "euclidean",
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "grid_search_params": {
+      "n_neighbors": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        15
+      ],
+      "weights": [
+        "uniform",
+        "distance"
+      ],
+      "metric": [
+        "euclidean",
+        "manhattan",
+        "minkowski"
+      ]
+    }
+  },
+  "GradientBoostingRegressor_r10": {
+    "best_parameters": {
+      "model__learning_rate": 0.05,
+      "model__max_depth": 5,
+      "model__min_samples_leaf": 4,
+      "model__min_samples_split": 2,
+      "model__n_estimators": 100,
+      "model__subsample": 0.8
+    },
+    "grid_search_params": {
+      "n_estimators": [
+        100,
+        200
+      ],
+      "learning_rate": [
+        0.05,
+        0.1
+      ],
+      "max_depth": [
+        3,
+        5
+      ],
+      "min_samples_split": [
+        2,
+        5
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4
+      ],
+      "subsample": [
+        0.8,
+        1.0
+      ]
+    }
+  },
+  "LinearRegression_r3": {
+    "best_parameters": {},
+    "grid_search_params": {}
+  },
+  "ElasticNet_r6": {
+    "best_parameters": {
+      "model__alpha": 0.1,
+      "model__l1_ratio": 0.5
+    },
+    "grid_search_params": {
+      "alpha": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "l1_ratio": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ]
+    }
+  },
+  "KNeighborsRegressor_r10": {
+    "best_parameters": {
+      "model__metric": "euclidean",
+      "model__n_neighbors": 3,
+      "model__weights": "distance"
+    },
+    "grid_search_params": {
+      "n_neighbors": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        15
+      ],
+      "weights": [
+        "uniform",
+        "distance"
+      ],
+      "metric": [
+        "euclidean",
+        "manhattan",
+        "minkowski"
+      ]
+    }
+  },
+  "GaussianProcessRegressor_r8": {
+    "best_parameters": {
+      "model__alpha": 1e-08,
+      "model__kernel": 

@@ -1,0 +1,62 @@
+feature,importance
+struct.burial_depth,1.2107967952370646
+struct.is_rieske,1.1261879932220082
+Bar.count.ALA,1.6794499589939442
+Bar.count.ARG,0.1148920865979171
+Bar.count.ASN,0.5898394774731534
+Bar.count.ASP,0.6128836406600934
+Bar.count.CYS,0.34687473754797005
+Bar.count.GLN,0.34980636063012105
+Bar.count.GLU,1.0117018268739673
+Bar.count.GLY,0.23650841505370052
+Bar.count.HIS,3.3020658600046415
+Bar.count.ILE,3.1319859325586767
+Bar.count.LEU,0.5585645083329676
+Bar.count.LYS,0.42647881524006287
+Bar.count.MET,0.3059353871349239
+Bar.count.PHE,0.4231283254377666
+Bar.count.PRO,0.2382427760321342
+Bar.count.SER,0.49691959539405456
+Bar.count.THR,2.0257792237506225
+Bar.count.TRP,0.5152075213771359
+Bar.count.TYR,0.18574785878685657
+Bar.count.VAL,0.34305080748792766
+Bar.prop.Volume,2.3398694556880466
+Bar.prop.Log(Solubility (m at 20ºC)),1.2894257662955169
+Bar.prop.Hydrophobicity,1.1978619484187325
+Bar.prop.P(helix),2.260798094384762
+Bar.prop.nOats in side chain,1.6270585286475987
+Bar.prop.nSats in side chain,0.3065343224225668
+Bar.prop.nNats in side chain,2.3375018326450836
+Bar.prop.nH-bonds,1.0524176861700998
+Bar.prop.Vol / log(solub),1.405915420023258
+Bar.prop.log(Solub) x Flex,1.2842695286296373
+Bar.prop.Steric hindrance x Flexibility,3.5728537019573916
+Bar.prop.Flexibility,3.871178984575009
+Bar.prop.log(Solub) x Hydrophobicity,0.5391252510245269
+Bar.prop.Hydrophobicity x Flex.,1.1188997196844497
+Bar.prop.Isoelectric point / P(helix),5.413752253536691
+Bar.prop.P(helix) x Flex.,6.837436734532215
+Bar.mean.Volume,1.0533885858307648
+Bar.mean.Hydrophobicity,1.3704586541325514
+Bar.mean.Isoelectric point,22.881633544258854
+Bar.mean.P(helix),1.5655613445133818
+Bar.mean.nSats in side chain,0.6497185127624754
+Bar.mean.Steric hindrance,7.707521413709963
+Bar.mean.nH-bonds,0.6662835245475933
+Bar.mean.Vol / P(helix),11.292828668879675
+Bar.mean.Vol / P(sheet),0.7176526130972442
+Bar.mean.Steric hindrance x Flexibility,4.127567277800617
+Bar.mean.Flexibility,7.141495450548705
+Bar.mean.P(helix)+P(sheet),1.7811653952890287
+Bar.mean.log(Solub) x Hydrophobicity,0.9604378106235844
+Bar.mean.Hydrophobicity x Flex.,1.0940713324477567
+Bar.mean.V / (P(helix)+P(sheet)),5.010235589252214
+Bar.mean.Steric hindrance / P(helix),7.41843432213889
+Bar.mean.Isoelectric point / P(sheet),2.7917176258684404
+Bar.mean.P(sheet),1.092016211558381
+Bar.mean.Vol x isoelectric point,10.819609024737959
+Bar.mean.Isoelectric point / P(helix),5.448266004371177
+Bar.mean.P(helix) / P(sheet),7.819909693114856
+Bar.mean.P(helix) x Flex.,22.107579234061625
+pH,0.7142470154965271

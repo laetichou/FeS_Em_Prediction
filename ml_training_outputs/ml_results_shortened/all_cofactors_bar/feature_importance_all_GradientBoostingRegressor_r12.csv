@@ -1,0 +1,70 @@
+feature,importance
+struct.burial_depth,4.5443515933294645
+struct.iron_count,23.40168954049177
+struct.is_rieske,3.304064459468562
+struct.is_hipip,60.490545105489446
+Bar.count.ALA,0.3941846998129567
+Bar.count.ARG,0.0
+Bar.count.ASN,3.149597588487146
+Bar.count.ASP,0.5081144561406736
+Bar.count.CYS,12.701921851833664
+Bar.count.GLN,0.4156906814462844
+Bar.count.GLU,1.0837426083893285
+Bar.count.GLY,0.325107883030876
+Bar.count.HIS,0.10668133827465547
+Bar.count.ILE,0.17768147695738495
+Bar.count.LEU,0.9541280539192388
+Bar.count.LYS,5.606612360142965
+Bar.count.MET,1.7009733772674187
+Bar.count.PHE,0.23356381702594406
+Bar.count.PRO,0.4094819533329633
+Bar.count.SER,0.6341451027484882
+Bar.count.THR,0.5888273919209636
+Bar.count.TRP,12.36291902611016
+Bar.count.TYR,0.11991148159981148
+Bar.count.VAL,0.6896004832349018
+Bar.prop.Volume,1.6949027188090326
+Bar.prop.Log(Solubility (m at 20ºC)),1.9746292535827052
+Bar.prop.Hydrophobicity,4.639461048827912
+Bar.prop.Isoelectric point,1.1612831234684002
+Bar.prop.P(helix),0.4098117545345839
+Bar.prop.nOats in side chain,2.411722172277985
+Bar.prop.nSats in side chain,0.4178970020185075
+Bar.prop.nNats in side chain,4.93598614967319
+Bar.prop.nH-bonds,1.6011261888543116
+Bar.prop.Vol / log(solub),3.4213109332062026
+Bar.prop.log(Solub) x Flex,1.5134223549447086
+Bar.prop.Steric hindrance x Flexibility,17.818988838485097
+Bar.prop.Flexibility,11.988450382259975
+Bar.prop.log(Solub) x Hydrophobicity,4.093955236732556
+Bar.prop.Hydrophobicity x Flex.,7.925219113617611
+Bar.prop.Isoelectric point / P(sheet),4.667641933408752
+Bar.prop.Isoelectric point / P(helix),1.1845247496585998
+Bar.prop.P(helix) x Flex.,7.6886642662854365
+Bar.mean.Volume,2.347744845601111
+Bar.mean.Log(Solubility (m at 20ºC)),1.9899169373355516
+Bar.mean.Hydrophobicity,1.637769491274474
+Bar.mean.Isoelectric point,40.9002529081178
+Bar.mean.P(helix),2.3194375216395264
+Bar.mean.nOats in side chain,1.4328604101626312
+Bar.mean.nSats in side chain,2.7258399349461393
+Bar.mean.nNats in side chain,19.019356201015594
+Bar.mean.Steric hindrance,6.273822641077445
+Bar.mean.nH-bonds,1.6595921442065933
+Bar.mean.Vol / P(helix),0.9742224434489483
+Bar.mean.Vol / P(sheet),2.6159274194587323
+Bar.mean.Steric hindrance x Flexibility,1.5494132399841665
+Bar.mean.Flexibility,2.1511098441737655
+Bar.mean.P(helix)+P(sheet),4.887244170709377
+Bar.mean.log(Solub) x Hydrophobicity,8.471295465298837
+Bar.mean.Hydrophobicity x Flex.,2.0334043140899567
+Bar.mean.V / (P(helix)+P(sheet)),1.503451259195247
+Bar.mean.Steric hindrance / P(helix),5.412119235709521
+Bar.mean.Isoelectric point / P(sheet),8.186868801959744
+Bar.mean.P(sheet),12.118249434670574
+Bar.mean.Vol x isoelectric point,7.552578806427854
+Bar.mean.Isoelectric point / P(helix),2.836112484300501
+Bar.mean.P(helix) / P(sheet),2.3090563370209582
+Bar.mean.Steric hindrance / P(sheet),3.043041290534681
+Bar.mean.P(helix) x Flex.,8.144522292994683
+pH,9.443236677944615

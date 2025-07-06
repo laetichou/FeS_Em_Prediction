@@ -1,0 +1,75 @@
+============================================================
+IRON-SULFUR PROTEIN DATASET ANALYSIS REPORT
+============================================================
+Generated on: 2025-07-01 12:49:10
+
+DATASET OVERVIEW
+--------------------
+Total proteins analyzed: 168
+Total cofactors: 168
+Unique proteins: 93
+
+PROTEIN SIZES
+---------------
+Mean residues: 145.7
+Median residues: 105.0
+Min residues: 52
+Max residues: 729
+Average maximum diameter: 49.3 Å
+Average surface area: 5511.9 Å²
+
+COFACTOR DISTRIBUTION
+----------------------
+[4Fe-4S]: 92 (54.8%)
+[2Fe-2S]: 60 (35.7%)
+[3Fe-4S]: 10 (6.0%)
+Fe3+: 6 (3.6%)
+
+PROTEIN FAMILY ANALYSIS
+----------------------
+[4Fe-4S] proteins: 57
+  HiPIP proteins: 14 (24.6%)
+[2Fe-2S] proteins: 31
+  Rieske proteins: 6 (19.4%)
+
+COFACTOR SIZE STATISTICS
+-------------------------
+[2Fe-2S]:
+  Residue Count - Mean: 163.2, Median: 159.0, Std Dev: 73.6
+  Max Diameter - Mean: 61.6 Å, Median: 54.9 Å, Std Dev: 19.0 Å
+[4Fe-4S]:
+  Residue Count - Mean: 137.8, Median: 81.0, Std Dev: 139.7
+  Max Diameter - Mean: 42.8 Å, Median: 37.5 Å, Std Dev: 16.8 Å
+[3Fe-4S]:
+  Residue Count - Mean: 168.7, Median: 105.0, Std Dev: 121.8
+  Max Diameter - Mean: 48.6 Å, Median: 38.0 Å, Std Dev: 20.5 Å
+Fe3+:
+  Residue Count - Mean: 53.3, Median: 53.5, Std Dev: 0.7
+  Max Diameter - Mean: 27.4 Å, Median: 27.4 Å, Std Dev: 1.5 Å
+
+BURIAL DEPTH STATISTICS
+-------------------------
+Mean: 7.45 Å
+Median: 5.43 Å
+Std Dev: 4.73 Å
+Range: 2.23 - 27.71 Å
+
+EXPERIMENTAL CONDITIONS
+-----------------------
+Redox Potential (Em):
+  Mean: -285.3 mV
+  Median: -375.0 mV
+  Std Dev: 259.9 mV
+  Range: -746.0 - 450.0 mV
+
+pH:
+  Mean: 7.3
+  Median: 7.0
+  Std Dev: 0.5
+  Range: 6.5 - 9.0
+
+MUTATION ANALYSIS
+-----------------
+Wild type entries: 118
+Mutant entries: 50
+Proportion mutant: 29.8%

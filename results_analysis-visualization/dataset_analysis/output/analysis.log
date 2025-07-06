@@ -1,0 +1,168 @@
+2025-06-29 11:48:06,713 - __main__ - INFO - Dataset analysis started
+2025-06-29 11:48:06,713 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-29 11:48:06,713 - __main__ - INFO - Starting dataset analysis...
+2025-06-29 11:48:06,725 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131K.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131K.pdb'
+2025-06-29 11:48:06,775 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_C57S.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_C57S.pdb'
+2025-06-29 11:48:06,775 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_C57S.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_C57S.pdb'
+2025-06-29 11:48:06,793 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131H.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131H.pdb'
+2025-06-29 11:48:06,796 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131I.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131I.pdb'
+2025-06-29 11:48:06,853 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131M.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131M.pdb'
+2025-06-29 11:48:06,853 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00207_T11I.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00207_T11I.pdb'
+2025-06-29 11:48:06,853 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00207_T11I.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00207_T11I.pdb'
+2025-06-29 11:48:06,856 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_T84P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_T84P.pdb'
+2025-06-29 11:48:06,880 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131L.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131L.pdb'
+2025-06-29 11:48:06,900 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131Y.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131Y.pdb'
+2025-06-29 11:48:06,900 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131N.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131N.pdb'
+2025-06-29 11:48:06,904 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_C57A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_C57A.pdb'
+2025-06-29 11:48:06,904 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_C57A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_C57A.pdb'
+2025-06-29 11:48:07,058 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_A85P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_A85P.pdb'
+2025-06-29 11:48:07,099 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00221_E92A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00221_E92A.pdb'
+2025-06-29 11:48:07,107 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G.pdb'
+2025-06-29 11:48:07,107 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G.pdb'
+2025-06-29 11:48:07,126 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00214_C24A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00214_C24A.pdb'
+2025-06-29 11:48:07,126 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00214_C24A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00214_C24A.pdb'
+2025-06-29 11:48:07,136 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P0A3C7_A45S.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P0A3C7_A45S.pdb'
+2025-06-29 11:48:07,182 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00221_E92Q.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00221_E92Q.pdb'
+2025-06-29 11:48:07,224 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_D82P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_D82P.pdb'
+2025-06-29 11:48:07,365 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_G124P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_G124P.pdb'
+2025-06-29 11:48:07,412 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00221_E92K.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00221_E92K.pdb'
+2025-06-29 11:48:07,436 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_V13G.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_V13G.pdb'
+2025-06-29 11:48:07,436 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_V13G.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_V13G.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_L123P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_L123P.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G_C57A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G_C57A.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G_C57A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00208_D12G_V13G_C57A.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00209_[4Fe-4S].pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00209_[4Fe-4S].pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00214_C20A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00214_C20A.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00214_C20A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00214_C20A.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131C.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131C.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131T.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131T.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_A125P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_A125P.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131A.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131A.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_G83P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_G83P.pdb'
+2025-06-29 11:48:07,548 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00209_[3Fe-4S].pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00209_[3Fe-4S].pdb'
+2025-06-29 11:48:07,586 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131W.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131W.pdb'
+2025-06-29 11:48:07,643 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131D.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131D.pdb'
+2025-06-29 11:48:07,644 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131S.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131S.pdb'
+2025-06-29 11:48:07,748 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131R.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131R.pdb'
+2025-06-29 11:48:07,748 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131E.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131E.pdb'
+2025-06-29 11:48:07,756 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131G.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131G.pdb'
+2025-06-29 11:48:07,756 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131P.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131P.pdb'
+2025-06-29 11:48:07,810 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131Q.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131Q.pdb'
+2025-06-29 11:48:07,810 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/O52681_V131F.pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/O52681_V131F.pdb'
+2025-06-29 11:48:09,176 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,221 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,221 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,265 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,268 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,298 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,298 - __main__ - WARNING - PDB file not found for P00207
+2025-06-29 11:48:09,298 - __main__ - WARNING - PDB file not found for P00207
+2025-06-29 11:48:09,301 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,324 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,342 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,342 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,345 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,345 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,500 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,539 - __main__ - WARNING - PDB file not found for P00221
+2025-06-29 11:48:09,546 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,547 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,564 - __main__ - WARNING - PDB file not found for P00214
+2025-06-29 11:48:09,564 - __main__ - WARNING - PDB file not found for P00214
+2025-06-29 11:48:09,574 - __main__ - WARNING - PDB file not found for P0A3C7
+2025-06-29 11:48:09,617 - __main__ - WARNING - PDB file not found for P00221
+2025-06-29 11:48:09,656 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,794 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,809 - __main__ - WARNING - PDB file not found for P00221
+2025-06-29 11:48:09,863 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,863 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for P00208
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for P00209
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for P00214
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for P00214
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:09,974 - __main__ - WARNING - PDB file not found for P00209
+2025-06-29 11:48:10,011 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,041 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,042 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,147 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,147 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,180 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,180 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,232 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,232 - __main__ - WARNING - PDB file not found for O52681
+2025-06-29 11:48:10,936 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 11:48:10,936 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-29 11:48:10,938 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 11:48:10,938 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-29 11:48:10,938 - __main__ - INFO - Analysis completed successfully
+2025-06-29 11:51:11,577 - __main__ - INFO - Dataset analysis started
+2025-06-29 11:51:11,577 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-29 11:51:11,577 - __main__ - INFO - Starting dataset analysis...
+2025-06-29 11:51:12,744 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00209_[4Fe-4S].pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00209_[4Fe-4S].pdb'
+2025-06-29 11:51:12,853 - __main__ - WARNING - Error processing Prediction_FeS_EM/final_structure_dataset/P00209_[3Fe-4S].pdb: [Errno 2] No such file or directory: 'Prediction_FeS_EM/final_structure_dataset/P00209_[3Fe-4S].pdb'
+2025-06-29 11:51:15,729 - __main__ - WARNING - PDB file not found for P00209
+2025-06-29 11:51:15,836 - __main__ - WARNING - PDB file not found for P00209
+2025-06-29 11:51:18,179 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 11:51:18,179 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-29 11:51:18,180 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 11:51:18,181 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-29 11:51:18,181 - __main__ - INFO - Analysis completed successfully
+2025-06-29 11:55:24,852 - __main__ - INFO - Dataset analysis started
+2025-06-29 11:55:24,852 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-29 11:55:24,852 - __main__ - INFO - Starting dataset analysis...
+2025-06-29 11:55:31,601 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 11:55:31,601 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-29 11:55:31,603 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 11:55:31,603 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-29 11:55:31,603 - __main__ - INFO - Analysis completed successfully
+2025-06-29 12:04:37,920 - __main__ - INFO - Dataset analysis started
+2025-06-29 12:04:37,920 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-29 12:04:37,920 - __main__ - INFO - Starting dataset analysis...
+2025-06-29 12:04:45,595 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 12:04:45,595 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-29 12:04:45,597 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-29 12:04:45,597 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-29 12:04:45,597 - __main__ - INFO - Analysis completed successfully
+2025-06-30 15:11:16,224 - __main__ - INFO - Dataset analysis started
+2025-06-30 15:11:16,225 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-30 15:11:16,225 - __main__ - INFO - Starting dataset analysis...
+2025-06-30 15:11:19,686 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-30 15:11:19,686 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-30 15:11:19,688 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-30 15:11:19,688 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-30 15:11:19,688 - __main__ - INFO - Analysis completed successfully
+2025-06-30 22:39:29,279 - __main__ - INFO - Dataset analysis started
+2025-06-30 22:39:29,279 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-30 22:39:29,279 - __main__ - INFO - Starting dataset analysis...
+2025-06-30 22:39:32,746 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-30 22:39:32,746 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-30 22:39:32,748 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-30 22:39:32,748 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-30 22:39:32,748 - __main__ - INFO - Analysis completed successfully
+2025-06-30 22:40:55,398 - __main__ - INFO - Dataset analysis started
+2025-06-30 22:40:55,398 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-06-30 22:40:55,398 - __main__ - INFO - Starting dataset analysis...
+2025-06-30 22:41:03,504 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-30 22:41:03,504 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-06-30 22:41:03,507 - __main__ - INFO - Detailed CSV files created in output directory
+2025-06-30 22:41:03,507 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-06-30 22:41:03,507 - __main__ - INFO - Analysis completed successfully
+2025-07-01 12:48:49,104 - __main__ - INFO - Dataset analysis started
+2025-07-01 12:48:49,104 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-07-01 12:48:49,104 - __main__ - INFO - Starting dataset analysis...
+2025-07-01 12:49:02,197 - __main__ - INFO - Dataset analysis started
+2025-07-01 12:49:02,197 - __main__ - INFO - Output directory: Prediction_FeS_EM/final_stretch/dataset_analysis/output
+2025-07-01 12:49:02,197 - __main__ - INFO - Starting dataset analysis...
+2025-07-01 12:49:05,516 - __main__ - INFO - Redox potential statistics saved to redox_potential_statistics.csv
+2025-07-01 12:49:10,907 - __main__ - INFO - Detailed CSV files created in output directory
+2025-07-01 12:49:10,907 - __main__ - INFO - Simple text report created: analysis_report.txt
+2025-07-01 12:49:10,909 - __main__ - INFO - Detailed CSV files created in output directory
+2025-07-01 12:49:10,909 - __main__ - INFO - Analysis results saved to JSON and CSV files
+2025-07-01 12:49:10,909 - __main__ - INFO - Analysis completed successfully

@@ -1,0 +1,45 @@
+{
+  "categories": {
+    "counts": {
+      "description": "Amino acid counts in Bar/Protein regions",
+      "prefix": "count",
+      "examples": [
+        "Bar.count.ALA",
+        "Protein.count.CYS"
+      ]
+    },
+    "properties": {
+      "description": "Properties from tableAmm (sums)",
+      "prefix": "prop",
+      "examples": [
+        "Bar.prop.Volume",
+        "Protein.prop.Hydrophobicity"
+      ]
+    },
+    "means": {
+      "description": "Mean property values per region",
+      "prefix": "mean",
+      "examples": [
+        "Bar.mean.Volume",
+        "Protein.mean.Hydrophobicity"
+      ]
+    },
+    "structure": {
+      "description": "Structural features",
+      "prefix": "struct",
+      "examples": [
+        "burial_depth"
+      ]
+    },
+    "sequence": {
+      "description": "CTD sequence-based features",
+      "prefix": "seq",
+      "examples": [
+        "CTDC_PolarizabilityC1",
+        "CTDT_PolarizabilityT12"
+      ]
+    }
+  },
+  "date_generated": "2025-06-01T20:28:12.152426",
+  "description": "Feature definitions and organization for iron-sulfur protein analysis"
+}

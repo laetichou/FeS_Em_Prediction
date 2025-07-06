@@ -1,0 +1,108 @@
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-07-03 22:29:02
+Source results directory: ml_results_r_dependent/SF4_bar
+Output directory: ml_results_r_dependent/SF4_bar_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/SF4_bar/ml_results.json
+Processing: SF4_all
+Created interpretation output directory: ml_results_r_dependent/SF4_all_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-07-03 22:29:02
+Source results directory: ml_results_r_dependent/SF4_all
+Output directory: ml_results_r_dependent/SF4_all_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/SF4_all/ml_results.json
+Processing: FES_all
+Created interpretation output directory: ml_results_r_dependent/FES_all_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-07-03 22:29:02
+Source results directory: ml_results_r_dependent/FES_all
+Output directory: ml_results_r_dependent/FES_all_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/FES_all/ml_results.json
+Processing: all_cofactors_bar
+Created interpretation output directory: ml_results_r_dependent/all_cofactors_bar_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-07-03 22:29:02
+Source results directory: ml_results_r_dependent/all_cofactors_bar
+Output directory: ml_results_r_dependent/all_cofactors_bar_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/all_cofactors_bar/ml_results.json
+
+Overall Performance Statistics Across All Radius-Dependent Datasets:
+================================================================================
+MAE STATISTICS:
+---------------
+ElasticNet: Mean MAE = 105.29 mV, Median MAE = 107.45 mV, Std MAE = 13.62 mV
+GaussianProcessRegressor: Mean MAE = 121.49 mV, Median MAE = 120.64 mV, Std MAE = 31.84 mV
+GradientBoostingRegressor: Mean MAE = 88.17 mV, Median MAE = 89.76 mV, Std MAE = 9.60 mV
+KNeighborsRegressor: Mean MAE = 94.34 mV, Median MAE = 95.35 mV, Std MAE = 15.32 mV
+RandomForestRegressor: Mean MAE = 95.54 mV, Median MAE = 101.45 mV, Std MAE = 16.73 mV
+SVR: Mean MAE = 150.28 mV, Median MAE = 160.16 mV, Std MAE = 24.82 mV
+LinearRegression: Mean MAE = 1168.37 mV, Median MAE = 195.45 mV, Std MAE = 4342.73 mV
+
+RMSE STATISTICS:
+----------------
+ElasticNet: Mean RMSE = 147.72 mV, Median RMSE = 149.59 mV, Std RMSE = 19.35 mV
+GaussianProcessRegressor: Mean RMSE = 164.17 mV, Median RMSE = 166.37 mV, Std RMSE = 37.90 mV
+GradientBoostingRegressor: Mean RMSE = 128.31 mV, Median RMSE = 127.59 mV, Std RMSE = 13.92 mV
+KNeighborsRegressor: Mean RMSE = 139.26 mV, Median RMSE = 142.99 mV, Std RMSE = 19.43 mV
+RandomForestRegressor: Mean RMSE = 136.15 mV, Median RMSE = 143.32 mV, Std RMSE = 21.41 mV
+SVR: Mean RMSE = 229.80 mV, Median RMSE = 240.43 mV, Std RMSE = 39.04 mV
+LinearRegression: Mean RMSE = 229.80 mV, Median RMSE = 240.43 mV, Std RMSE = 39.04 mV
+
+R² STATISTICS:
+--------------
+ElasticNet: Mean R² = 0.530, Median R² = 0.579, Std R² = 0.221
+GaussianProcessRegressor: Mean R² = 0.405, Median R² = 0.465, Std R² = 0.210
+GradientBoostingRegressor: Mean R² = 0.635, Median R² = 0.682, Std R² = 0.174
+KNeighborsRegressor: Mean R² = 0.603, Median R² = 0.647, Std R² = 0.122
+RandomForestRegressor: Mean R² = 0.645, Median R² = 0.646, Std R² = 0.094
+SVR: Mean R² = 0.091, Median R² = 0.091, Std R² = 0.050
+LinearRegression: Mean R² = -267871.937, Median R² = -3.803, Std R² = 2416721.869
+
+SPEARMAN CORRELATION STATISTICS:
+---------------------------------
+ElasticNet: Mean Spearman = 0.603, Median Spearman = 0.650, Std Spearman = 0.114
+GaussianProcessRegressor: Mean Spearman = 0.653, Median Spearman = 0.694, Std Spearman = 0.101
+GradientBoostingRegressor: Mean Spearman = 0.706, Median Spearman = 0.747, Std Spearman = 0.118
+KNeighborsRegressor: Mean Spearman = 0.689, Median Spearman = 0.717, Std Spearman = 0.086
+RandomForestRegressor: Mean Spearman = 0.710, Median Spearman = 0.750, Std Spearman = 0.106
+SVR: Mean Spearman = 0.636, Median Spearman = 0.675, Std Spearman = 0.123
+LinearRegression: Mean Spearman = 0.462, Median Spearman = 0.541, Std Spearman = 0.187
+
+Top 5 Models by MAE at Optimal Radii Across All Datasets:
+============================================================
+RandomForestRegressor (FES_bar, r=13Å): MAE=61.49±28.39 mV, RMSE=92.72±47.40 mV, R²=0.732±0.159, Spearman=0.715±0.174
+KNeighborsRegressor (FES_all, r=16Å): MAE=62.86±22.73 mV, RMSE=90.69±35.22 mV, R²=0.713±0.201, Spearman=0.701±0.168
+RandomForestRegressor (FES_all, r=11Å): MAE=64.69±29.74 mV, RMSE=99.19±44.25 mV, R²=0.691±0.172, Spearman=0.732±0.206
+ElasticNet (FES_bar, r=11Å): MAE=65.00±24.43 mV, RMSE=92.31±37.39 mV, R²=0.719±0.148, Spearman=0.654±0.194
+GaussianProcessRegressor (FES_all, r=12Å): MAE=65.31±26.68 mV, RMSE=95.46±38.59 mV, R²=0.667±0.315, Spearman=0.758±0.157
+
+Stability and Trend Analysis Across All Datasets:
+================================================================================
+GradientBoostingRegressor:
+  Stability: MAE_std=22.55, RMSE_std=33.96, R2_std=0.239, Spearman_std=0.140
+  Trends: MAE_slope=-0.640, RMSE_slope=-0.899, R2_slope=0.0090, Spearman_slope=0.0075
+SVR:
+  Stability: MAE_std=40.50, RMSE_std=54.59, R2_std=0.137, Spearman_std=nan
+  Trends: MAE_slope=-0.461, RMSE_slope=-0.252, R2_slope=0.0031, Spearman_slope=nan
+ElasticNet:
+  Stability: MAE_std=25.25, RMSE_std=40.24, R2_std=0.338, Spearman_std=nan
+  Trends: MAE_slope=-0.923, RMSE_slope=-0.936, R2_slope=0.0063, Spearman_slope=nan
+LinearRegression:
+  Stability: MAE_std=4248.22, RMSE_std=10031.75, R2_std=1867821.217, Spearman_std=nan
+  Trends: MAE_slope=-109.465, RMSE_slope=-217.430, R2_slope=32412.4052, Spearman_slope=nan
+KNeighborsRegressor:
+  Stability: MAE_std=25.05, RMSE_std=39.62, R2_std=0.229, Spearman_std=nan
+  Trends: MAE_slope=-1.634, RMSE_slope=-1.851, R2_slope=0.0126, Spearman_slope=nan
+GaussianProcessRegressor:
+  Stability: MAE_std=50.92, RMSE_std=57.91, R2_std=0.584, Spearman_std=nan
+  Trends: MAE_slope=-2.492, RMSE_slope=-3.269, R2_slope=0.0233, Spearman_slope=nan
+RandomForestRegressor:
+  Stability: MAE_std=23.33, RMSE_std=33.68, R2_std=0.155, Spearman_std=0.140
+  Trends: MAE_slope=-0.611, RMSE_slope=-0.495, R2_slope=0.0061, Spearman_slope=0.0083
+Saved stability heatmap to: ml_results_r_dependent/aggregated_interpretation/stability_heatmap.png
+Saved filtered stability heatmap to: ml_results_r_dependent/aggregated_interpretation/stability_heatmap_no_lr.png
+Saved legend to: ml_results_r_dependent/aggregated_interpretation/legend.png
+Aggregated report saved to: ml_results_r_dependent/aggregated_interpretation/aggregated_report.txt

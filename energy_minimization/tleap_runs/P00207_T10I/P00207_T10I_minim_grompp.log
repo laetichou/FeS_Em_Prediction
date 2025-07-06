@@ -1,0 +1,52 @@
+Setting the LD random seed to -268548097
+
+Generated 406 of the 406 non-bonded parameter combinations
+
+Generated 406 of the 406 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+Excluding 3 bonded neighbours molecule type 'Na+'
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Analysing residue names:
+There are:    63    Protein residues
+There are:     2      Other residues
+There are:  3800      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.419 nm between atom 359 and 367
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 44x52x48, spacing 0.118 0.113 0.114
+
+Estimate for the relative computational load of the PME mesh part: 0.25
+
+This run will generate roughly 1 Mb of data
+
+--- stderr ---
+                :-) GROMACS - gmx grompp, 2024.5-conda_forge (-:
+
+Executable:   /usr/local/Caskroom/miniforge/base/envs/gromacs_env/bin.AVX2_256/gmx
+Data prefix:  /usr/local/Caskroom/miniforge/base/envs/gromacs_env
+Working dir:  /Users/laetitiaguerin/Library/CloudStorage/OneDrive-Personal/Documents/BSc_Nanobiology/Year_5/BEP/Energy_minimization/tleap_runs/P00207_T10I
+Command line:
+  gmx grompp -f minim.mdp -c P00207_T10I.gro -p P00207_T10I_gromacs.top -o P00207_T10I_minim.tpr
+
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file minim.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 25551.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+There was 1 NOTE
+
+GROMACS reminds you: "Beat On the Brat With a Baseball Bat" (The Ramones)
+

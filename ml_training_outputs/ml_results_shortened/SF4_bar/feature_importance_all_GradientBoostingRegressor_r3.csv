@@ -1,0 +1,22 @@
+feature,importance
+struct.burial_depth,80.8257454979362
+struct.is_hipip,181.9656501365113
+Bar.count.ALA,0.0
+Bar.count.ASN,0.0
+Bar.count.CYS,0.0
+Bar.count.HIS,0.0
+Bar.count.MET,0.0
+Bar.count.VAL,0.0
+Bar.prop.Volume,0.11076794826049241
+Bar.prop.Log(Solubility (m at 20ºC)),0.09964552768292384
+Bar.prop.Hydrophobicity,2.574551139862476
+Bar.prop.P(helix),3.8239466154314816
+Bar.prop.nSats in side chain,0.0
+Bar.prop.nNats in side chain,0.0
+Bar.prop.nH-bonds,0.17716244794307603
+Bar.prop.Vol / log(solub),0.21207362951512315
+Bar.prop.Steric hindrance x Flexibility,1.3082473697651853
+Bar.prop.log(Solub) x Hydrophobicity,0.0
+Bar.mean.nOats in side chain,0.0
+Bar.mean.nH-bonds,0.0
+pH,22.69110701424228

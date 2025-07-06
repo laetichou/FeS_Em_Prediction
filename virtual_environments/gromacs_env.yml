@@ -1,0 +1,21 @@
+name: gromacs_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fftw=3.3.10=nompi_h292e606_110
+  - gromacs=2024.5=nompi_h7671c4b_100
+  - icu=75.1=h120a0e1_0
+  - khronos-opencl-icd-loader=2024.10.24=h6e16a3a_1
+  - libcxx=20.1.1=hf95d169_0
+  - libgfortran=5.0.0=14_2_0_h51e75f0_1
+  - libgfortran5=14.2.0=h51e75f0_1
+  - libhwloc=2.11.2=default_h4cdd727_1001
+  - libiconv=1.18=h4b5e92a_1
+  - liblzma=5.6.4=hd471939_0
+  - libxml2=2.13.7=hebb159f_0
+  - libzlib=1.3.1=hd23fc13_2
+  - llvm-openmp=20.1.1=ha54dae1_1
+  - ocl_icd_wrapper_apple=1.0.0=hbcb3906_0
+  - opencl-headers=2024.10.24=h240833e_0
+prefix: /usr/local/Caskroom/miniforge/base/envs/gromacs_env

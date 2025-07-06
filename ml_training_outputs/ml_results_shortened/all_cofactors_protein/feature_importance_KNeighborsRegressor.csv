@@ -1,0 +1,48 @@
+feature,importance
+struct.is_hipip,46.49695496588593
+struct.is_rieske,21.730784333764667
+seq.CTDC__HydrophobicityC3,7.045580724977758
+seq.CTDC__PolarityC1,7.0341076796007735
+seq.CTDT__SecondaryStrT13,6.472469307290197
+Protein.mean.Steric hindrance,6.004917683313578
+seq.CTDC__SecondaryStrC2,5.416776926007507
+seq.CTDT__NormalizedVDWVT12,5.113187046644252
+seq.CTDC__SecondaryStrC3,4.996392209264198
+Protein.mean.P(helix)+P(sheet),4.82989543248164
+Protein.mean.P(sheet),4.828448649054365
+Protein.mean.Isoelectric point / P(sheet),4.6204741204001785
+seq.CTDC__ChargeC3,4.614802110080257
+seq.CTDT__PolarityT12,4.444876556473722
+Protein.mean.nOats in side chain,4.442485452822937
+pH,4.428604836841145
+Protein.mean.nSats in side chain,3.697700642035124
+seq.CTDT__HydrophobicityT13,3.608921673777924
+seq.CTDT__HydrophobicityT12,3.56233515687469
+Protein.mean.Steric hindrance / P(helix),3.528792376572184
+seq.CTDC__NormalizedVDWVC2,3.391981699955279
+Protein.mean.Steric hindrance / P(sheet),3.387208512592429
+seq.CTDT__ChargeT23,3.298299064851207
+Protein.count.CYS,3.2916534066635124
+Protein.mean.Hydrophobicity x Flex.,3.249354015251302
+seq.CTDC__PolarizabilityC2,3.1939666282591825
+Protein.mean.log(Solub) x Flex,2.9340866098962146
+Protein.mean.Isoelectric point,2.8754394309283
+seq.CTDC__HydrophobicityC2,2.772153060690266
+Protein.mean.Vol / log(solub),2.2109525072098313
+Protein.mean.nNats in side chain,2.138500527995002
+Protein.count.HIS,2.0257743302349365
+Protein.mean.P(helix) x Flex.,1.8528449858022853
+Protein.mean.Log(Solubility (m at 20ºC)),1.7200108737188264
+Protein.mean.Steric hindrance x Flexibility,1.6270365624247085
+Protein.mean.P(helix) / P(sheet),1.538325365398399
+Protein.mean.Hydrophobicity,1.4640323495437122
+seq.CTDC__PolarizabilityC1,1.3834591752569323
+seq.CTDT__PolarizabilityT23,1.20303378701043
+Protein.count.TRP,1.085489963124738
+seq.CTDC__PolarityC3,0.8985500405888064
+seq.CTDC__SecondaryStrC1,0.8931888487237042
+seq.CTDC__ChargeC1,0.8491157569681576
+seq.CTDT__ChargeT12,0.7912511013437785
+seq.CTDT__PolarizabilityT13,0.7863887671022367
+seq.CTDC__PolarizabilityC3,0.7719867513329249
+seq.CTDT__SecondaryStrT23,0.6869485874739961

@@ -1,0 +1,52 @@
+Setting the LD random seed to -851574833
+
+Generated 630 of the 630 non-bonded parameter combinations
+
+Generated 630 of the 630 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+Excluding 3 bonded neighbours molecule type 'Na+'
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Analysing residue names:
+There are:   161    Protein residues
+There are:     2      Other residues
+There are:  9375      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.423 nm between atom 2024 and 2032
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 64x56x72, spacing 0.118 0.115 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.24
+
+This run will generate roughly 3 Mb of data
+
+--- stderr ---
+                :-) GROMACS - gmx grompp, 2024.5-conda_forge (-:
+
+Executable:   /usr/local/Caskroom/miniforge/base/envs/gromacs_env/bin.AVX2_256/gmx
+Data prefix:  /usr/local/Caskroom/miniforge/base/envs/gromacs_env
+Working dir:  /Users/laetitiaguerin/Library/CloudStorage/OneDrive-Personal/Documents/BSc_Nanobiology/Year_5/BEP/Energy_minimization/tleap_runs/O52681_V128R
+Command line:
+  gmx grompp -f minim.mdp -c O52681_V128R.gro -p O52681_V128R_gromacs.top -o O52681_V128R_minim.tpr
+
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file minim.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 63948.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+There was 1 NOTE
+
+GROMACS reminds you: "Though the path of the comet is sure, it's constitution is not" (Peter Hammill)
+

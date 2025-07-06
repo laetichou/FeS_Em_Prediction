@@ -1,0 +1,17 @@
+source leaprc.protein.ff19SB
+source leaprc.water.opc 
+source leaprc.phosaa19SB
+source leaprc.protein.ff19SB_modAA
+loadAmberParams frcmod.ionslm_126_opc
+
+X = loadpdb P00221_E81Q_pqr.pdb
+
+check X
+solvatebox X OPCBOX 10
+
+addions X Na+ 63
+addions X Cl- 54
+
+saveamberparm X P00221_E81Q_pqr.top P00221_E81Q_pqr.crd
+savepdb X P00221_E81Q_pqr.pdb
+quit

@@ -1,0 +1,51 @@
+feature,importance
+Bar.count.ALA,1.8068353412461362
+Bar.count.ARG,1.0796589135875476
+Bar.count.ASN,0.8491665504720698
+Bar.count.ASP,2.228238394411526
+Bar.count.HIS,2.4186999109544813
+Bar.count.LYS,2.806201077863317
+Bar.count.MET,2.355641310062789
+Bar.count.PHE,1.4249328189268968
+Bar.count.PRO,4.072475247797081
+Bar.count.TRP,2.0361751186890924
+Protein.count.HIS,0.7407037055562504
+Protein.count.TRP,0.46961450772141267
+Bar.prop.nNats in side chain,1.2537030173434744
+Bar.prop.Vol / log(solub),4.179819938932038
+Bar.prop.log(Solub) x Hydrophobicity,4.274485705554805
+Protein.prop.Vol / log(solub),0.7493275616108661
+Bar.mean.Volume,4.144558968352093
+Bar.mean.Isoelectric point,8.114319691126434
+Bar.mean.P(helix),2.8381337278405
+Bar.mean.Steric hindrance,3.0471876198659418
+Bar.mean.Vol / P(helix),3.908336560177992
+Bar.mean.Steric hindrance x Flexibility,4.829060452714866
+Bar.mean.Flexibility,4.962619355273898
+Bar.mean.log(Solub) x Hydrophobicity,5.88700564370105
+Bar.mean.V / (P(helix)+P(sheet)),2.449357779237319
+Bar.mean.Steric hindrance / P(helix),3.2068216991432603
+Bar.mean.Isoelectric point / P(sheet),2.8940400421360244
+Bar.mean.P(sheet),2.575716135926074
+Bar.mean.Isoelectric point / P(helix),4.958650165041389
+Bar.mean.P(helix) x Flex.,2.8665461131354086
+Protein.mean.Log(Solubility (m at 20ºC)),1.2276568433901123
+Protein.mean.Isoelectric point,1.3907932579936733
+Protein.mean.nOats in side chain,1.2876782512902891
+Protein.mean.nNats in side chain,6.29060146182124
+Protein.mean.Vol / log(solub),1.5814091732966153
+Protein.mean.Vol / P(helix),1.509090047703602
+Protein.mean.Isoelectric point / P(sheet),1.9005751931261914
+Protein.mean.Vol x isoelectric point,3.4463143836284473
+Protein.mean.Isoelectric point / P(helix),1.5893974768079995
+Protein.mean.P(helix) / P(sheet),2.217951588656118
+struct.is_rieske,11.29443233638626
+seq.CTDC__PolarizabilityC3,1.409545994614633
+seq.CTDC__SolventAccessibilityC3,1.2667051621045151
+seq.CTDC__SecondaryStrC2,3.2364070525776327
+seq.CTDC__ChargeC3,3.4020052887987897
+seq.CTDC__PolarityC3,2.1134963483874722
+seq.CTDT__PolarizabilityT12,1.7790998490695462
+seq.CTDT__SolventAccessibilityT12,2.4630939657062343
+seq.CTDT__SolventAccessibilityT13,11.418163168427734
+seq.CTDT__ChargeT12,4.347955729611385

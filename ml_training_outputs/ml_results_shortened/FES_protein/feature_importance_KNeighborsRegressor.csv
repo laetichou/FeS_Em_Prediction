@@ -1,0 +1,47 @@
+feature,importance
+struct.is_rieske,10.106806240567808
+Protein.mean.nNats in side chain,9.05786271202289
+seq.CTDT__SolventAccessibilityT13,7.652575528763175
+Protein.mean.Isoelectric point / P(helix),6.615357262927415
+seq.CTDT__ChargeT12,6.081534311715971
+Protein.count.GLY,5.718021447815115
+seq.CTDC__SolventAccessibilityC1,4.672216827232232
+Protein.mean.Isoelectric point,4.662040045135989
+Protein.mean.Vol / log(solub),4.309957808830732
+seq.CTDT__SolventAccessibilityT12,4.0729620930812205
+Protein.mean.nOats in side chain,3.920151374910792
+seq.CTDC__SolventAccessibilityC3,3.894215782447122
+Protein.mean.P(helix),3.8228430234899333
+seq.CTDT__HydrophobicityT13,3.7644028576964614
+seq.CTDC__HydrophobicityC2,3.741536180063563
+Protein.mean.Isoelectric point / P(sheet),3.7317425402659543
+seq.CTDC__ChargeC3,3.549879912618848
+Protein.count.TRP,3.355704902555421
+seq.CTDT__PolarizabilityT13,3.3408680343172956
+seq.CTDT__PolarizabilityT12,3.2573187793567637
+Protein.mean.P(helix) / P(sheet),3.1444219517613234
+seq.CTDT__SecondaryStrT12,3.115583654191209
+seq.CTDC__SecondaryStrC2,3.0300506175861552
+seq.CTDC__PolarityC3,2.98139412298576
+seq.CTDT__HydrophobicityT12,2.9213083934229624
+seq.CTDT__ChargeT13,2.8689328658851188
+Protein.mean.V / (P(helix)+P(sheet)),2.6854084672450202
+Protein.mean.Vol / P(helix),2.643206986904294
+Protein.prop.Vol / log(solub),2.5554583405829185
+Protein.mean.Log(Solubility (m at 20ºC)),2.5120755431857305
+Protein.mean.P(helix) x Flex.,2.383212519432539
+Protein.count.VAL,2.2693193495702206
+Protein.count.PHE,2.268130276580856
+Protein.count.PRO,2.1300226312396733
+seq.CTDT__PolarizabilityT23,1.834077720116837
+seq.CTDT__SolventAccessibilityT23,1.8306911854769912
+pH,1.6303052315684823
+Protein.count.CYS,1.5673470206501363
+Protein.mean.Vol x isoelectric point,1.4426924882170746
+Protein.count.GLN,1.4412983337803347
+Protein.count.HIS,1.3988558653758802
+Protein.count.ARG,1.0796225889199678
+seq.CTDT__HydrophobicityT23,1.079046066394064
+seq.CTDT__PolarityT13,0.9847169220368018
+seq.CTDC__PolarizabilityC3,0.8660227101993374
+Protein.count.ASN,0.5479582796001299

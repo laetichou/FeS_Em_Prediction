@@ -1,0 +1,37 @@
+name: parmed_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8=hfdf4475_7
+  - ca-certificates=2025.1.31=h8857fd0_0
+  - libblas=3.9.0=31_h7f60823_openblas
+  - libcblas=3.9.0=31_hff6cab4_openblas
+  - libcxx=20.1.1=hf95d169_0
+  - libexpat=2.6.4=h240833e_0
+  - libffi=3.4.6=h281671d_0
+  - libgfortran=5.0.0=14_2_0_h51e75f0_1
+  - libgfortran5=14.2.0=h51e75f0_1
+  - liblapack=3.9.0=31_h236ab99_openblas
+  - liblzma=5.6.4=hd471939_0
+  - libmpdec=4.0.0=hfdf4475_0
+  - libopenblas=0.3.29=openmp_hbf64a52_0
+  - libsqlite=3.49.1=hdb6dae5_2
+  - libzlib=1.3.1=hd23fc13_2
+  - llvm-openmp=20.1.1=ha54dae1_1
+  - ncurses=6.5=h0622a9a_3
+  - numpy=2.2.4=py313hc518a0f_0
+  - openssl=3.4.1=hc426f3f_0
+  - pandas=2.2.3=py313h38cdd20_1
+  - parmed=4.3.0=py313h2e74d02_1
+  - pip=25.0.1=pyh145f28c_0
+  - python=3.13.2=h534c281_101_cp313
+  - python-dateutil=2.9.0.post0=pyhff2d567_1
+  - python-tzdata=2025.2=pyhd8ed1ab_0
+  - python_abi=3.13=5_cp313
+  - pytz=2024.1=pyhd8ed1ab_0
+  - readline=8.2=h7cca4af_2
+  - six=1.17.0=pyhd8ed1ab_0
+  - tk=8.6.13=h1abcd95_1
+  - tzdata=2025b=h78e105d_0
+prefix: /usr/local/Caskroom/miniforge/base/envs/parmed_env

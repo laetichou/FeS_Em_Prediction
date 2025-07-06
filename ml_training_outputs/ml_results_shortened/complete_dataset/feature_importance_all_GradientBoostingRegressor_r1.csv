@@ -1,0 +1,100 @@
+feature,importance
+Bar.count.ASN,0.0
+Bar.count.MET,0.0
+Protein.count.ALA,2.367660205355091
+Protein.count.ARG,0.06122429105387445
+Protein.count.ASN,0.4298190736251356
+Protein.count.ASP,0.33754248367689693
+Protein.count.CYS,1.0716985028009034
+Protein.count.GLN,13.057551476279711
+Protein.count.GLU,0.4474699110141644
+Protein.count.GLY,0.1861883152790803
+Protein.count.HIS,1.9857013134148562
+Protein.count.ILE,0.775431402404733
+Protein.count.LEU,4.230265562302166
+Protein.count.LYS,0.29381109935953315
+Protein.count.MET,0.21300118539577506
+Protein.count.PHE,0.6012559259112246
+Protein.count.PRO,0.399101264091565
+Protein.count.SER,0.34850842204129445
+Protein.count.THR,0.1586110395365054
+Protein.count.TRP,0.5271172955171679
+Protein.count.TYR,1.5824730747325138
+Protein.count.VAL,0.4150936133625836
+Bar.prop.Volume,0.03366811877823572
+Bar.prop.Log(Solubility (m at 20ºC)),0.010907884686760218
+Bar.prop.Hydrophobicity,0.0
+Protein.prop.nSats in side chain,7.728480412072467
+Protein.prop.Vol / log(solub),3.4305047422041923
+Protein.prop.log(Solub) x Flex,2.248663061392043
+Protein.mean.Volume,1.9040180103531834
+Protein.mean.Log(Solubility (m at 20ºC)),7.016496066238698
+Protein.mean.Hydrophobicity,1.1573641821134184
+Protein.mean.Isoelectric point,0.11287779712276588
+Protein.mean.P(helix),0.37522660435968375
+Protein.mean.nOats in side chain,1.2547002586668792
+Protein.mean.nSats in side chain,0.5015905832481968
+Protein.mean.nNats in side chain,5.30549468624503
+Protein.mean.Steric hindrance,0.9234075286809597
+Protein.mean.nH-bonds,0.8929640415363975
+Protein.mean.Vol / log(solub),0.4990570538093569
+Protein.mean.Vol / P(helix),1.8940642858462695
+Protein.mean.Vol / P(sheet),0.6208196498537566
+Protein.mean.log(Solub) x Flex,0.5251245459429434
+Protein.mean.Steric hindrance x Flexibility,0.6306831239179328
+Protein.mean.Flexibility,1.3034483252144984
+Protein.mean.P(helix)+P(sheet),0.8857222710221959
+Protein.mean.log(Solub) x Hydrophobicity,1.4243009829584028
+Protein.mean.Hydrophobicity x Flex.,0.662857308430379
+Protein.mean.V / (P(helix)+P(sheet)),1.2946859357695728
+Protein.mean.Steric hindrance / P(helix),1.7005010896920776
+Protein.mean.Isoelectric point / P(sheet),52.27041853069066
+Protein.mean.P(sheet),4.208682313554699
+Protein.mean.Vol x isoelectric point,0.40143457736973814
+Protein.mean.Isoelectric point / P(helix),2.387284384793645
+Protein.mean.P(helix) / P(sheet),6.56851828385049
+Protein.mean.Steric hindrance / P(sheet),0.5244618270689236
+Protein.mean.P(helix) x Flex.,6.103264328321858
+struct.burial_depth,19.17275557088986
+struct.iron_count,78.58178491777342
+struct.is_rieske,3.642167043623136
+struct.is_hipip,85.24208153363453
+seq.CTDC__PolarizabilityC1,9.02448855223037
+seq.CTDC__PolarizabilityC2,1.1810456906832338
+seq.CTDC__PolarizabilityC3,0.12377364599201655
+seq.CTDC__SolventAccessibilityC1,0.1376387844506867
+seq.CTDC__SolventAccessibilityC2,0.7035984259829408
+seq.CTDC__SolventAccessibilityC3,1.3444558043730488
+seq.CTDC__SecondaryStrC1,0.1340103292973207
+seq.CTDC__SecondaryStrC2,9.940411681523354
+seq.CTDC__SecondaryStrC3,4.582468715695018
+seq.CTDC__ChargeC1,0.12180874520060272
+seq.CTDC__ChargeC2,0.24149499331041216
+seq.CTDC__ChargeC3,1.0178631025473475
+seq.CTDC__PolarityC1,4.263063804139348
+seq.CTDC__PolarityC2,0.9033100157484247
+seq.CTDC__PolarityC3,0.2941136670465252
+seq.CTDC__NormalizedVDWVC2,1.629408793342337
+seq.CTDC__HydrophobicityC2,0.30908434139250174
+seq.CTDC__HydrophobicityC3,3.5937454944951384
+seq.CTDT__PolarizabilityT12,0.27686420928349403
+seq.CTDT__PolarizabilityT13,1.2377105834408542
+seq.CTDT__PolarizabilityT23,1.2754823868398826
+seq.CTDT__SolventAccessibilityT12,0.3494207396218267
+seq.CTDT__SolventAccessibilityT13,1.5764976709958813
+seq.CTDT__SolventAccessibilityT23,1.9725704627325757
+seq.CTDT__SecondaryStrT12,2.676841446657233
+seq.CTDT__SecondaryStrT13,0.6083173120865548
+seq.CTDT__SecondaryStrT23,5.739688808590894
+seq.CTDT__ChargeT12,0.4884032903234891
+seq.CTDT__ChargeT13,0.6736463520779449
+seq.CTDT__ChargeT23,0.4103753072135992
+seq.CTDT__PolarityT12,3.517020402642841
+seq.CTDT__PolarityT13,0.5064726297546474
+seq.CTDT__PolarityT23,1.9150933927447589
+seq.CTDT__NormalizedVDWVT12,0.434969832968802
+seq.CTDT__NormalizedVDWVT23,1.241908092363274
+seq.CTDT__HydrophobicityT12,0.8584787001307881
+seq.CTDT__HydrophobicityT13,1.2470558026178122
+seq.CTDT__HydrophobicityT23,1.096758015859896
+pH,5.008489202834811

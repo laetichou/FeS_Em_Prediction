@@ -1,0 +1,117 @@
+=== Aggregated Iron-Sulfur Redox Potential Prediction - Radius-Dependent Results ===
+Started: 2025-06-29 14:02:18
+Parent directory: ml_results_r_dependent
+Output directory: ml_results_r_dependent/aggregated_interpretation
+======================================================================
+Loading results from: complete_dataset/ml_results.json
+Created interpretation output directory: ml_results_r_dependent/complete_dataset_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-06-29 14:02:18
+Source results directory: ml_results_r_dependent/complete_dataset
+Output directory: ml_results_r_dependent/complete_dataset_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/complete_dataset/ml_results.json
+Loading results from: FES_bar/ml_results.json
+Created interpretation output directory: ml_results_r_dependent/FES_bar_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-06-29 14:02:18
+Source results directory: ml_results_r_dependent/FES_bar
+Output directory: ml_results_r_dependent/FES_bar_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/FES_bar/ml_results.json
+Loading results from: SF4_bar/ml_results.json
+Created interpretation output directory: ml_results_r_dependent/SF4_bar_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-06-29 14:02:18
+Source results directory: ml_results_r_dependent/SF4_bar
+Output directory: ml_results_r_dependent/SF4_bar_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/SF4_bar/ml_results.json
+Loading results from: SF4_all/ml_results.json
+Created interpretation output directory: ml_results_r_dependent/SF4_all_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-06-29 14:02:18
+Source results directory: ml_results_r_dependent/SF4_all
+Output directory: ml_results_r_dependent/SF4_all_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/SF4_all/ml_results.json
+Loading results from: FES_all/ml_results.json
+Created interpretation output directory: ml_results_r_dependent/FES_all_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-06-29 14:02:18
+Source results directory: ml_results_r_dependent/FES_all
+Output directory: ml_results_r_dependent/FES_all_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/FES_all/ml_results.json
+Loading results from: all_cofactors_bar/ml_results.json
+Created interpretation output directory: ml_results_r_dependent/all_cofactors_bar_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-06-29 14:02:18
+Source results directory: ml_results_r_dependent/all_cofactors_bar
+Output directory: ml_results_r_dependent/all_cofactors_bar_interpretation
+======================================================================
+Loading results from: ml_results_r_dependent/all_cofactors_bar/ml_results.json
+
+Overall MAE Statistics Across All Datasets (LinearRegression excluded):
+============================================================
+ElasticNet: Mean MAE = 105.29 mV, Median MAE = 107.45 mV, Std MAE = 13.62 mV
+GaussianProcessRegressor: Mean MAE = 121.49 mV, Median MAE = 120.64 mV, Std MAE = 31.84 mV
+GradientBoostingRegressor: Mean MAE = 88.17 mV, Median MAE = 89.76 mV, Std MAE = 9.6 mV
+KNeighborsRegressor: Mean MAE = 94.34 mV, Median MAE = 95.35 mV, Std MAE = 15.32 mV
+RandomForestRegressor: Mean MAE = 95.54 mV, Median MAE = 101.45 mV, Std MAE = 16.73 mV
+SVR: Mean MAE = 150.28 mV, Median MAE = 160.16 mV, Std MAE = 24.82 mV
+
+Best Overall Performer: GradientBoostingRegressor with Mean MAE = 88.17 mV
+
+Models by MAE at Optimal Radii Across All Datasets (LinearRegression excluded):
+============================================================
+ElasticNet (FES_all, r=9Å): MAE=79.59±29.85 mV, R²=0.592±0.210
+GaussianProcessRegressor (FES_all, r=12Å): MAE=65.31±26.68 mV, R²=0.667±0.315
+GradientBoostingRegressor (FES_all, r=15Å): MAE=67.00±22.65 mV, R²=0.664±0.274
+KNeighborsRegressor (FES_all, r=16Å): MAE=62.86±22.73 mV, R²=0.713±0.201
+RandomForestRegressor (FES_all, r=11Å): MAE=64.69±29.74 mV, R²=0.691±0.172
+SVR (FES_all, r=11Å): MAE=113.67±46.01 mV, R²=0.110±0.184
+ElasticNet (FES_bar, r=11Å): MAE=65.00±24.43 mV, R²=0.719±0.148
+GaussianProcessRegressor (FES_bar, r=15Å): MAE=71.14±21.13 mV, R²=0.693±0.137
+GradientBoostingRegressor (FES_bar, r=15Å): MAE=65.74±22.05 mV, R²=0.676±0.272
+KNeighborsRegressor (FES_bar, r=15Å): MAE=69.47±24.34 mV, R²=0.649±0.204
+RandomForestRegressor (FES_bar, r=13Å): MAE=61.49±28.39 mV, R²=0.732±0.159
+SVR (FES_bar, r=11Å): MAE=111.15±46.25 mV, R²=0.149±0.189
+ElasticNet (SF4_all, r=16Å): MAE=92.07±19.21 mV, R²=0.781±0.123
+GaussianProcessRegressor (SF4_all, r=12Å): MAE=139.87±101.19 mV, R²=0.369±1.003
+GradientBoostingRegressor (SF4_all, r=3Å): MAE=81.66±22.09 mV, R²=0.768±0.189
+KNeighborsRegressor (SF4_all, r=13Å): MAE=90.35±23.12 mV, R²=0.748±0.166
+RandomForestRegressor (SF4_all, r=8Å): MAE=98.33±21.44 mV, R²=0.740±0.117
+SVR (SF4_all, r=11Å): MAE=168.14±43.04 mV, R²=0.127±0.112
+ElasticNet (SF4_bar, r=16Å): MAE=100.33±19.38 mV, R²=0.733±0.170
+GaussianProcessRegressor (SF4_bar, r=14Å): MAE=111.73±28.05 mV, R²=0.667±0.210
+GradientBoostingRegressor (SF4_bar, r=1Å): MAE=86.88±15.65 mV, R²=0.814±0.108
+KNeighborsRegressor (SF4_bar, r=12Å): MAE=95.71±23.09 mV, R²=0.740±0.133
+RandomForestRegressor (SF4_bar, r=1Å): MAE=89.95±13.64 mV, R²=0.808±0.102
+SVR (SF4_bar, r=16Å): MAE=171.20±43.01 mV, R²=0.106±0.117
+ElasticNet (all_cofactors_bar, r=12Å): MAE=105.86±18.21 mV, R²=0.607±0.296
+GaussianProcessRegressor (all_cofactors_bar, r=12Å): MAE=102.16±31.14 mV, R²=0.639±0.230
+GradientBoostingRegressor (all_cofactors_bar, r=12Å): MAE=87.95±16.80 mV, R²=0.710±0.135
+KNeighborsRegressor (all_cofactors_bar, r=12Å): MAE=82.09±17.93 mV, R²=0.726±0.131
+RandomForestRegressor (all_cofactors_bar, r=4Å): MAE=89.05±14.92 mV, R²=0.734±0.137
+SVR (all_cofactors_bar, r=12Å): MAE=156.11±31.50 mV, R²=0.130±0.102
+ElasticNet (complete_dataset, r=5Å): MAE=112.72±20.32 mV, R²=0.599±0.129
+GaussianProcessRegressor (complete_dataset, r=12Å): MAE=103.92±18.18 mV, R²=0.628±0.133
+GradientBoostingRegressor (complete_dataset, r=1Å): MAE=92.34±21.14 mV, R²=0.681±0.159
+KNeighborsRegressor (complete_dataset, r=14Å): MAE=91.94±15.28 mV, R²=0.686±0.119
+RandomForestRegressor (complete_dataset, r=14Å): MAE=102.85±18.61 mV, R²=0.655±0.090
+SVR (complete_dataset, r=15Å): MAE=157.36±31.55 mV, R²=0.135±0.098
+
+Stability and Trend Analysis Across All Datasets:
+============================================================
+SVR: Stability={1: np.float64(39.92346109850589), 2: np.float64(40.11918894062632), 3: np.float64(40.192988853597946), 4: np.float64(39.40528605973808), 5: np.float64(41.13364473430319), 6: np.float64(40.583037849363556), 7: np.float64(40.986197377512156), 8: np.float64(41.00485630896984), 9: np.float64(40.98127376246331), 10: np.float64(41.16056133623018), 11: np.float64(40.50460608743358), 12: np.float64(40.58397544348894), 13: np.float64(40.693285135818996), 14: np.float64(40.425581746390854), 15: np.float64(40.259294721800174), 16: np.float64(40.03356653785895)}, Trend Slope=-0.461 mV/Å, p=0.0122
+ElasticNet: Stability={1: np.float64(24.888544084127123), 2: np.float64(25.269439774337332), 3: np.float64(25.754185799877334), 4: np.float64(25.597298748787846), 5: np.float64(28.65622897837456), 6: np.float64(26.888357666877827), 7: np.float64(25.234192058681383), 8: np.float64(24.057498870902503), 9: np.float64(23.494147498910873), 10: np.float64(24.18731558836872), 11: np.float64(23.09661054127041), 12: np.float64(23.713492349257496), 13: np.float64(31.942880794789676), 14: np.float64(25.90653295434177), 15: np.float64(23.79080653134965), 16: np.float64(21.59352548145093)}, Trend Slope=-0.923 mV/Å, p=0.3741
+KNeighborsRegressor: Stability={1: np.float64(27.204845530587004), 2: np.float64(27.17996255331804), 3: np.float64(27.708636417553823), 4: np.float64(25.717643085623394), 5: np.float64(26.233192573283745), 6: np.float64(25.018072054496276), 7: np.float64(25.63940601967346), 8: np.float64(23.738634700435636), 9: np.float64(25.012679941388814), 10: np.float64(26.816164674923893), 11: np.float64(25.29640251906163), 12: np.float64(25.01279351695904), 13: np.float64(23.357463261632095), 14: np.float64(23.261158146608746), 15: np.float64(21.859377306158546), 16: np.float64(21.69358870320634)}, Trend Slope=-1.634 mV/Å, p=0.0060
+GradientBoostingRegressor: Stability={1: np.float64(23.71906411941151), 2: np.float64(23.5065889376631), 3: np.float64(23.994620631772452), 4: np.float64(22.272953021312464), 5: np.float64(25.350369905825932), 6: np.float64(23.084197734667928), 7: np.float64(24.389787366173945), 8: np.float64(22.50878797059825), 9: np.float64(23.511218957975814), 10: np.float64(22.760983868011365), 11: np.float64(21.13795099756258), 12: np.float64(21.376183997488884), 13: np.float64(20.97019805292683), 14: np.float64(21.910570767722817), 15: np.float64(20.07349729048273), 16: np.float64(20.201015514054458)}, Trend Slope=-0.640 mV/Å, p=0.0538
+RandomForestRegressor: Stability={1: np.float64(22.503478926424744), 2: np.float64(22.674199495838305), 3: np.float64(22.992977672247367), 4: np.float64(22.044850378202298), 5: np.float64(24.587703334576357), 6: np.float64(22.828984947819396), 7: np.float64(24.787823576968083), 8: np.float64(23.929117749582584), 9: np.float64(24.197453704548764), 10: np.float64(24.285359868431424), 11: np.float64(24.13274256265787), 12: np.float64(23.579377431669865), 13: np.float64(23.794198146357484), 14: np.float64(23.23897234609535), 15: np.float64(22.277950300524214), 16: np.float64(21.447764017505904)}, Trend Slope=-0.611 mV/Å, p=0.0341
+GaussianProcessRegressor: Stability={1: np.float64(46.55130347699583), 2: np.float64(46.67254748432902), 3: np.float64(41.53852902818376), 4: np.float64(38.967965712753106), 5: np.float64(50.33579990076751), 6: np.float64(65.14770249424346), 7: np.float64(63.24274387326724), 8: np.float64(63.03657717097252), 9: np.float64(51.60934579895715), 10: np.float64(54.32312821803817), 11: np.float64(53.158097130699), 12: np.float64(48.61837761599727), 13: np.float64(42.297866310958604), 14: np.float64(50.369874351246374), 15: np.float64(45.56908404267085), 16: np.float64(53.22400269612614)}, Trend Slope=-2.492 mV/Å, p=0.0112
+LinearRegression: Stability={1: np.float64(1101.6693044890837), 2: np.float64(1101.6191754981949), 3: np.float64(1112.294968864161), 4: np.float64(2123.2201206423188), 5: np.float64(18372.61921795127), 6: np.float64(33869.44558751286), 7: np.float64(5331.201601990985), 8: np.float64(599.4063583999754), 9: np.float64(668.6634931087825), 10: np.float64(774.4218006322335), 11: np.float64(1156.311532475014), 12: np.float64(518.0585178483835), 13: np.float64(662.2782028425894), 14: np.float64(156.90138487034304), 15: np.float64(250.08677408352943), 16: np.float64(173.3685086879452)}, Trend Slope=-109.465 mV/Å, p=0.5340
+Saved stability heatmap to: ml_results_r_dependent/aggregated_interpretation/stability_heatmap.png
+Saved filtered stability heatmap to: ml_results_r_dependent/aggregated_interpretation/stability_heatmap_no_lr.png
+Saved legend to: ml_results_r_dependent/aggregated_interpretation/legend.png
+Aggregated report saved to: ml_results_r_dependent/aggregated_interpretation/aggregated_report.txt

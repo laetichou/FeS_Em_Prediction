@@ -1,0 +1,50 @@
+Dropped rows due to missing pH or Em values:
+
+File: features_r14_final_20250601_202928.csv
+  Missing data for: O85673_FE
+
+File: features_r15_final_20250601_202934.csv
+  Missing data for: O85673_FE
+
+File: features_r6_final_20250601_202842.csv
+  Missing data for: O85673_FE
+
+File: features_r3_final_20250601_202827.csv
+  Missing data for: O85673_FE
+
+File: features_r11_final_20250601_202912.csv
+  Missing data for: O85673_FE
+
+File: features_r4_final_20250601_202832.csv
+  Missing data for: O85673_FE
+
+File: features_r16_final_20250601_202938.csv
+  Missing data for: O85673_FE
+
+File: features_r7_final_20250601_202847.csv
+  Missing data for: O85673_FE
+
+File: features_r2_final_20250601_202822.csv
+  Missing data for: O85673_FE
+
+File: features_r10_final_20250601_202906.csv
+  Missing data for: O85673_FE
+
+File: features_r5_final_20250601_202837.csv
+  Missing data for: O85673_FE
+
+File: features_r9_final_20250601_202900.csv
+  Missing data for: O85673_FE
+
+File: features_r8_final_20250601_202853.csv
+  Missing data for: O85673_FE
+
+File: features_r12_final_20250601_202917.csv
+  Missing data for: O85673_FE
+
+File: features_r1_final_20250601_202817.csv
+  Missing data for: O85673_FE
+
+File: features_r13_final_20250601_202923.csv
+  Missing data for: O85673_FE
+

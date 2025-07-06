@@ -1,0 +1,25 @@
+project_root/
+├── scripts/
+│   ├── ml_training.py
+│   └── ml_training_protein.py
+├── data/
+│   ├── complete_dataset/
+│   ├── all_cofactors_protein/
+│   ├── all_cofactors_bar/
+│   ├── FES_all/
+│   ├── FES_protein/
+│   ├── FES_bar/
+│   ├── SF4_all/
+│   ├── SF4_protein/
+│   └── SF4_bar/
+├── results_20250601_123456/
+│   ├── complete_dataset/
+│   ├── all_cofactors_protein/
+│   ├── all_cofactors_bar/
+│   ├── FES_all/
+│   ├── FES_protein/
+│   ├── FES_bar/
+│   ├── SF4_all/
+│   ├── SF4_protein/
+│   └── SF4_bar/
+└── submit_slurm.sh

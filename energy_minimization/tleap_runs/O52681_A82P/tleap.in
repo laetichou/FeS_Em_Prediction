@@ -1,0 +1,15 @@
+source leaprc.protein.ff19SB
+source leaprc.water.opc 
+loadAmberParams frcmod.ionslm_126_opc
+
+X = loadpdb O52681_A82P_pqr.pdb
+
+check X
+solvatebox X OPCBOX 10
+
+addIonsRand X Na+ 3
+addIonsRand X Cl- 0
+
+saveamberparm X O52681_A82P.top O52681_A82P.crd
+savepdb X O52681_A82P_tleap.pdb
+quit

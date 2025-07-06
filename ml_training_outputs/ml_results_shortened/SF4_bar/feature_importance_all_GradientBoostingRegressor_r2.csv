@@ -1,0 +1,9 @@
+feature,importance
+struct.burial_depth,82.14029851545808
+struct.is_hipip,181.87122755025487
+Bar.count.ASN,0.06055287832969237
+Bar.count.MET,0.23370815037534867
+Bar.prop.Volume,0.31614368339515103
+Bar.prop.Log(Solubility (m at 20ºC)),0.6874665099781375
+Bar.prop.Hydrophobicity,0.5455214860968927
+pH,21.564368800144667

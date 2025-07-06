@@ -1,0 +1,10 @@
+Aggregated Iron-Sulfur Cofactor Redox Potential Prediction - Radius-Independent Report
+======================================================================
+
+TOP 5 MODELS BY MAE:
+------------------------------
+RandomForestRegressor (FES): MAE=76.98±31.33 mV, R²=0.552±0.341
+GradientBoostingRegressor (FES): MAE=77.15±32.64 mV, R²=0.498±0.488
+KNeighborsRegressor (FES): MAE=77.76±35.66 mV, R²=0.492±0.459
+GradientBoostingRegressor (SF4): MAE=81.59±22.54 mV, R²=0.761±0.225
+GradientBoostingRegressor (all_cofactors): MAE=93.53±20.56 mV, R²=0.672±0.159

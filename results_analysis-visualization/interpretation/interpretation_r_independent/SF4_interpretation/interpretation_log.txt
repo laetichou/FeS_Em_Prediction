@@ -1,0 +1,71 @@
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-07-03 22:06:04
+Source results directory: ml_results_r_independent/SF4
+Output directory: ml_results_r_independent/SF4_interpretation
+======================================================================
+Loading results from: ml_results_r_independent/SF4/ml_results.json
+Processing: FES
+Created interpretation output directory: ml_results_r_independent/FES_interpretation
+=== Iron-Sulfur Redox Potential Prediction - Results Interpretation ===
+Started: 2025-07-03 22:06:04
+Source results directory: ml_results_r_independent/FES
+Output directory: ml_results_r_independent/FES_interpretation
+======================================================================
+Loading results from: ml_results_r_independent/FES/ml_results.json
+
+Overall Performance Statistics Across All Radius-Independent Datasets:
+================================================================================
+MAE STATISTICS:
+---------------
+ElasticNet: Mean MAE = 104.12 mV, Median MAE = 100.31 mV, Std MAE = 9.34 mV
+GaussianProcessRegressor: Mean MAE = 155.66 mV, Median MAE = 130.91 mV, Std MAE = 46.24 mV
+GradientBoostingRegressor: Mean MAE = 84.09 mV, Median MAE = 81.59 mV, Std MAE = 8.47 mV
+KNeighborsRegressor: Mean MAE = 97.65 mV, Median MAE = 106.69 mV, Std MAE = 17.25 mV
+RandomForestRegressor: Mean MAE = 99.36 mV, Median MAE = 102.61 mV, Std MAE = 20.94 mV
+SVR: Mean MAE = 115.31 mV, Median MAE = 118.61 mV, Std MAE = 9.89 mV
+LinearRegression: Mean MAE = 1232.51 mV, Median MAE = 164.16 mV, Std MAE = 1871.13 mV
+
+RMSE STATISTICS:
+----------------
+ElasticNet: Mean RMSE = 143.66 mV, Median RMSE = 143.87 mV, Std RMSE = 13.04 mV
+GaussianProcessRegressor: Mean RMSE = 200.63 mV, Median RMSE = 167.05 mV, Std RMSE = 59.82 mV
+GradientBoostingRegressor: Mean RMSE = 126.17 mV, Median RMSE = 124.55 mV, Std RMSE = 12.22 mV
+KNeighborsRegressor: Mean RMSE = 141.51 mV, Median RMSE = 152.31 mV, Std RMSE = 20.01 mV
+RandomForestRegressor: Mean RMSE = 138.74 mV, Median RMSE = 140.99 mV, Std RMSE = 22.89 mV
+SVR: Mean RMSE = 173.55 mV, Median RMSE = 169.80 mV, Std RMSE = 13.18 mV
+LinearRegression: Mean RMSE = 2021.07 mV, Median RMSE = 229.00 mV, Std RMSE = 3131.40 mV
+
+R² STATISTICS:
+--------------
+ElasticNet: Mean R² = 0.545, Median R² = 0.597, Std R² = 0.250
+GaussianProcessRegressor: Mean R² = 0.080, Median R² = -0.061, Std R² = 0.361
+GradientBoostingRegressor: Mean R² = 0.644, Median R² = 0.672, Std R² = 0.134
+KNeighborsRegressor: Mean R² = 0.582, Median R² = 0.612, Std R² = 0.079
+RandomForestRegressor: Mean R² = 0.621, Median R² = 0.583, Std R² = 0.093
+SVR: Mean R² = 0.384, Median R² = 0.534, Std R² = 0.264
+LinearRegression: Mean R² = -1028.618, Median R² = 0.210, Std R² = 1782.062
+
+SPEARMAN CORRELATION STATISTICS:
+---------------------------------
+ElasticNet: Mean Spearman = 0.635, Median Spearman = 0.663, Std Spearman = 0.127
+GaussianProcessRegressor: Mean Spearman = 0.629, Median Spearman = 0.629, Std Spearman = 0.113
+GradientBoostingRegressor: Mean Spearman = 0.736, Median Spearman = 0.774, Std Spearman = 0.085
+KNeighborsRegressor: Mean Spearman = 0.691, Median Spearman = 0.696, Std Spearman = 0.031
+RandomForestRegressor: Mean Spearman = 0.708, Median Spearman = 0.719, Std Spearman = 0.051
+SVR: Mean Spearman = 0.680, Median Spearman = 0.709, Std Spearman = 0.055
+LinearRegression: Mean Spearman = 0.396, Median Spearman = 0.528, Std Spearman = 0.285
+
+Best Performers:
+MAE: GradientBoostingRegressor with Mean MAE = 84.09 mV
+RMSE: GradientBoostingRegressor with Mean RMSE = 126.17 mV
+R²: GradientBoostingRegressor with Mean R² = 0.644
+Spearman: GradientBoostingRegressor with Mean Spearman = 0.736
+
+Top 5 Models by MAE Across All Radius-Independent Datasets:
+============================================================
+RandomForestRegressor (FES): MAE=76.98±31.33 mV, RMSE=114.80±45.54 mV, R²=0.552±0.341, Spearman=0.652±0.214
+GradientBoostingRegressor (FES): MAE=77.15±32.64 mV, RMSE=114.84±51.45 mV, R²=0.498±0.488, Spearman=0.639±0.224
+KNeighborsRegressor (FES): MAE=77.76±35.66 mV, RMSE=118.42±55.69 mV, R²=0.492±0.459, Spearman=0.658±0.190
+GradientBoostingRegressor (SF4): MAE=81.59±22.54 mV, RMSE=124.55±33.47 mV, R²=0.761±0.225, Spearman=0.795±0.094
+GradientBoostingRegressor (all_cofactors): MAE=93.53±20.56 mV, RMSE=139.12±29.45 mV, R²=0.672±0.159, Spearman=0.774±0.090
+Aggregated report saved to: ml_results_r_independent/aggregated_interpretation/aggregated_report.txt

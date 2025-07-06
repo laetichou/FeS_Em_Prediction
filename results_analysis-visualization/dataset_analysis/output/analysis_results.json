@@ -1,0 +1,677 @@
+{
+  "protein_sizes": {
+    "mean_residues": 145.70833333333334,
+    "median_residues": 105.0,
+    "std_residues": 118.26168291057449,
+    "min_residues": 52,
+    "max_residues": 729,
+    "total_proteins": 168,
+    "mean_volume": 36576.14898476377,
+    "std_volume": 38332.9146484459,
+    "mean_surface": 5511.947812327649,
+    "std_surface": 3892.4949611155876,
+    "mean_max_dimension": 49.28753551982698,
+    "std_max_dimension": 20.06733056106353
+  },
+  "cofactors": {
+    "total_cofactors": 168,
+    "counts": {
+      "[4Fe-4S]": 92,
+      "[2Fe-2S]": 60,
+      "[3Fe-4S]": 10,
+      "Fe3+": 6
+    },
+    "proportions": {
+      "[4Fe-4S]": 0.5476190476190477,
+      "[2Fe-2S]": 0.35714285714285715,
+      "[3Fe-4S]": 0.05952380952380952,
+      "Fe3+": 0.03571428571428571
+    },
+    "burial_depth": {
+      "mean": 7.445556951420648,
+      "median": 5.432609558105469,
+      "std": 4.732989506396124,
+      "min": 2.2308037281036377,
+      "max": 27.706323623657227
+    }
+  },
+  "conditions": {
+    "Em": {
+      "mean": -285.32142857142856,
+      "median": -375.0,
+      "std": 259.8948963386106,
+      "min": -746.0,
+      "max": 450.0
+    },
+    "pH": {
+      "mean": 7.317857142857143,
+      "median": 7.0,
+      "std": 0.456269883966214,
+      "min": 6.5,
+      "max": 9.0
+    },
+    "Em_per_cofactor": {
+      "[2Fe-2S]": {
+        "mean": -267.05,
+        "median": -343.0,
+        "std": 199.58613322641224,
+        "min": -494.0,
+        "max": 310.0,
+        "count": 60
+      },
+      "[4Fe-4S]": {
+        "mean": -322.19565217391306,
+        "median": -403.5,
+        "std": 297.16455792436483,
+        "min": -746.0,
+        "max": 450.0,
+        "count": 92
+      },
+      "[3Fe-4S]": {
+        "mean": -201.4,
+        "median": -200.0,
+        "std": 188.56605090937114,
+        "min": -429.0,
+        "max": 65.0,
+        "count": 10
+      },
+      "Fe3+": {
+        "mean": -42.5,
+        "median": -52.0,
+        "std": 30.25061982836054,
+        "min": -66.0,
+        "max": 16.0,
+        "count": 6
+      }
+    }
+  },
+  "mutations": {
+    "total_entries": 168,
+    "wild_type": 118,
+    "mutant": 50,
+    "proportion_mutant": 29.761904761904763
+  },
+  "cofactor_statistics": {
+    "cofactor_stats": [
+      {
+        "cofactor": "[2Fe-2S]",
+        "count": 60,
+        "em_mean": -267.05,
+        "em_std": 199.58613322641224,
+        "em_median": -343.0,
+        "burial_mean": 6.004907139142355,
+        "burial_std": 3.545020591248171,
+        "burial_median": 5.143346309661865,
+        "ph_mean": 7.166666666666667,
+        "ph_std": 0.3089987475519934,
+        "ph_median": 7.0
+      },
+      {
+        "cofactor": "[4Fe-4S]",
+        "count": 92,
+        "em_mean": -322.19565217391306,
+        "em_std": 297.16455792436483,
+        "em_median": -403.5,
+        "burial_mean": 8.295395703419395,
+        "burial_std": 4.877225708288134,
+        "burial_median": 6.244290590286255,
+        "ph_mean": 7.4206521739130435,
+        "ph_std": 0.5130255104678777,
+        "ph_median": 7.0
+      },
+      {
+        "cofactor": "[3Fe-4S]",
+        "count": 10,
+        "em_mean": -201.4,
+        "em_std": 188.56605090937114,
+        "em_median": -200.0,
+        "burial_mean": 10.189693832397461,
+        "burial_std": 7.507373503246312,
+        "burial_median": 7.18091607093811,
+        "ph_mean": 7.470000000000001,
+        "ph_std": 0.47152235719351987,
+        "ph_median": 7.65
+      },
+      {
+        "cofactor": "Fe3+",
+        "count": 6,
+        "em_mean": -42.5,
+        "em_std": 30.25061982836054,
+        "em_median": -52.0,
+        "burial_mean": 4.247632741928101,
+        "burial_std": 0.035508888557073244,
+        "burial_median": 4.2387566566467285,
+        "ph_mean": 7.0,
+        "ph_std": 0.0,
+        "ph_median": 7.0
+      }
+    ]
+  },
+  "cofactor_sizes": {
+    "cofactor_sizes": [
+      {
+        "cofactor": "[2Fe-2S]",
+        "residue_count_mean": 163.21666666666667,
+        "residue_count_median": 159.0,
+        "residue_count_std": 73.64239984924143,
+        "max_dimension_mean": 61.55471661885579,
+        "max_dimension_median": 54.92000198364258,
+        "max_dimension_std": 18.963488295372684
+      },
+      {
+        "cofactor": "[4Fe-4S]",
+        "residue_count_mean": 137.81521739130434,
+        "residue_count_median": 81.0,
+        "residue_count_std": 139.6924361765974,
+        "max_dimension_mean": 42.78953228826108,
+        "max_dimension_median": 37.4900016784668,
+        "max_dimension_std": 16.83750548182998
+      },
+      {
+        "cofactor": "[3Fe-4S]",
+        "residue_count_mean": 168.7,
+        "residue_count_median": 105.0,
+        "residue_count_std": 121.79002422201911,
+        "max_dimension_mean": 48.587100219726565,
+        "max_dimension_median": 37.97999954223633,
+        "max_dimension_std": 20.478500133144575
+      },
+      {
+        "cofactor": "Fe3+",
+        "residue_count_mean": 53.333333333333336,
+        "residue_count_median": 53.5,
+        "residue_count_std": 0.7453559924999298,
+        "max_dimension_mean": 27.41916624704997,
+        "max_dimension_median": 27.43299961090088,
+        "max_dimension_std": 1.4524659796563468
+      }
+    ]
+  },
+  "protein_coverage": {
+    "unique_proteins": 93,
+    "proteins_per_cofactor": {
+      "Fe3+": 5,
+      "[2Fe-2S]": 31,
+      "[3Fe-4S]": 8,
+      "[4Fe-4S]": 56
+    },
+    "avg_cofactors_per_protein": 1.8064516129032258
+  },
+  "protein_detailed_stats": {
+    "protein_detailed_stats": [
+      {
+        "UniProt": "P0A3C7",
+        "residue_count": 99,
+        "max_dimension": 36.1150016784668
+      },
+      {
+        "UniProt": "P00263",
+        "residue_count": 81,
+        "max_dimension": 36.819000244140625
+      },
+      {
+        "UniProt": "O52681",
+        "residue_count": 161,
+        "max_dimension": 53.121002197265625
+      },
+      {
+        "UniProt": "Q8N5K1",
+        "residue_count": 131,
+        "max_dimension": 47.093997955322266
+      },
+      {
+        "UniProt": "P00459",
+        "residue_count": 542,
+        "max_dimension": 64.4729995727539
+      },
+      {
+        "UniProt": "P00208",
+        "residue_count": 83,
+        "max_dimension": 37.52899932861328
+      },
+      {
+        "UniProt": "P00262",
+        "residue_count": 83,
+        "max_dimension": 33.85499954223633
+      },
+      {
+        "UniProt": "P00260",
+        "residue_count": 85,
+        "max_dimension": 33.43899917602539
+      },
+      {
+        "UniProt": "P07485",
+        "residue_count": 59,
+        "max_dimension": 33.417999267578125
+      },
+      {
+        "UniProt": "Q9NZ45",
+        "residue_count": 142,
+        "max_dimension": 55.170997619628906
+      },
+      {
+        "UniProt": "P00261",
+        "residue_count": 85,
+        "max_dimension": 32.052001953125
+      },
+      {
+        "UniProt": "P00259",
+        "residue_count": 107,
+        "max_dimension": 36.141998291015625
+      },
+      {
+        "UniProt": "P00265",
+        "residue_count": 74,
+        "max_dimension": 31.145000457763672
+      },
+      {
+        "UniProt": "Q9CQB5",
+        "residue_count": 135,
+        "max_dimension": 81.14199829101562
+      },
+      {
+        "UniProt": "P33678",
+        "residue_count": 62,
+        "max_dimension": 28.982999801635742
+      },
+      {
+        "UniProt": "P00207",
+        "residue_count": 63,
+        "max_dimension": 31.78999900817871
+      },
+      {
+        "UniProt": "P46797",
+        "residue_count": 60,
+        "max_dimension": 31.940000534057617
+      },
+      {
+        "UniProt": "P27787",
+        "residue_count": 150,
+        "max_dimension": 82.11799621582031
+      },
+      {
+        "UniProt": "Q46FL2",
+        "residue_count": 370,
+        "max_dimension": 63.558998107910156
+      },
+      {
+        "UniProt": "P80882",
+        "residue_count": 75,
+        "max_dimension": 35.157997131347656
+      },
+      {
+        "UniProt": "P00264",
+        "residue_count": 71,
+        "max_dimension": 32.78099822998047
+      },
+      {
+        "UniProt": "P11425",
+        "residue_count": 59,
+        "max_dimension": 29.251998901367188
+      },
+      {
+        "UniProt": "P00266",
+        "residue_count": 63,
+        "max_dimension": 33.194000244140625
+      },
+      {
+        "UniProt": "Q9X115",
+        "residue_count": 95,
+        "max_dimension": 65.00799560546875
+      },
+      {
+        "UniProt": "P50727",
+        "residue_count": 82,
+        "max_dimension": 38.05500030517578
+      },
+      {
+        "UniProt": "Q46FL1",
+        "residue_count": 265,
+        "max_dimension": 50.542999267578125
+      },
+      {
+        "UniProt": "P73276",
+        "residue_count": 434,
+        "max_dimension": 101.11000061035156
+      },
+      {
+        "UniProt": "P00200",
+        "residue_count": 55,
+        "max_dimension": 25.501998901367188
+      },
+      {
+        "UniProt": "P00214",
+        "residue_count": 107,
+        "max_dimension": 36.827999114990234
+      },
+      {
+        "UniProt": "P38589",
+        "residue_count": 57,
+        "max_dimension": 40.41400146484375
+      },
+      {
+        "UniProt": "O23813",
+        "residue_count": 635,
+        "max_dimension": 117.37999725341797
+      },
+      {
+        "UniProt": "P16099",
+        "residue_count": 729,
+        "max_dimension": 85.0719985961914
+      },
+      {
+        "UniProt": "O23344",
+        "residue_count": 154,
+        "max_dimension": 91.7760009765625
+      },
+      {
+        "UniProt": "P12943",
+        "residue_count": 288,
+        "max_dimension": 63.038002014160156
+      },
+      {
+        "UniProt": "P00221",
+        "residue_count": 147,
+        "max_dimension": 93.68400573730469
+      },
+      {
+        "UniProt": "Q46136",
+        "residue_count": 181,
+        "max_dimension": 102.18199920654297
+      },
+      {
+        "UniProt": "P00203",
+        "residue_count": 63,
+        "max_dimension": 30.065998077392578
+      },
+      {
+        "UniProt": "P71820",
+        "residue_count": 68,
+        "max_dimension": 42.0620002746582
+      },
+      {
+        "UniProt": "Q02762",
+        "residue_count": 187,
+        "max_dimension": 87.14399719238281
+      },
+      {
+        "UniProt": "P59799",
+        "residue_count": 96,
+        "max_dimension": 32.87200164794922
+      },
+      {
+        "UniProt": "P24297",
+        "residue_count": 54,
+        "max_dimension": 28.93899917602539
+      },
+      {
+        "UniProt": "Q55389",
+        "residue_count": 118,
+        "max_dimension": 44.41400146484375
+      },
+      {
+        "UniProt": "P00212",
+        "residue_count": 81,
+        "max_dimension": 34.52400207519531
+      },
+      {
+        "UniProt": "P38941",
+        "residue_count": 72,
+        "max_dimension": 29.618999481201172
+      },
+      {
+        "UniProt": "P14071",
+        "residue_count": 53,
+        "max_dimension": 26.365999221801758
+      },
+      {
+        "UniProt": "P37332",
+        "residue_count": 109,
+        "max_dimension": 39.57899856567383
+      },
+      {
+        "UniProt": "Q9FIA7",
+        "residue_count": 148,
+        "max_dimension": 64.89099884033203
+      },
+      {
+        "UniProt": "P00211",
+        "residue_count": 59,
+        "max_dimension": 28.905000686645508
+      },
+      {
+        "UniProt": "O52396",
+        "residue_count": 210,
+        "max_dimension": 95.20999908447266
+      },
+      {
+        "UniProt": "P00198",
+        "residue_count": 56,
+        "max_dimension": 25.635000228881836
+      },
+      {
+        "UniProt": "O80429",
+        "residue_count": 140,
+        "max_dimension": 81.41699981689453
+      },
+      {
+        "UniProt": "P27320",
+        "residue_count": 97,
+        "max_dimension": 34.042999267578125
+      },
+      {
+        "UniProt": "P00210",
+        "residue_count": 65,
+        "max_dimension": 34.83300018310547
+      },
+      {
+        "UniProt": "P05340",
+        "residue_count": 312,
+        "max_dimension": 76.44000244140625
+      },
+      {
+        "UniProt": "P18187",
+        "residue_count": 314,
+        "max_dimension": 63.35300064086914
+      },
+      {
+        "UniProt": "P00195",
+        "residue_count": 56,
+        "max_dimension": 27.371999740600586
+      },
+      {
+        "UniProt": "P09947",
+        "residue_count": 53,
+        "max_dimension": 26.048999786376953
+      },
+      {
+        "UniProt": "D9PYF6",
+        "residue_count": 281,
+        "max_dimension": 54.30500030517578
+      },
+      {
+        "UniProt": "Q9X1L9",
+        "residue_count": 92,
+        "max_dimension": 40.3120002746582
+      },
+      {
+        "UniProt": "P73811",
+        "residue_count": 134,
+        "max_dimension": 52.137001037597656
+      },
+      {
+        "UniProt": "P33164",
+        "residue_count": 322,
+        "max_dimension": 64.02000427246094
+      },
+      {
+        "UniProt": "P56263",
+        "residue_count": 52,
+        "max_dimension": 25.572999954223633
+      },
+      {
+        "UniProt": "Q9X2D5",
+        "residue_count": 139,
+        "max_dimension": 56.875999450683594
+      },
+      {
+        "UniProt": "P49949",
+        "residue_count": 103,
+        "max_dimension": 34.14500045776367
+      },
+      {
+        "UniProt": "P00193",
+        "residue_count": 54,
+        "max_dimension": 25.940000534057617
+      },
+      {
+        "UniProt": "Q8IED5",
+        "residue_count": 194,
+        "max_dimension": 68.08799743652344
+      },
+      {
+        "UniProt": "Q9X0Q7",
+        "residue_count": 70,
+        "max_dimension": 34.854000091552734
+      },
+      {
+        "UniProt": "D3FQ82",
+        "residue_count": 511,
+        "max_dimension": 68.33799743652344
+      },
+      {
+        "UniProt": "T2G899",
+        "residue_count": 167,
+        "max_dimension": 78.43299865722656
+      },
+      {
+        "UniProt": "P0AE56",
+        "residue_count": 64,
+        "max_dimension": 39.970001220703125
+      },
+      {
+        "UniProt": "O04090",
+        "residue_count": 148,
+        "max_dimension": 80.16300201416016
+      },
+      {
+        "UniProt": "P00209",
+        "residue_count": 59,
+        "max_dimension": 25.285999298095703
+      },
+      {
+        "UniProt": "P16972",
+        "residue_count": 148,
+        "max_dimension": 88.28500366210938
+      },
+      {
+        "UniProt": "Q8KCZ7",
+        "residue_count": 62,
+        "max_dimension": 33.51100158691406
+      },
+      {
+        "UniProt": "Q8KCZ6",
+        "residue_count": 62,
+        "max_dimension": 35.13600158691406
+      },
+      {
+        "UniProt": "P9WF43",
+        "residue_count": 76,
+        "max_dimension": 37.854000091552734
+      },
+      {
+        "UniProt": "P52102",
+        "residue_count": 86,
+        "max_dimension": 39.75199890136719
+      },
+      {
+        "UniProt": "P10245",
+        "residue_count": 81,
+        "max_dimension": 33.459999084472656
+      },
+      {
+        "UniProt": "P00268",
+        "residue_count": 54,
+        "max_dimension": 29.08799934387207
+      },
+      {
+        "UniProt": "P05314",
+        "residue_count": 594,
+        "max_dimension": 75.3290023803711
+      },
+      {
+        "UniProt": "P0A3C8",
+        "residue_count": 99,
+        "max_dimension": 36.21299743652344
+      },
+      {
+        "UniProt": "P0DUV7",
+        "residue_count": 552,
+        "max_dimension": 74.18800354003906
+      },
+      {
+        "UniProt": "Q9XBQ8",
+        "residue_count": 416,
+        "max_dimension": 81.78799438476562
+      },
+      {
+        "UniProt": "Q9HH83",
+        "residue_count": 109,
+        "max_dimension": 42.91600036621094
+      },
+      {
+        "UniProt": "Q9ZQG8",
+        "residue_count": 155,
+        "max_dimension": 97.10399627685547
+      },
+      {
+        "UniProt": "P55907",
+        "residue_count": 104,
+        "max_dimension": 36.5989990234375
+      },
+      {
+        "UniProt": "O85673",
+        "residue_count": 471,
+        "max_dimension": 75.21699523925781
+      },
+      {
+        "UniProt": "P0A3C9",
+        "residue_count": 98,
+        "max_dimension": 36.25499725341797
+      },
+      {
+        "UniProt": "Q9X1D7",
+        "residue_count": 75,
+        "max_dimension": 31.395999908447266
+      },
+      {
+        "UniProt": "P04169",
+        "residue_count": 76,
+        "max_dimension": 35.39299774169922
+      },
+      {
+        "UniProt": "P10109",
+        "residue_count": 184,
+        "max_dimension": 80.86699676513672
+      },
+      {
+        "UniProt": "P04168",
+        "residue_count": 71,
+        "max_dimension": 32.176002502441406
+      },
+      {
+        "UniProt": "P38524",
+        "residue_count": 71,
+        "max_dimension": 29.979999542236328
+      }
+    ]
+  },
+  "protein_families": {
+    "sf4_total": 57,
+    "hipip_count": 14,
+    "hipip_percent": 24.561403508771928,
+    "fes_total": 31,
+    "rieske_count": 6,
+    "rieske_percent": 19.35483870967742
+  }
+}

@@ -1,0 +1,92 @@
+UniProt,identity,notes,extra
+P00214, 70%
+P10109, 70%
+P27320, 70%
+P27787, 70%
+O80429, 60%
+P05314, 70%
+O23813, 70%
+P0A3C9, 70%
+Q55389, 70%
+O52681, 30%
+P46797, empty
+Q9X0Q7, empty
+Q9X115, empty
+Q9X1L9, empty
+Q9X2D5, 25%, not optimized
+Q8IED5, 70%
+P55907, 70%
+P52102, 70%
+P00208, empty
+P00203, empty
+P00200, empty
+P00195, empty
+P11425, empty
+P00198, empty
+P71820, empty
+P00259, 70%
+P37332, 70%, optimized
+P04168, empty
+P04169, empty
+O85673, empty, (no FeS)
+P00207, empty
+P05340, 50%, not optimized (but removed extra transplants)
+P0DUV7, empty, monomer
+P18187, 70%
+P73811, empty
+P73276, empty, (no FeS cluster transplant)
+P9WF43, empty
+Q8N5K1, empty, monomer
+Q9CQB5, empty, homodimer
+Q9NZ45, empty, monomer, homodimer crystal structure exists
+Q9XBQ8, 70%, monomer (or dimer?)
+T2G899, 70%
+O04090, 70%
+P16972, 70%
+Q9ZQG8, 70%
+Q9FIA7, 40%
+O23344, 40%, optimized, removed 2 sodium ions
+P07485, empty
+P00211, empty
+Q9HH83, 30%, optimized
+P0AE56, empty
+P50727, empty
+P59799, 30%, optimized
+Q9X1D7, empty
+P49949, 70%
+D9PYF6, 70%
+D9PYF7, 70%
+Q46FL1, 40%, optimized, removed 2 magnesium ions
+Q46FL2, 30%, optimized
+P00268, empty, crystal structure
+P24297, empty
+P0A3C8, 70%, optimized, removed one FAD
+P33164, 30%
+Q02762, 70%, optimized, removed one sodium ion
+P00209, empty, homodimer and homotetramer, dimer crystal structure
+P10245, empty, monomer, crystal structure
+P00210, empty, homodimer, crystal structure
+P00260, empty, homodimer
+P09947, empty
+P14071, empty
+P56263, empty
+P38589, empty, homodimer
+P00266, empty, homodimer
+P33678, empty, homodimer, crystal structure dimer
+P12943, 70%
+P00193, empty, homodimer?, crystal structure dimer?
+P00221, 70%
+P00265, empty, homodimer
+P38524, empty, homodimer, crystal structure
+P38941, empty, homodimer
+P00264, empty
+P00263, empty, homodimer
+P0A3C7, 70%, optimized, crystal structure
+P00261, empty, homodimer
+P00262, empty, homodimer
+P80882, empty, 
+O52396, 70%, removed one magnesium ion
+D3FQ82, 70%, removed one sodium ion and 48F
+Q46136, 60%
+
+47 of 89 entries come up empty

@@ -1,0 +1,128 @@
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/prep to search path.
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib to search path.
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm to search path.
+-I: Adding /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd to search path.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./tleap.in
+----- Source: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/amino19.lib
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/aminoct12.lib
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/aminont12.lib
+----- Source: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.water.opc
+----- Source of /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/cmd/leaprc.water.opc done
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/atomic_ions.lib
+Loading library: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/lib/solvents.lib
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+Loading parameters: /usr/local/Caskroom/miniforge/base/envs/ambertools_env/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+Loading PDB file: ./P00214_C21A_pqr.pdb
+  total atoms in file: 848
+  Leap added 794 missing atoms according to residue templates:
+       794 H / lone pairs
+Checking 'X'....
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+The unperturbed charge of the unit (-18.000000) is not zero.
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+Close contact of 1.176 angstroms between nonbonded atoms H and HG
+-------  .R<PHE 3>.A<H 2> and .R<CYS 40>.A<HG 9>
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+Close contact of 1.193 angstroms between nonbonded atoms HG1 and H
+-------  .R<THR 15>.A<HG1 12> and .R<LYS 86>.A<H 2>
+Checking parameters for unit 'X'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 3
+Unit is OK.
+  Solute vdw bounding box:              35.350 40.189 33.562
+  Total bounding box for atom centers:  55.350 60.189 53.562
+  Solvent unit box:                     18.865 18.478 19.006
+  Total vdw box size:                   58.228 62.979 56.803 angstroms.
+  Volume: 208302.901 A^3 
+  Total mass 97779.676 amu,  Density 0.779 g/cc
+  Added 4754 residues.
+Adding 18 counter ions to "X". 4736 solvent molecules will remain.
+0: Placed Na+ in X at (-2.97, -1.46, -24.55).
+0: Placed Na+ in X at (19.81, 23.08, -25.31).
+0: Placed Na+ in X at (-18.35, 26.89, 14.12).
+0: Placed Na+ in X at (9.81, -24.34, -19.79).
+0: Placed Na+ in X at (21.99, -3.12, 19.61).
+0: Placed Na+ in X at (-2.38, 22.13, -9.54).
+0: Placed Na+ in X at (-15.65, 23.48, 6.52).
+0: Placed Na+ in X at (10.82, -26.82, -0.47).
+0: Placed Na+ in X at (-1.25, 0.88, 19.98).
+0: Placed Na+ in X at (22.00, 12.21, 19.01).
+0: Placed Na+ in X at (-13.41, 5.99, 14.08).
+0: Placed Na+ in X at (26.58, -3.49, -6.28).
+0: Placed Na+ in X at (11.84, -7.28, -12.87).
+0: Placed Na+ in X at (-26.04, -28.02, -22.34).
+0: Placed Na+ in X at (17.90, -23.94, -19.71).
+0: Placed Na+ in X at (-26.91, 28.61, 18.53).
+0: Placed Na+ in X at (-21.76, -8.32, 0.48).
+0: Placed Na+ in X at (-5.58, -25.99, -2.34).
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+addIonsRand: 1st Ion & target unit have charges of the same sign:
+     unit charge = -1.67866e-11; ion1 charge = -1;
+     can't neutralize.
+Checking Unit.
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Note.
+Ignoring the warnings from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 326 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CARG	1
+	NMET	1
+  )
+ (no restraints)
+Writing pdb file: P00214_C21A_tleap.pdb
+   printing CRYST1 record to PDB file with box info
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NMET -> MET
+
+/usr/local/Caskroom/miniforge/base/envs/ambertools_env/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CARG -> ARG
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 6; Notes = 1.
+
+--- stderr ---

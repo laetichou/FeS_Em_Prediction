@@ -1,0 +1,1069 @@
+Mann-Whitney U Test Results
+==================================================
+
+Available models: ElasticNet, GaussianProcessRegressor, GradientBoostingRegressor, KNeighborsRegressor, LinearRegression, RandomForestRegressor, SVR
+Available radii: [np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16), 'aggregated']
+Test models: {'test1': 'GradientBoostingRegressor', 'test2': 'GradientBoostingRegressor', 'test3': 'RandomForestRegressor', 'test4': 'All models'}
+
+Test 1: GradientBoostingRegressor on radius-Independent Datasets
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 536.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5712
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 672.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.4624
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 710.00, p-value: 0.0001, Adjusted p-value: 0.0006, Effect size: 0.4320
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 187.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8504
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 412.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6704
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 486.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6112
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 1)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 27331.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3926
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 17412.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6131
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 31447.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3012
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 14434.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6792
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 38487.00, p-value: 0.0011, Adjusted p-value: 0.0065, Effect size: 0.1447
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 11897.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7356
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 2)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 27439.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3902
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 18394.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5912
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 32239.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2836
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 14272.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6828
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 38321.00, p-value: 0.0008, Adjusted p-value: 0.0050, Effect size: 0.1484
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 12096.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7312
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 3)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 25190.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4402
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 18555.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5877
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 29145.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3523
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 12623.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7195
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 37319.00, p-value: 0.0001, Adjusted p-value: 0.0009, Effect size: 0.1707
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 11672.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7406
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 4)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 27866.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3808
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 22465.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5008
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 28336.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3703
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 16426.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6350
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 36772.00, p-value: 0.0001, Adjusted p-value: 0.0003, Effect size: 0.1828
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 11894.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7357
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 5)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 28960.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3564
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 23716.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4730
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 36128.00, p-value: 0.0000, Adjusted p-value: 0.0001, Effect size: 0.1972
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 10604.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7644
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 37415.00, p-value: 0.0002, Adjusted p-value: 0.0011, Effect size: 0.1686
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 13798.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6934
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 6)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 26073.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4206
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 26751.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4055
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 40738.00, p-value: 0.0224, Adjusted p-value: 0.1342, Effect size: 0.0947
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 6510.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8553
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 36397.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.1912
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 13887.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6914
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 7)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 28001.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3778
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 27425.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3906
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 47141.00, p-value: 0.8434, Adjusted p-value: 1.0000, Effect size: -0.0476
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 4406.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9021
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 34698.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2289
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 13417.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7018
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 8)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 28917.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3574
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 28139.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3747
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 41277.00, p-value: 0.0398, Adjusted p-value: 0.2386, Effect size: 0.0827
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 5297.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8823
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 35418.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2129
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 11854.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7366
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 9)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 30310.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3264
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 27959.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3787
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 40008.00, p-value: 0.0094, Adjusted p-value: 0.0562, Effect size: 0.1109
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 8338.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8147
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 38364.00, p-value: 0.0009, Adjusted p-value: 0.0053, Effect size: 0.1475
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 12415.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7241
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 10)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 30358.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3254
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 29932.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3348
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 40514.00, p-value: 0.0173, Adjusted p-value: 0.1039, Effect size: 0.0997
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 3828.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9149
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 37478.00, p-value: 0.0002, Adjusted p-value: 0.0012, Effect size: 0.1672
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 12737.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7170
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 11)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 33842.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2480
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 33697.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2512
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 44071.00, p-value: 0.3309, Adjusted p-value: 1.0000, Effect size: 0.0206
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 8774.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8050
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 38564.00, p-value: 0.0012, Adjusted p-value: 0.0073, Effect size: 0.1430
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 12772.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7162
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 12)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 32121.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2862
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 37942.00, p-value: 0.0004, Adjusted p-value: 0.0027, Effect size: 0.1568
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 46193.00, p-value: 0.7130, Adjusted p-value: 1.0000, Effect size: -0.0265
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 8434.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8126
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 38118.00, p-value: 0.0006, Adjusted p-value: 0.0036, Effect size: 0.1529
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 11713.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7397
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 13)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 30153.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3299
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 32066.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2874
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 44365.00, p-value: 0.3825, Adjusted p-value: 1.0000, Effect size: 0.0141
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 9556.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7876
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 37540.00, p-value: 0.0002, Adjusted p-value: 0.0013, Effect size: 0.1658
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 10844.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7590
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 14)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 30738.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3169
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 31006.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3110
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 43542.00, p-value: 0.2462, Adjusted p-value: 1.0000, Effect size: 0.0324
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 9369.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7918
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 38279.00, p-value: 0.0008, Adjusted p-value: 0.0046, Effect size: 0.1494
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 10914.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7575
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 15)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 27106.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3976
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 33285.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2603
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 41033.00, p-value: 0.0309, Adjusted p-value: 0.1852, Effect size: 0.0882
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 6695.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8512
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 36375.00, p-value: 0.0000, Adjusted p-value: 0.0001, Effect size: 0.1917
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 10662.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7631
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: 16)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 32161.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2853
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 34582.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2315
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 43607.00, p-value: 0.2559, Adjusted p-value: 1.0000, Effect size: 0.0310
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 10905.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7577
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 36403.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.1910
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 10693.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7624
+
+Test 2: GradientBoostingRegressor on radius-Dependent Datasets (Radius: aggregated)
+Comparison: GradientBoostingRegressor vs ElasticNet
+Statistic: 7487713.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3500
+Comparison: GradientBoostingRegressor vs GaussianProcessRegressor
+Statistic: 7158052.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3786
+Comparison: GradientBoostingRegressor vs KNeighborsRegressor
+Statistic: 10088343.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.1243
+Comparison: GradientBoostingRegressor vs LinearRegression
+Statistic: 2433077.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7888
+Comparison: GradientBoostingRegressor vs RandomForestRegressor
+Statistic: 9531981.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.1726
+Comparison: GradientBoostingRegressor vs SVR
+Statistic: 3106887.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7303
+
+Test 3: RandomForestRegressor on fes_all (Radius: 1)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 769.00, p-value: 0.0005, Adjusted p-value: 0.0028, Effect size: 0.3848
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 383.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6936
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1236.00, p-value: 0.4629, Adjusted p-value: 1.0000, Effect size: 0.0112
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1281.00, p-value: 0.5860, Adjusted p-value: 1.0000, Effect size: -0.0248
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 23.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9816
+Comparison: RandomForestRegressor vs SVR
+Statistic: 550.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5600
+
+Test 3: RandomForestRegressor on fes_all (Radius: 2)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 769.00, p-value: 0.0005, Adjusted p-value: 0.0028, Effect size: 0.3848
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 383.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6936
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1236.00, p-value: 0.4629, Adjusted p-value: 1.0000, Effect size: 0.0112
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1281.00, p-value: 0.5860, Adjusted p-value: 1.0000, Effect size: -0.0248
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 23.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9816
+Comparison: RandomForestRegressor vs SVR
+Statistic: 550.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5600
+
+Test 3: RandomForestRegressor on fes_all (Radius: 3)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 794.00, p-value: 0.0008, Adjusted p-value: 0.0051, Effect size: 0.3648
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 379.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6968
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1279.00, p-value: 0.5806, Adjusted p-value: 1.0000, Effect size: -0.0232
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1263.00, p-value: 0.5371, Adjusted p-value: 1.0000, Effect size: -0.0104
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 22.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9824
+Comparison: RandomForestRegressor vs SVR
+Statistic: 544.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5648
+
+Test 3: RandomForestRegressor on fes_all (Radius: 4)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 861.00, p-value: 0.0037, Adjusted p-value: 0.0222, Effect size: 0.3112
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 575.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5400
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1235.00, p-value: 0.4602, Adjusted p-value: 1.0000, Effect size: 0.0120
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1121.00, p-value: 0.1878, Adjusted p-value: 1.0000, Effect size: 0.1032
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 539.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5688
+
+Test 3: RandomForestRegressor on fes_all (Radius: 5)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 767.00, p-value: 0.0004, Adjusted p-value: 0.0026, Effect size: 0.3864
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 921.00, p-value: 0.0118, Adjusted p-value: 0.0706, Effect size: 0.2632
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1164.00, p-value: 0.2778, Adjusted p-value: 1.0000, Effect size: 0.0688
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1310.00, p-value: 0.6617, Adjusted p-value: 1.0000, Effect size: -0.0480
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 540.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5680
+
+Test 3: RandomForestRegressor on fes_all (Radius: 6)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 634.00, p-value: 0.0000, Adjusted p-value: 0.0001, Effect size: 0.4928
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 986.00, p-value: 0.0346, Adjusted p-value: 0.2079, Effect size: 0.2112
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1089.00, p-value: 0.1343, Adjusted p-value: 0.8056, Effect size: 0.1288
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1285.00, p-value: 0.5967, Adjusted p-value: 1.0000, Effect size: -0.0280
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 536.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5712
+
+Test 3: RandomForestRegressor on fes_all (Radius: 7)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 855.00, p-value: 0.0033, Adjusted p-value: 0.0196, Effect size: 0.3160
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 933.00, p-value: 0.0146, Adjusted p-value: 0.0874, Effect size: 0.2536
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1145.00, p-value: 0.2356, Adjusted p-value: 1.0000, Effect size: 0.0840
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1349.00, p-value: 0.7536, Adjusted p-value: 1.0000, Effect size: -0.0792
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 3.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9976
+Comparison: RandomForestRegressor vs SVR
+Statistic: 550.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5600
+
+Test 3: RandomForestRegressor on fes_all (Radius: 8)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 820.00, p-value: 0.0015, Adjusted p-value: 0.0092, Effect size: 0.3440
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 969.00, p-value: 0.0266, Adjusted p-value: 0.1594, Effect size: 0.2248
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1122.00, p-value: 0.1897, Adjusted p-value: 1.0000, Effect size: 0.1024
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1146.00, p-value: 0.2378, Adjusted p-value: 1.0000, Effect size: 0.0832
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 1.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9992
+Comparison: RandomForestRegressor vs SVR
+Statistic: 494.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6048
+
+Test 3: RandomForestRegressor on fes_all (Radius: 9)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 1062.00, p-value: 0.0981, Adjusted p-value: 0.5885, Effect size: 0.1504
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1142.00, p-value: 0.2293, Adjusted p-value: 1.0000, Effect size: 0.0864
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1127.00, p-value: 0.1992, Adjusted p-value: 1.0000, Effect size: 0.0984
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1139.00, p-value: 0.2231, Adjusted p-value: 1.0000, Effect size: 0.0888
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 1.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9992
+Comparison: RandomForestRegressor vs SVR
+Statistic: 521.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5832
+
+Test 3: RandomForestRegressor on fes_all (Radius: 10)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 920.00, p-value: 0.0116, Adjusted p-value: 0.0693, Effect size: 0.2640
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1096.00, p-value: 0.1450, Adjusted p-value: 0.8699, Effect size: 0.1232
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1063.00, p-value: 0.0993, Adjusted p-value: 0.5956, Effect size: 0.1496
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1239.00, p-value: 0.4711, Adjusted p-value: 1.0000, Effect size: 0.0088
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 527.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5784
+
+Test 3: RandomForestRegressor on fes_all (Radius: 11)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 815.00, p-value: 0.0014, Adjusted p-value: 0.0082, Effect size: 0.3480
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1094.00, p-value: 0.1419, Adjusted p-value: 0.8512, Effect size: 0.1248
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 986.00, p-value: 0.0346, Adjusted p-value: 0.2079, Effect size: 0.2112
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1019.00, p-value: 0.0560, Adjusted p-value: 0.3362, Effect size: 0.1848
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 414.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6688
+
+Test 3: RandomForestRegressor on fes_all (Radius: 12)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 681.00, p-value: 0.0000, Adjusted p-value: 0.0003, Effect size: 0.4552
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1241.00, p-value: 0.4766, Adjusted p-value: 1.0000, Effect size: 0.0072
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1018.00, p-value: 0.0553, Adjusted p-value: 0.3315, Effect size: 0.1856
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1224.00, p-value: 0.4302, Adjusted p-value: 1.0000, Effect size: 0.0208
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 430.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6560
+
+Test 3: RandomForestRegressor on fes_all (Radius: 13)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 647.00, p-value: 0.0000, Adjusted p-value: 0.0001, Effect size: 0.4824
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1016.00, p-value: 0.0537, Adjusted p-value: 0.3224, Effect size: 0.1872
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1054.00, p-value: 0.0889, Adjusted p-value: 0.5332, Effect size: 0.1568
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1188.00, p-value: 0.3358, Adjusted p-value: 1.0000, Effect size: 0.0496
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 398.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6816
+
+Test 3: RandomForestRegressor on fes_all (Radius: 14)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 695.00, p-value: 0.0001, Adjusted p-value: 0.0004, Effect size: 0.4440
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 914.00, p-value: 0.0104, Adjusted p-value: 0.0622, Effect size: 0.2688
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1059.00, p-value: 0.0945, Adjusted p-value: 0.5673, Effect size: 0.1528
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1156.00, p-value: 0.2596, Adjusted p-value: 1.0000, Effect size: 0.0752
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 400.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6800
+
+Test 3: RandomForestRegressor on fes_all (Radius: 15)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 625.00, p-value: 0.0000, Adjusted p-value: 0.0001, Effect size: 0.5000
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 939.00, p-value: 0.0162, Adjusted p-value: 0.0969, Effect size: 0.2488
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1196.00, p-value: 0.3561, Adjusted p-value: 1.0000, Effect size: 0.0432
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1337.00, p-value: 0.7268, Adjusted p-value: 1.0000, Effect size: -0.0696
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 3.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9976
+Comparison: RandomForestRegressor vs SVR
+Statistic: 392.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6864
+
+Test 3: RandomForestRegressor on fes_all (Radius: 16)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 789.00, p-value: 0.0008, Adjusted p-value: 0.0045, Effect size: 0.3688
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1036.00, p-value: 0.0705, Adjusted p-value: 0.4232, Effect size: 0.1712
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1152.00, p-value: 0.2507, Adjusted p-value: 1.0000, Effect size: 0.0784
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1344.00, p-value: 0.7426, Adjusted p-value: 1.0000, Effect size: -0.0752
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 0.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 1.0000
+Comparison: RandomForestRegressor vs SVR
+Statistic: 391.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6872
+
+Test 3: RandomForestRegressor on fes_all (Radius: aggregated)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 203670.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3635
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 229574.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2826
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 291598.00, p-value: 0.0011, Adjusted p-value: 0.0063, Effect size: 0.0888
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 316014.00, p-value: 0.3331, Adjusted p-value: 1.0000, Effect size: 0.0125
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 1028.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9968
+Comparison: RandomForestRegressor vs SVR
+Statistic: 124981.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6094
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 1)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 948.00, p-value: 0.0188, Adjusted p-value: 0.1130, Effect size: 0.2416
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 909.00, p-value: 0.0095, Adjusted p-value: 0.0567, Effect size: 0.2728
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1006.00, p-value: 0.0466, Adjusted p-value: 0.2797, Effect size: 0.1952
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 852.00, p-value: 0.0031, Adjusted p-value: 0.0184, Effect size: 0.3184
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 962.00, p-value: 0.0237, Adjusted p-value: 0.1424, Effect size: 0.2304
+Comparison: RandomForestRegressor vs SVR
+Statistic: 866.00, p-value: 0.0041, Adjusted p-value: 0.0246, Effect size: 0.3072
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 2)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 948.00, p-value: 0.0188, Adjusted p-value: 0.1130, Effect size: 0.2416
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 909.00, p-value: 0.0095, Adjusted p-value: 0.0567, Effect size: 0.2728
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1006.00, p-value: 0.0466, Adjusted p-value: 0.2797, Effect size: 0.1952
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 852.00, p-value: 0.0031, Adjusted p-value: 0.0184, Effect size: 0.3184
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 962.00, p-value: 0.0237, Adjusted p-value: 0.1424, Effect size: 0.2304
+Comparison: RandomForestRegressor vs SVR
+Statistic: 866.00, p-value: 0.0041, Adjusted p-value: 0.0246, Effect size: 0.3072
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 3)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 768.00, p-value: 0.0005, Adjusted p-value: 0.0027, Effect size: 0.3856
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1081.00, p-value: 0.1227, Adjusted p-value: 0.7362, Effect size: 0.1352
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 964.00, p-value: 0.0245, Adjusted p-value: 0.1471, Effect size: 0.2288
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1017.00, p-value: 0.0545, Adjusted p-value: 0.3269, Effect size: 0.1864
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 789.00, p-value: 0.0008, Adjusted p-value: 0.0045, Effect size: 0.3688
+Comparison: RandomForestRegressor vs SVR
+Statistic: 762.00, p-value: 0.0004, Adjusted p-value: 0.0023, Effect size: 0.3904
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 4)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 1340.00, p-value: 0.7337, Adjusted p-value: 1.0000, Effect size: -0.0720
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1523.00, p-value: 0.9703, Adjusted p-value: 1.0000, Effect size: -0.2184
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 992.00, p-value: 0.0379, Adjusted p-value: 0.2276, Effect size: 0.2064
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1355.00, p-value: 0.7665, Adjusted p-value: 1.0000, Effect size: -0.0840
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 1394.00, p-value: 0.8404, Adjusted p-value: 1.0000, Effect size: -0.1152
+Comparison: RandomForestRegressor vs SVR
+Statistic: 912.00, p-value: 0.0100, Adjusted p-value: 0.0599, Effect size: 0.2704
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 5)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 810.00, p-value: 0.0012, Adjusted p-value: 0.0073, Effect size: 0.3520
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 956.00, p-value: 0.0215, Adjusted p-value: 0.1291, Effect size: 0.2352
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 909.00, p-value: 0.0095, Adjusted p-value: 0.0567, Effect size: 0.2728
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1214.00, p-value: 0.4033, Adjusted p-value: 1.0000, Effect size: 0.0288
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 928.00, p-value: 0.0133, Adjusted p-value: 0.0800, Effect size: 0.2576
+Comparison: RandomForestRegressor vs SVR
+Statistic: 838.00, p-value: 0.0023, Adjusted p-value: 0.0137, Effect size: 0.3296
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 6)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 675.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.4600
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 886.00, p-value: 0.0061, Adjusted p-value: 0.0366, Effect size: 0.2912
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 938.00, p-value: 0.0159, Adjusted p-value: 0.0953, Effect size: 0.2496
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1097.00, p-value: 0.1466, Adjusted p-value: 0.8794, Effect size: 0.1224
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 269.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7848
+Comparison: RandomForestRegressor vs SVR
+Statistic: 735.00, p-value: 0.0002, Adjusted p-value: 0.0012, Effect size: 0.4120
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 7)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 874.00, p-value: 0.0048, Adjusted p-value: 0.0289, Effect size: 0.3008
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1140.00, p-value: 0.2252, Adjusted p-value: 1.0000, Effect size: 0.0880
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1154.00, p-value: 0.2552, Adjusted p-value: 1.0000, Effect size: 0.0768
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1468.00, p-value: 0.9340, Adjusted p-value: 1.0000, Effect size: -0.1744
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 34.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9728
+Comparison: RandomForestRegressor vs SVR
+Statistic: 745.00, p-value: 0.0003, Adjusted p-value: 0.0015, Effect size: 0.4040
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 8)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 1134.00, p-value: 0.2129, Adjusted p-value: 1.0000, Effect size: 0.0928
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1129.00, p-value: 0.2031, Adjusted p-value: 1.0000, Effect size: 0.0968
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1050.00, p-value: 0.0845, Adjusted p-value: 0.5071, Effect size: 0.1600
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1395.00, p-value: 0.8421, Adjusted p-value: 1.0000, Effect size: -0.1160
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 117.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9064
+Comparison: RandomForestRegressor vs SVR
+Statistic: 669.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.4648
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 9)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 894.00, p-value: 0.0071, Adjusted p-value: 0.0428, Effect size: 0.2848
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 980.00, p-value: 0.0316, Adjusted p-value: 0.1896, Effect size: 0.2160
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1019.00, p-value: 0.0560, Adjusted p-value: 0.3362, Effect size: 0.1848
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1102.00, p-value: 0.1546, Adjusted p-value: 0.9277, Effect size: 0.1184
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 367.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7064
+Comparison: RandomForestRegressor vs SVR
+Statistic: 587.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5304
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 10)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 970.00, p-value: 0.0270, Adjusted p-value: 0.1620, Effect size: 0.2240
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1087.00, p-value: 0.1313, Adjusted p-value: 0.7878, Effect size: 0.1304
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1100.00, p-value: 0.1514, Adjusted p-value: 0.9081, Effect size: 0.1200
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1069.00, p-value: 0.1067, Adjusted p-value: 0.6401, Effect size: 0.1448
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 132.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8944
+Comparison: RandomForestRegressor vs SVR
+Statistic: 556.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5552
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 11)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 1157.00, p-value: 0.2618, Adjusted p-value: 1.0000, Effect size: 0.0744
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1030.00, p-value: 0.0651, Adjusted p-value: 0.3907, Effect size: 0.1760
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 897.00, p-value: 0.0075, Adjusted p-value: 0.0453, Effect size: 0.2824
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1057.00, p-value: 0.0922, Adjusted p-value: 0.5535, Effect size: 0.1544
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 393.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6856
+Comparison: RandomForestRegressor vs SVR
+Statistic: 426.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6592
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 12)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 813.00, p-value: 0.0013, Adjusted p-value: 0.0079, Effect size: 0.3496
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1087.00, p-value: 0.1313, Adjusted p-value: 0.7878, Effect size: 0.1304
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1033.00, p-value: 0.0678, Adjusted p-value: 0.4067, Effect size: 0.1736
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1140.00, p-value: 0.2252, Adjusted p-value: 1.0000, Effect size: 0.0880
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 259.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7928
+Comparison: RandomForestRegressor vs SVR
+Statistic: 419.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6648
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 13)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 716.00, p-value: 0.0001, Adjusted p-value: 0.0007, Effect size: 0.4272
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 950.00, p-value: 0.0195, Adjusted p-value: 0.1169, Effect size: 0.2400
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1049.00, p-value: 0.0835, Adjusted p-value: 0.5007, Effect size: 0.1608
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 965.00, p-value: 0.0249, Adjusted p-value: 0.1495, Effect size: 0.2280
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 213.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8296
+Comparison: RandomForestRegressor vs SVR
+Statistic: 363.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7096
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 14)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 747.00, p-value: 0.0003, Adjusted p-value: 0.0016, Effect size: 0.4024
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 857.00, p-value: 0.0034, Adjusted p-value: 0.0204, Effect size: 0.3144
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 997.00, p-value: 0.0409, Adjusted p-value: 0.2452, Effect size: 0.2024
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 967.00, p-value: 0.0257, Adjusted p-value: 0.1544, Effect size: 0.2264
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 282.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7744
+Comparison: RandomForestRegressor vs SVR
+Statistic: 381.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6952
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 15)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 780.00, p-value: 0.0006, Adjusted p-value: 0.0036, Effect size: 0.3760
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 918.00, p-value: 0.0111, Adjusted p-value: 0.0669, Effect size: 0.2656
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1106.00, p-value: 0.1613, Adjusted p-value: 0.9676, Effect size: 0.1152
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1024.00, p-value: 0.0600, Adjusted p-value: 0.3602, Effect size: 0.1808
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 225.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8200
+Comparison: RandomForestRegressor vs SVR
+Statistic: 337.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7304
+
+Test 3: RandomForestRegressor on fes_bar (Radius: 16)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 878.00, p-value: 0.0052, Adjusted p-value: 0.0313, Effect size: 0.2976
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 1045.00, p-value: 0.0793, Adjusted p-value: 0.4758, Effect size: 0.1640
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1148.00, p-value: 0.2421, Adjusted p-value: 1.0000, Effect size: 0.0816
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1086.00, p-value: 0.1298, Adjusted p-value: 0.7791, Effect size: 0.1312
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 429.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6568
+Comparison: RandomForestRegressor vs SVR
+Statistic: 376.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6992
+
+Test 3: RandomForestRegressor on fes_bar (Radius: aggregated)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 243288.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2397
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 273300.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.1459
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 271259.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.1523
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 289719.00, p-value: 0.0005, Adjusted p-value: 0.0031, Effect size: 0.0946
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 122231.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6180
+Comparison: RandomForestRegressor vs SVR
+Statistic: 159535.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5015
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 1)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 2)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 3)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 4)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 5)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 6)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 7)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 8)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 9)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 10)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 11)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 12)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 13)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 14)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 15)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: 16)
+No comparisons available.
+
+Test 3: RandomForestRegressor on fes_protein (Radius: aggregated)
+Comparison: RandomForestRegressor vs ElasticNet
+Statistic: 768.00, p-value: 0.0005, Adjusted p-value: 0.0027, Effect size: 0.3856
+Comparison: RandomForestRegressor vs GaussianProcessRegressor
+Statistic: 375.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7000
+Comparison: RandomForestRegressor vs GradientBoostingRegressor
+Statistic: 1253.00, p-value: 0.5096, Adjusted p-value: 1.0000, Effect size: -0.0024
+Comparison: RandomForestRegressor vs KNeighborsRegressor
+Statistic: 1282.00, p-value: 0.5886, Adjusted p-value: 1.0000, Effect size: -0.0256
+Comparison: RandomForestRegressor vs LinearRegression
+Statistic: 23.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.9816
+Comparison: RandomForestRegressor vs SVR
+Statistic: 799.00, p-value: 0.0009, Adjusted p-value: 0.0057, Effect size: 0.3608
+
+Test 4: FES vs non-FES Datasets (Radius: 1)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 8159.00, p-value: 0.0047, Adjusted p-value: 0.0328, Effect size: 0.1841
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 7490.00, p-value: 0.0002, Adjusted p-value: 0.0014, Effect size: 0.2510
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 9978.00, p-value: 0.4879, Adjusted p-value: 1.0000, Effect size: 0.0022
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 6834.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3166
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12543.00, p-value: 0.9998, Adjusted p-value: 1.0000, Effect size: -0.2543
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 6564.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3436
+Comparison: SVR: FES vs non-FES
+Statistic: 4196.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5804
+
+Test 4: FES vs non-FES Datasets (Radius: 2)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 8025.00, p-value: 0.0027, Adjusted p-value: 0.0186, Effect size: 0.1975
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 7736.00, p-value: 0.0007, Adjusted p-value: 0.0049, Effect size: 0.2264
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 9867.00, p-value: 0.4258, Adjusted p-value: 1.0000, Effect size: 0.0133
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 6952.00, p-value: 0.0000, Adjusted p-value: 0.0001, Effect size: 0.3048
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12433.00, p-value: 0.9997, Adjusted p-value: 1.0000, Effect size: -0.2433
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 6401.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3599
+Comparison: SVR: FES vs non-FES
+Statistic: 4223.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5777
+
+Test 4: FES vs non-FES Datasets (Radius: 3)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 7948.00, p-value: 0.0019, Adjusted p-value: 0.0132, Effect size: 0.2052
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 7164.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.2836
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 9539.00, p-value: 0.2578, Adjusted p-value: 1.0000, Effect size: 0.0461
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5523.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4477
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12493.00, p-value: 0.9998, Adjusted p-value: 1.0000, Effect size: -0.2493
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 5831.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4169
+Comparison: SVR: FES vs non-FES
+Statistic: 4129.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5871
+
+Test 4: FES vs non-FES Datasets (Radius: 4)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4631.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5369
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 4648.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5352
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 9286.00, p-value: 0.1569, Adjusted p-value: 1.0000, Effect size: 0.0714
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 3457.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6543
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 10983.00, p-value: 0.9175, Adjusted p-value: 1.0000, Effect size: -0.0983
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 5519.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4481
+Comparison: SVR: FES vs non-FES
+Statistic: 3679.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6321
+
+Test 4: FES vs non-FES Datasets (Radius: 5)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 8119.00, p-value: 0.0040, Adjusted p-value: 0.0278, Effect size: 0.1881
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 4245.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5755
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 9550.00, p-value: 0.2628, Adjusted p-value: 1.0000, Effect size: 0.0450
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 4912.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5088
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12300.00, p-value: 0.9994, Adjusted p-value: 1.0000, Effect size: -0.2300
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 5006.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4994
+Comparison: SVR: FES vs non-FES
+Statistic: 3585.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6415
+
+Test 4: FES vs non-FES Datasets (Radius: 6)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 7751.00, p-value: 0.0008, Adjusted p-value: 0.0053, Effect size: 0.2249
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 4878.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5122
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 8807.00, p-value: 0.0461, Adjusted p-value: 0.3229, Effect size: 0.1193
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5707.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4293
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 15613.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.5613
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 3999.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6001
+Comparison: SVR: FES vs non-FES
+Statistic: 3968.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6032
+
+Test 4: FES vs non-FES Datasets (Radius: 7)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 6239.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.3761
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 3965.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6035
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 7688.00, p-value: 0.0006, Adjusted p-value: 0.0039, Effect size: 0.2312
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5650.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4350
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 17215.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.7215
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 3721.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6279
+Comparison: SVR: FES vs non-FES
+Statistic: 3727.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6273
+
+Test 4: FES vs non-FES Datasets (Radius: 8)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4182.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5818
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 4093.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5907
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 8095.00, p-value: 0.0036, Adjusted p-value: 0.0251, Effect size: 0.1905
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5177.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4823
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 16344.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.6344
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 4205.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5795
+Comparison: SVR: FES vs non-FES
+Statistic: 3806.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6194
+
+Test 4: FES vs non-FES Datasets (Radius: 9)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4225.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5775
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 3355.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6645
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 7863.00, p-value: 0.0013, Adjusted p-value: 0.0090, Effect size: 0.2137
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5720.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4280
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 13348.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.3348
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 4252.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5748
+Comparison: SVR: FES vs non-FES
+Statistic: 3911.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6089
+
+Test 4: FES vs non-FES Datasets (Radius: 10)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4202.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5798
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 2541.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7459
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 7109.00, p-value: 0.0000, Adjusted p-value: 0.0002, Effect size: 0.2891
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5657.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4343
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 14494.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.4494
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 3809.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6191
+Comparison: SVR: FES vs non-FES
+Statistic: 4026.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5974
+
+Test 4: FES vs non-FES Datasets (Radius: 11)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 2685.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7315
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 1806.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.8194
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 5651.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4349
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 4901.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5099
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 11052.00, p-value: 0.9314, Adjusted p-value: 1.0000, Effect size: -0.1052
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 2652.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7348
+Comparison: SVR: FES vs non-FES
+Statistic: 3816.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6184
+
+Test 4: FES vs non-FES Datasets (Radius: 12)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4687.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5313
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 3000.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7000
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 5543.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4457
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 5069.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4931
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12803.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.2803
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 3075.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6925
+Comparison: SVR: FES vs non-FES
+Statistic: 4023.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5977
+
+Test 4: FES vs non-FES Datasets (Radius: 13)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4739.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5261
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 2864.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7136
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 4694.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5306
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 4678.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5322
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12934.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.2934
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 2643.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7357
+Comparison: SVR: FES vs non-FES
+Statistic: 4078.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5922
+
+Test 4: FES vs non-FES Datasets (Radius: 14)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 5004.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4996
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 4191.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5809
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 5318.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4682
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 4912.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5088
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 13495.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.3495
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 2864.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7136
+Comparison: SVR: FES vs non-FES
+Statistic: 4157.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5843
+
+Test 4: FES vs non-FES Datasets (Radius: 15)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4542.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5458
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 3126.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6874
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 3807.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6193
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 3131.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6869
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 12982.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.2982
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 2374.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7626
+Comparison: SVR: FES vs non-FES
+Statistic: 4049.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5951
+
+Test 4: FES vs non-FES Datasets (Radius: 16)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 4746.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5254
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 3402.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6598
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 4305.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5695
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 3602.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6398
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 13352.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.3352
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 2523.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.7477
+Comparison: SVR: FES vs non-FES
+Statistic: 3983.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6017
+
+Test 4: FES vs non-FES Datasets (Radius: aggregated)
+Comparison: ElasticNet: FES vs non-FES
+Statistic: 1503965.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4303
+Comparison: GaussianProcessRegressor: FES vs non-FES
+Statistic: 1266662.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5202
+Comparison: GradientBoostingRegressor: FES vs non-FES
+Statistic: 1925044.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.2708
+Comparison: KNeighborsRegressor: FES vs non-FES
+Statistic: 1396412.50, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.4711
+Comparison: LinearRegression: FES vs non-FES
+Statistic: 3603349.00, p-value: 1.0000, Adjusted p-value: 1.0000, Effect size: -0.3649
+Comparison: RandomForestRegressor: FES vs non-FES
+Statistic: 1077279.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.5919
+Comparison: SVR: FES vs non-FES
+Statistic: 1037705.00, p-value: 0.0000, Adjusted p-value: 0.0000, Effect size: 0.6069
+
